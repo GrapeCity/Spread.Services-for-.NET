@@ -13,5 +13,5 @@ This repository contains Examples and Showcases for **Spread.Services for .NET**
 # Resource
 * Online Demo: [http://spread.cloudapp.net/spreadservices](http://spread.cloudapp.net/spreadservices)
 * Product Home site: [http://spread.grapecity.com](http://spread.grapecity.com)
-* Nuget Package: [Spread.Services nuget package](https://www.nuget.org/packages/Spread.Services/1.0.0-rc)
-* .NET CORE SDK: [.NET CORE](https://www.microsoft.com/net/core)
+* Nuget Package: [https://www.nuget.org/packages/Spread.Services/1.0.0-rc](https://www.nuget.org/packages/Spread.Services/1.0.0-rc)
+* .NET CORE SDK: [https://www.microsoft.com/net/core](https://www.microsoft.com/net/core)
