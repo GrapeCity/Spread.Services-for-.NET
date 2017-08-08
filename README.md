@@ -8,9 +8,10 @@ This repository contains Examples and Showcases for **Spread.Services for .NET**
 | Examples     | A collection of .NET examples that help you learn and explore the API features |
 | AspNetCoreDemo/AspNetCore+React     | A source project that demonstrates how to use Spread.Services with Asp .Net Core + React + Spread.Sheets      |
 | AspNetCoreDemo/AspNetCore+Angular2     | A source project that demonstrates how to use Spread.Services with Asp .Net Core + Angular2 + Spread.Sheets      |
-| Benchmark | Contains several source projects to help users run performance for different spreadsheet products, such as Aspose.Cells, DevExpress Document Server|
+| Benchmark | Contains source projects to help users run performance for spread.services, put the excel files into the Files\Input folder, then run the project you will get the performance data.|
 
 # Resource
-* WebSite: [http://spread.grapecity.com](http://spread.grapecity.com)
+* Online Demo: [http://spread.cloudapp.net/spreadservices](http://spread.cloudapp.net/spreadservices)
+* Product Home site: [http://spread.grapecity.com](http://spread.grapecity.com)
 * Nuget Package: [Spread.Services nuget package](https://www.nuget.org/packages/Spread.Services/1.0.0-rc)
 * .NET CORE SDK: [.NET CORE](https://www.microsoft.com/net/core)
