@@ -7,13 +7,13 @@ Imported or generated spreadsheets can contain references to one another. Some o
  
 **Spread.Services** targets .NET Standard 1.4 for multi-platform support including the .NET Framework, .NET Core, Mono and more. **Spread.Services** is the perfect solution for all of your spreadsheet challenges.
 
-This repository contains source project of Examples and Showcases of **Spread.Services** to help you learn and write your own applications. **Note** that you need to install the latest .NET Core SDK to run these examples.
+This repository contains source project of Examples and Showcases of **Spread.Services** to help you learn and write your own applications. **Note** that you need to install [.Net Core SDK](https://www.microsoft.com/net/core) to run these examples.
 
 | Directory    | Description    |
 | ------------- |-------------|
 | Examples     | A collection of .NET examples that help you learn and explore the API features |
-| AspNetCoreDemo/AspNetCore+React     | A source project that demonstrates how to use Spread.Services with Asp .Net Core + React + Spread.Sheets, to run this project, you must install [.Net Core SDK](https://www.microsoft.com/net/core) and [NodeJS](https://nodejs.org/en/) |
-| AspNetCoreDemo/AspNetCore+Angular2     | A source project that demonstrates how to use Spread.Services with Asp .Net Core + Angular2 + Spread.Sheets,to run this project, you must install [.Net Core SDK](https://www.microsoft.com/net/core) and [NodeJS](https://nodejs.org/en/)|
+| AspNetCoreDemo/AspNetCore+React     | A source project that demonstrates how to use Spread.Services with Asp .Net Core + React + Spread.Sheets, to run this project, besides [.Net Core SDK](https://www.microsoft.com/net/core), you also need to install [NodeJS](https://nodejs.org/en/) |
+| AspNetCoreDemo/AspNetCore+Angular2     | A source project that demonstrates how to use Spread.Services with Asp .Net Core + Angular2 + Spread.Sheets,to run this project, besides [.Net Core SDK](https://www.microsoft.com/net/core), you also need to install [NodeJS](https://nodejs.org/en/)|
 | Benchmark | Contains source projects to help users run performance for spread.services, put the excel files into the Files\Input folder, then run the project you will get the performance data.|
 
 # Resource
