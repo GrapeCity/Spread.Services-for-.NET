@@ -1,0 +1,124 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <RootNamespace>GrapeCity.Documents.Spread.Examples</RootNamespace>
+    <AssemblyName>GrapeCity.Documents.Spread.Examples</AssemblyName>
+    <PreBuildEvent></PreBuildEvent>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="BuildTools\**" />
+    <Compile Remove="Common\**" />
+    <Compile Remove="Samples\**" />
+    <EmbeddedResource Remove="BuildTools\**" />
+    <EmbeddedResource Remove="Common\**" />
+    <EmbeddedResource Remove="Samples\**" />
+    <None Remove="BuildTools\**" />
+    <None Remove="Common\**" />
+    <None Remove="Samples\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Resource\list.png" />
+    <None Remove="Resource\logo.png" />
+    <None Remove="Resource\Tutorial.md" />
+    <None Remove="Resource\xlsx\Blood sugar tracker.xlsx" />
+    <None Remove="Resource\xlsx\Event budget.xlsx" />
+    <None Remove="Resource\xlsx\Home inventory.xlsx" />
+    <None Remove="Resource\xlsx\Monthly business budget.xlsx" />
+    <None Remove="Resource\xlsx\Project cost tracker.xlsx" />
+    <None Remove="Resource\xlsx\Simple invoice.xlsx" />
+    <None Remove="Resource\movie.png" />
+    <None Remove="Resource\xlsx\Simple personal budget.xlsx" />
+    <None Remove="Resource\xlsx\Student calendar %28Mon%29.xlsx" />
+    <None Remove="Resource\xlsx\Travel expense report.xlsx" />
+    <None Remove="StringResource.resx.resolve" />
+    <None Remove="UpdateCodeResources.bat" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resource\list.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\xlsx\Event budget.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tutorial\Tutorial.md">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\xlsx\Blood sugar tracker.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\xlsx\Home inventory.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\xlsx\Monthly business budget.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\xlsx\Project cost tracker.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\xlsx\Simple invoice.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\movie.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\xlsx\Simple personal budget.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\xlsx\Student calendar (Mon).xlsx" />
+    <EmbeddedResource Include="Resource\xlsx\Travel expense report.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\Theme\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+    <PackageReference Include="Spread.Services" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="CodeResource.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CodeResource.resx</DependentUpon>
+    </Compile>
+    <Compile Update="StringResource.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>StringResource.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="CodeResource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CodeResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resource\xlsx\Student calendar %28Mon%29.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Update="StringResource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>StringResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Resource\movie.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Resource\Tutorial.md">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
