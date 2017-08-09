@@ -12,12 +12,12 @@ This repository contains source project of Examples and Showcases of **Spread.Se
 | Directory    | Description    |
 | ------------- |-------------|
 | Examples     | A collection of .NET examples that help you learn and explore the API features |
-| AspNetCoreDemo/AspNetCore+React     | A source project that demonstrates how to use Spread.Services with Asp .Net Core + React + Spread.Sheets      |
-| AspNetCoreDemo/AspNetCore+Angular2     | A source project that demonstrates how to use Spread.Services with Asp .Net Core + Angular2 + Spread.Sheets      |
+| AspNetCoreDemo/AspNetCore+React     | A source project that demonstrates how to use Spread.Services with Asp .Net Core + React + Spread.Sheets, to run this project, you must install [.Net Core SDK](https://www.microsoft.com/net/core) and [NodeJS](https://nodejs.org/en/) |
+| AspNetCoreDemo/AspNetCore+Angular2     | A source project that demonstrates how to use Spread.Services with Asp .Net Core + Angular2 + Spread.Sheets,to run this project, you must install [.Net Core SDK](https://www.microsoft.com/net/core) and [NodeJS](https://nodejs.org/en/)|
 | Benchmark | Contains source projects to help users run performance for spread.services, put the excel files into the Files\Input folder, then run the project you will get the performance data.|
 
 # Resource
 * Online Demo: [http://spread.cloudapp.net/spreadservices](http://spread.cloudapp.net/spreadservices)
 * Product Home Site: [http://spread.grapecity.com](http://spread.grapecity.com)
 * Nuget Package: [https://www.nuget.org/packages/Spread.Services/](https://www.nuget.org/packages/Spread.Services/)
-* .NET CORE SDK: [https://www.microsoft.com/net/core](https://www.microsoft.com/net/core)
+* .Net Core SDK: [https://www.microsoft.com/net/core](https://www.microsoft.com/net/core)
