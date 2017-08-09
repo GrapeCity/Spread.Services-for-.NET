@@ -5,9 +5,9 @@ We model our interface-based API on Excel's document object model. This means th
  
 Imported or generated spreadsheets can contain references to one another. Some of the many things you can reference include: full reports, sorted and filtered tables, sorted and filtered pivot tables, charts, sparklines, conditional formats, and dashboard reports.
  
-Spread.Services targets .NET Standard 1.4 for multi-platform support including the .NET Framework, .NET Core, Mono and more. Spread.Services is the perfect solution for all of your spreadsheet challenges.<
+**Spread.Services** targets .NET Standard 1.4 for multi-platform support including the .NET Framework, .NET Core, Mono and more. **Spread.Services** is the perfect solution for all of your spreadsheet challenges.
 
-This repository contains source project of Examples and Showcases of **Spread.Services for .NET** to help you learn and write your own applications. **Note** that you need to install the latest .NET Core SDK to run these examples.
+This repository contains source project of Examples and Showcases of **Spread.Services** to help you learn and write your own applications. **Note** that you need to install the latest .NET Core SDK to run these examples.
 
 | Directory    | Description    |
 | ------------- |-------------|
