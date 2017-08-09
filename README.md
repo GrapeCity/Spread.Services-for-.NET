@@ -18,6 +18,6 @@ This repository contains source project of Examples and Showcases of **Spread.Se
 
 # Resource
 * Online Demo: [http://spread.cloudapp.net/spreadservices](http://spread.cloudapp.net/spreadservices)
-* Product Home site: [http://spread.grapecity.com](http://spread.grapecity.com)
+* Product Home Site: [http://spread.grapecity.com](http://spread.grapecity.com)
 * Nuget Package: [https://www.nuget.org/packages/Spread.Services/](https://www.nuget.org/packages/Spread.Services/)
 * .NET CORE SDK: [https://www.microsoft.com/net/core](https://www.microsoft.com/net/core)
