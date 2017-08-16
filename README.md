@@ -17,13 +17,10 @@ This repository contains source project of Examples and Showcases of **Spread.Se
 | Benchmark | Contains source projects to help users run performance for spread.services, put the excel files into the Files\Input folder, then run the project you will get the performance data.|
 
 # Limitations of non-licensed package
-The Spread.Services package we use in all of these projects are not licensed, there will be some limiations for the non-licensed package:
-* You can just open or save 100 Excel files
-* You can not create new instance of **Workbook** after your programme runs after 10 hours
-* Exceptions will be thrown when you call some of Spread.Services api after your programme runs after 10 hours
-* A new worksheet with watermark will be added and activated everytime when you save to an excel file
-
-If you want to use Spread.Services without any limiations, you can visit http://spread.grapecity.com or email spread.sales@grapecity.com to get an free evaluation license, or purchase a production license for distribution.
+These projects use the non-licensed version of Spread.Services. The non-licensed version has the following limitations:
+* You can only open or save 100 Excel files.
+* You can only run an application for up to 10 hours
+* When you save a file, a new worksheet with watermark will be added stating that this was generated using a non-licensed evaluation version.
 
 # Resource
 * Online Demo: [http://spread.cloudapp.net/spreadservices](http://spread.cloudapp.net/spreadservices)
