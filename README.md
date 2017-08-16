@@ -22,7 +22,7 @@ These projects use the non-licensed version of Spread.Services. The non-licensed
 * You can only run an application for up to 10 hours
 * When you save a file, a new worksheet with watermark will be added stating that this was generated using a non-licensed evaluation version.
 
-# Resource
+# Other Resources
 * Online Demo: [http://spread.cloudapp.net/spreadservices](http://spread.cloudapp.net/spreadservices)
 * Product Home Site: [http://spread.grapecity.com](http://spread.grapecity.com)
 * Nuget Package: [https://www.nuget.org/packages/Spread.Services/](https://www.nuget.org/packages/Spread.Services/)
