@@ -7,7 +7,7 @@ export class Home extends React.Component<{}, {}> {
             <h1>GrapeCity Spread.Services Asp.Net Core Demo!</h1>
             <p>Welcome to Spread.Services Asp.net Core demo, you can learn how to progam with Spread.Services in Asp.Net Core at server side, and use React + Spread.Sheets at client side:</p>
             <ul>
-                <li><a href='https://www.nuget.org/packages/Spread.Services/1.0.0-rc'>Spread.Services</a> is a new high performing, low memory server component with full API for server-side spreadsheet generation, manipulation, and serialization to various formats including xlsx and ssjson. Spread.Services targets .NET Standard 1.4 for multi-platform support including: .NET Framework, .NET Core, and Mono.</li>
+                <li><a href='https://www.nuget.org/packages/Spread.Services/1.0.0-rc'>Spread.Services</a> is a new high performing, low memory server component with full API for server-side spreadsheet generation, manipulation, and serialization to various formats including xlsx and ssjson. Spread.Services targets multiple platforms  including: .NET Framework, .NET Core, and Mono.</li>
                 <li><a href='http://spread.grapecity.com/Demos/JS/TutorialSample/'>Spread.Sheets</a> is the spreadsheet component of the SpreadJS product family. This enterprise-grade JavaScript spreadsheet displays and manages data much like Microsoft Excel. Popular features include a formula engine, sorting, filtering, input controls, sparklines, and native Excel input/output.</li>
             </ul>
             <p>You will explore some typical seneros about how to use Spread.Services together with Spread.Sheets:</p>
