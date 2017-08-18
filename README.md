@@ -1,11 +1,11 @@
 # Spread.Services-for-.Net
-GrapeCity **Spread.Services for .NET** is a new small-footprint high-performance spreadsheet component. It gives developers a comprehensive API to quickly create, manipulate, convert, and share Microsoft Excel-compatible spreadsheets. Plus, you can call it from nearly any application and platform.
- 
-We model our interface-based API on Excel's document object model. This means that you can import, calculate, query, generate, and export any spreadsheet scenario.
- 
-Imported or generated spreadsheets can contain references to one another. Some of the many things you can reference include: full reports, sorted and filtered tables, sorted and filtered pivot tables, charts, sparklines, conditional formats, and dashboard reports.
- 
-**Spread.Services** targets .NET Standard 1.4 for multi-platform support including the .NET Framework, .NET Core, Mono and more. **Spread.Services** is the perfect solution for all of your spreadsheet challenges.
+GrapeCity Spread.Services for .NET is a new small-footprint high-performance spreadsheet component that can be used in your server or desktop applications. It gives developers a comprehensive API to quickly create, manipulate, convert, and share Microsoft Excel-compatible spreadsheets. Plus, you can call it from nearly any application and platform. 
+
+We model our interface-based API on Excel's document object model. This means that you can import, calculate, query, generate, and export any spreadsheet scenario. 
+
+Imported or generated spreadsheets can contain references to one another. Some of the many things you can reference include: full reports, sorted and filtered tables, sorted and filtered pivot tables, charts, sparklines, conditional formats, and dashboard reports. 
+
+Spread.Services targets multiple platforms including the .NET Framework, .NET Core and Mono. Spread.Services is the perfect solution for all of your spreadsheet challenges.
 
 This repository contains source project of Examples and Showcases of **Spread.Services** to help you learn and write your own applications. Note that you need to install [.Net Core SDK](https://www.microsoft.com/net/core) to run these examples.
 
