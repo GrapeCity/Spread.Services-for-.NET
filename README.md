@@ -1,4 +1,4 @@
-# Spread.Services-for-.Net
+# Spread.Services-for-.NET
 GrapeCity **Spread.Services for .NET** is a new small-footprint high-performance spreadsheet component that can be used in your server or desktop applications. It gives developers a comprehensive API to quickly create, manipulate, convert, and share Microsoft Excel-compatible spreadsheets. Plus, you can call it from nearly any application and platform. 
 
 We model our interface-based API on Excel's document object model. This means that you can import, calculate, query, generate, and export any spreadsheet scenario. 
@@ -26,4 +26,4 @@ These projects use the non-licensed version of Spread.Services. The non-licensed
 * Online Demo: [http://spread.cloudapp.net/spreadservices](http://spread.cloudapp.net/spreadservices)
 * Product Home Site: [http://spread.grapecity.com](http://spread.grapecity.com)
 * Nuget Package: [https://www.nuget.org/packages/Spread.Services/](https://www.nuget.org/packages/Spread.Services/)
-* .Net Core SDK: [https://www.microsoft.com/net/core](https://www.microsoft.com/net/core)
+* .NET Core SDK: [https://www.microsoft.com/net/core](https://www.microsoft.com/net/core)
