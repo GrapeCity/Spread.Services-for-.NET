@@ -7,7 +7,7 @@ Imported or generated spreadsheets can contain references to one another. Some o
 
 **Spread.Services** targets multiple platforms including the .NET Framework, .NET Core and Mono. Spread.Services is the perfect solution for all of your spreadsheet challenges.
 
-This repository contains source project of Examples and Showcases of **Spread.Services** to help you learn and write your own applications. **Note** that you need to install [.NET Core SDK](https://www.microsoft.com/net/core) to run all these projects, and it may take a long time to run **AspNetCoreDemo** for the first time, because it needs to download and install some node moudles for the first run.
+This repository contains source project of Examples and Showcases of **Spread.Services** to help you learn and write your own applications. **Note** that you need to install [.NET Core SDK](https://www.microsoft.com/net/core) to run all these projects, and it may take a long time to run **AspNetCoreDemo** for the first time, because it needs to download and install some nodejs moudles during the first run.
 
 | Directory    | Description    |
 | ------------- |-------------|
