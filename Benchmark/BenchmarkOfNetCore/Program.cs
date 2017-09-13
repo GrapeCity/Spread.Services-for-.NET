@@ -67,6 +67,9 @@ namespace Benchmark
             Console.WriteLine("Used Memory:            " + (memorySize / 1024d / 1024d).ToString("##.###") + "M");
             Console.WriteLine();
 
+			// Prevent the GC collect the workbook before we show the memory size.
+            workbook.Worksheets[0].Cells[0, 0].Value = 1;
+			
             Console.WriteLine("Press any key to quit...");
             Console.ReadLine();
         }
