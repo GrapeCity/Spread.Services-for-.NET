@@ -23,7 +23,7 @@ These projects use the non-licensed version of Spread.Services. The non-licensed
 * When you save a file, a new worksheet with watermark will be added stating that this was generated using a non-licensed evaluation version.
 
 # Other Resources
-* Online Demo: [http://spread.grapecity.com/Demos/SpreadServices](http://spread.grapecity.com/Demos/SpreadServices)
+* Online Demo: [http://demos.componentone.com/Spread/SpreadServices/](http://demos.componentone.com/Spread/SpreadServices/)
 * Product Home Site: [http://spread.grapecity.com/spread-services/](http://spread.grapecity.com/spread-services/)
 * Nuget Package: [https://www.nuget.org/packages/Spread.Services/](https://www.nuget.org/packages/Spread.Services/)
 * .NET Core SDK: [https://www.microsoft.com/net/core](https://www.microsoft.com/net/core)
