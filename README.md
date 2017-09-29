@@ -27,3 +27,4 @@ These projects use the non-licensed version of Spread.Services. The non-licensed
 * Product Home Site: [http://spread.grapecity.com/spread-services/](http://spread.grapecity.com/spread-services/)
 * Nuget Package: [https://www.nuget.org/packages/Spread.Services/](https://www.nuget.org/packages/Spread.Services/)
 * .NET Core SDK: [https://www.microsoft.com/net/core](https://www.microsoft.com/net/core)
+* 中文版在线演示站点：[http://demo.gcpowertools.com.cn/spread/services/#/](http://demo.gcpowertools.com.cn/spread/services/#/)
