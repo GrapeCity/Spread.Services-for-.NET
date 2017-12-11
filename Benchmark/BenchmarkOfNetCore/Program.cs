@@ -59,7 +59,7 @@ namespace Benchmark
             }
 
             stopwatch.Restart();
-            workbook.Save(Path.Combine(OutFilePath, fileName));
+            workbook.Save(Path.Combine(OutFilePath, fileName), null, new SaveOptions() { IsCompactMode = true });
             stopwatch.Stop();
             Console.WriteLine("Save time       " + (stopwatch.ElapsedMilliseconds / 1000d).ToString("0.###") + "s");
 
