@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "99b4815249c6345bf14a"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "b37d60f665c45c62fbe9"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -10772,7 +10772,7 @@ var Home = (function (_super) {
                 " at:"),
             React.createElement("ul", null,
                 React.createElement("li", null,
-                    React.createElement("a", { href: 'http://spread.grapecity.com/Demos/SpreadServices' }, "Online Demo Site")),
+                    React.createElement("a", { href: 'http://demos.componentone.com/Spread/SpreadServices/#/' }, "Online Demo Site")),
                 React.createElement("li", null,
                     React.createElement("a", { href: 'http://spread.grapecity.com/spread-services/' }, "Product Home Site")),
                 React.createElement("li", null,
