@@ -35,7 +35,7 @@ namespace GrapeCity.Documents.Spread.Examples.Features.Slicer
             IPivotCache pivotcache = workbook.PivotCaches.Create(worksheet.Range["A1:F16"]);
             //Create pivot tables.
             IPivotTable pivottable1 = worksheet.PivotTables.Add(pivotcache, worksheet.Range["K5"], "pivottable1");
-            IPivotTable pivottable2 = worksheet.PivotTables.Add(pivotcache, worksheet.Range["O15"], "pivottable2");
+            IPivotTable pivottable2 = worksheet.PivotTables.Add(pivotcache, worksheet.Range["N3"], "pivottable2");
 
             //Config pivot fields
             IPivotField field_product1 = pivottable1.PivotFields[1];
@@ -64,6 +64,14 @@ namespace GrapeCity.Documents.Spread.Examples.Features.Slicer
             get
             {
                 return false;
+            }
+        }
+
+        public override bool ShowScreenshot
+        {
+            get
+            {
+                return true;
             }
         }
     }

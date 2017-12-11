@@ -10,8 +10,8 @@ namespace GrapeCity.Documents.Spread.Examples.Features.Shape
         {
             IWorksheet worksheet = workbook.Worksheets[0];
             GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddShape(GrapeCity.Documents.Spread.Drawing.AutoShapeType.Heart, 1, 1, 100, 100);
-            shape.Width = 600;
-            shape.Height = 300;
+            shape.Width = 300;
+            shape.Height = 200;
 
             shape.TextFrame.TextRange.Font.Color.RGB = GrapeCity.Documents.Spread.Color.FromRGB(0, 255, 0);
             shape.TextFrame.TextRange.Font.Bold = true;
@@ -19,8 +19,8 @@ namespace GrapeCity.Documents.Spread.Examples.Features.Shape
             shape.TextFrame.TextRange.Font.Size = 20;
             shape.TextFrame.TextRange.Font.Strikethrough = true;
 
-            shape.TextFrame.TextRange.Paragraphs.Add("This is a rectangle shape.");
-            shape.TextFrame.TextRange.Paragraphs.Add("My name is xxx.");
+            shape.TextFrame.TextRange.Paragraphs.Add("This is a heart shape.");
+            shape.TextFrame.TextRange.Paragraphs.Add("My name is XXX");
             shape.TextFrame.TextRange.Paragraphs[1].Runs.Add("Hello World!");
 
             shape.TextFrame.TextRange.Paragraphs[1].Runs[0].Font.Strikethrough = false;
@@ -32,6 +32,14 @@ namespace GrapeCity.Documents.Spread.Examples.Features.Shape
             get
             {
                 return false;
+            }
+        }
+
+        public override bool ShowScreenshot
+        {
+            get
+            {
+                return true;
             }
         }
     }

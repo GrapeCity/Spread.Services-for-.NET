@@ -6,10 +6,22 @@ namespace GrapeCity.Documents.Spread.Examples.ExcelReporting
 {
     public class BidTracker : ExampleBase
     {
+        protected override void BeforeExecute(Workbook workbook, string[] userAgents)
+        {
+            if (AgentIsMac(userAgents))
+            {
+                Themes themes = new Themes();
+                ITheme theme = themes.Add("testTheme", Themes.OfficeTheme);
+                theme.ThemeFontScheme.Minor[FontLanguageIndex.Latin].Name = "Trebuchet MS";
+                workbook.Theme = theme;
+                var style_Normal = workbook.Styles["Normal"];
+                style_Normal.Font.ThemeFont = ThemeFont.Minor;
+            }
+        }
+
         public override void Execute(GrapeCity.Documents.Spread.Workbook workbook)
         {
             IWorksheet worksheet = workbook.Worksheets[0];
-
 
             //***********************Set RowHeight & ColumnWidth***************
             worksheet.StandardHeight = 30;
@@ -91,7 +103,7 @@ namespace GrapeCity.Documents.Spread.Examples.ExcelReporting
 
             //***********************************Set Named Styles*****************************
             IStyle titleStyle = workbook.Styles["Title"];
-            titleStyle.Font.Name = "Calibri";
+            titleStyle.Font.Name = "Trebuchet MS";
             titleStyle.Font.Size = 36;
             titleStyle.Font.Color = Color.FromRGB(56, 145, 167);
             titleStyle.IncludeAlignment = true;
@@ -109,6 +121,7 @@ namespace GrapeCity.Documents.Spread.Examples.ExcelReporting
             heading1Style.Font.Bold = false;
             heading1Style.IncludePatterns = true;
             heading1Style.Interior.Color = Color.FromRGB(131, 95, 1);
+            heading1Style.Font.Name = "Trebuchet MS";
 
 
             IStyle dateStyle = workbook.Styles.Add("Date");
@@ -121,6 +134,7 @@ namespace GrapeCity.Documents.Spread.Examples.ExcelReporting
             dateStyle.IncludeFont = false;
             dateStyle.IncludeBorder = false;
             dateStyle.IncludePatterns = false;
+            dateStyle.Font.Name = "Trebuchet MS";
 
 
             IStyle commaStyle = workbook.Styles["Comma"];
@@ -130,6 +144,7 @@ namespace GrapeCity.Documents.Spread.Examples.ExcelReporting
             commaStyle.HorizontalAlignment = HorizontalAlignment.Left;
             commaStyle.IndentLevel = 1;
             commaStyle.VerticalAlignment = VerticalAlignment.Center;
+            commaStyle.Font.Name = "Trebuchet MS";
 
 
             IStyle normalStyle = workbook.Styles["Normal"];
@@ -146,6 +161,7 @@ namespace GrapeCity.Documents.Spread.Examples.ExcelReporting
             currencyStyle.HorizontalAlignment = HorizontalAlignment.Left;
             currencyStyle.IndentLevel = 1;
             currencyStyle.VerticalAlignment = VerticalAlignment.Center;
+            currencyStyle.Font.Name = "Trebuchet MS";
 
 
             IStyle percentStyle = workbook.Styles["Percent"];
@@ -153,10 +169,11 @@ namespace GrapeCity.Documents.Spread.Examples.ExcelReporting
             percentStyle.HorizontalAlignment = HorizontalAlignment.Right;
             percentStyle.VerticalAlignment = VerticalAlignment.Center;
             percentStyle.IncludeFont = true;
-            percentStyle.Font.Name = "Calibri";
+            percentStyle.Font.Name = "Trebuchet MS";
             percentStyle.Font.Size = 20;
             percentStyle.Font.Bold = true;
             percentStyle.Font.Color = Color.FromRGB(89, 89, 89);
+            percentStyle.Font.Name = "Trebuchet MS";
 
 
             IStyle comma0Style = workbook.Styles["Comma [0]"];
@@ -165,6 +182,7 @@ namespace GrapeCity.Documents.Spread.Examples.ExcelReporting
             comma0Style.HorizontalAlignment = HorizontalAlignment.Right;
             comma0Style.IndentLevel = 3;
             comma0Style.VerticalAlignment = VerticalAlignment.Center;
+            percentStyle.Font.Name = "Trebuchet MS";
 
 
 

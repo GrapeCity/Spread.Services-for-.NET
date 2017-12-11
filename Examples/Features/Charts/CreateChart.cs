@@ -23,14 +23,6 @@ namespace GrapeCity.Documents.Spread.Examples.Features.Charts
 
             //create chart.
             shape.Chart.SeriesCollection.Add(worksheet.Range["A1:D6"], GrapeCity.Documents.Spread.Drawing.RowCol.Columns, true, true);
-        }
-
-        public override bool ShowViewer
-        {
-            get
-            {
-                return false;
-            }
-        }
+        }       
     }
 }

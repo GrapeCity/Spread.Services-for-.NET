@@ -12,13 +12,5 @@ namespace GrapeCity.Documents.Spread.Examples.Features.Worksheets
             //Activate new created worksheet.
             worksheet.Activate();
         }
-
-        public override bool ShowViewer
-        {
-            get
-            {
-                return false;
-            }
-        }
     }
 }

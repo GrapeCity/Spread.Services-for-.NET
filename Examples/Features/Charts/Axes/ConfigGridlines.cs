@@ -10,7 +10,7 @@ namespace GrapeCity.Documents.Spread.Examples.Features.Charts.Axes
         {
             IWorksheet worksheet = workbook.Worksheets[0];
 
-            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.ColumnClustered, 300, 10, 300, 300);
+            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.ColumnClustered, 250, 20, 360, 230);
             worksheet.Range["A1:D6"].Value = new object[,]
             {
                 {null, "S1", "S2", "S3"},
@@ -22,22 +22,16 @@ namespace GrapeCity.Documents.Spread.Examples.Features.Charts.Axes
             };
             shape.Chart.SeriesCollection.Add(worksheet.Range["A1:D6"], GrapeCity.Documents.Spread.Drawing.RowCol.Columns, true, true);
 
-            GrapeCity.Documents.Spread.Drawing.IAxis category_axis = shape.Chart.Axes.Item(GrapeCity.Documents.Spread.Drawing.AxisType.Category);
-            category_axis.HasMajorGridlines = true;
-            category_axis.HasMinorGridlines = true;
-            category_axis.MajorGridlines.Format.Line.Color.RGB = Color.LightGreen;
-            category_axis.MajorGridlines.Format.Line.Weight = 2;
-            category_axis.MinorGridlines.Format.Line.Color.RGB = Color.Pink;
-            category_axis.MinorGridlines.Format.Line.Weight = 1;
-            category_axis.MinorGridlines.Format.Line.Style = GrapeCity.Documents.Spread.Drawing.LineStyle.ThickThin;
-        }
-
-        public override bool ShowViewer
-        {
-            get
-            {
-                return false;
-            }
+            GrapeCity.Documents.Spread.Drawing.IAxis value_axis = shape.Chart.Axes.Item(GrapeCity.Documents.Spread.Drawing.AxisType.Value);
+            value_axis.HasMajorGridlines = true;
+            value_axis.HasMinorGridlines = true;
+            value_axis.MajorGridlines.Format.Line.Color.RGB = Color.Gray;
+            value_axis.MajorGridlines.Format.Line.Weight = 1;
+            value_axis.MinorGridlines.Format.Line.Color.RGB = Color.LightGray;
+            value_axis.MinorGridlines.Format.Line.Weight = 0.75;
+            value_axis.MajorUnit = 40;
+            value_axis.MinorUnit = 8;
+            value_axis.MinorGridlines.Format.Line.Style = GrapeCity.Documents.Spread.Drawing.LineStyle.ThickThin;
         }
     }
 }

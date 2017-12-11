@@ -10,7 +10,7 @@ namespace GrapeCity.Documents.Spread.Examples.Features.Charts.Series
         {
             IWorksheet worksheet = workbook.Worksheets[0];
 
-            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.Bubble, 300, 10, 300, 300);
+            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.Bubble, 250, 20, 350, 220);
             worksheet.Range["A1:D6"].Value = new object[,]
             {
                 {null, "S1", "S2", "S3"},
@@ -28,14 +28,6 @@ namespace GrapeCity.Documents.Spread.Examples.Features.Charts.Series
             shape.Chart.XYGroups[0].BubbleScale = 150;
             shape.Chart.XYGroups[0].SizeRepresents = GrapeCity.Documents.Spread.Drawing.SizeRepresents.SizeIsArea;
             shape.Chart.XYGroups[0].ShowNegativeBubbles = true;
-        }
-
-        public override bool ShowViewer
-        {
-            get
-            {
-                return false;
-            }
         }
     }
 }

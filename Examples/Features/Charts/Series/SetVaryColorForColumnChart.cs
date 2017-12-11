@@ -10,28 +10,21 @@ namespace GrapeCity.Documents.Spread.Examples.Features.Charts.Series
         {
             IWorksheet worksheet = workbook.Worksheets[0];
 
-            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.ColumnClustered, 300, 10, 300, 300);
-            worksheet.Range["A1:D6"].Value = new object[,]
+            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.ColumnClustered, 250, 20, 360, 230);
+            worksheet.Range["A1:B6"].Value = new object[,]
             {
-                {null, "S1", "S2", "S3"},
-                {"Item1", 10, 25, 25},
-                {"Item2", -51, -36, 27},
-                {"Item3", 52, -85, -30},
-                {"Item4", 22, 65, 65},
-                {"Item5", 23, 69, 69}
+                {null, "S1"},
+                {"Item1", 10},
+                {"Item2", -51},
+                {"Item3", 52},
+                {"Item4", 22},
+                {"Item5", 23}
             };
-            shape.Chart.SeriesCollection.Add(worksheet.Range["A1:D6"], GrapeCity.Documents.Spread.Drawing.RowCol.Columns, true, true);
-
-            //delete chart series, make series count to 1.
-            shape.Chart.SeriesCollection[2].Delete();
-            shape.Chart.SeriesCollection[1].Delete();
-            //Chart's series count is 1.
-            var count = shape.Chart.SeriesCollection.Count;
-
+            shape.Chart.SeriesCollection.Add(worksheet.Range["A1:B6"], GrapeCity.Documents.Spread.Drawing.RowCol.Columns, true, true);
             //set vary colors for column chart which only has one series.
             shape.Chart.ColumnGroups[0].VaryByCategories = true;
-        }
 
+        }
         public override bool ShowViewer
         {
             get
@@ -39,5 +32,14 @@ namespace GrapeCity.Documents.Spread.Examples.Features.Charts.Series
                 return false;
             }
         }
+
+        public override bool ShowScreenshot
+        {
+            get
+            {
+                return true;
+            }
+        }
+
     }
 }

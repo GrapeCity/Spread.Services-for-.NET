@@ -33,11 +33,9 @@ namespace GrapeCity.Documents.Spread.Examples
             }
         }
 
-        public override string Description
+        public override string GetDescriptionByCulture(string culture)
         {
-            get
-            {
-                string resource = "GrapeCity.Documents.Spread.Examples.Tutorial.Tutorial.md";
+                string resource = "GrapeCity.Documents.Spread.Examples.Tutorial.Tutorial_" + culture + ".md";
                 var assembly = this.GetType().GetTypeInfo().Assembly;
                 using (Stream stream = assembly.GetManifestResourceStream(resource))
                 {
@@ -46,15 +44,6 @@ namespace GrapeCity.Documents.Spread.Examples
                         return reader.ReadToEnd();
                     }
                 }
-            }
-        }
-
-        public override string SortKey
-        {
-            get
-            {
-                return "a";
-            }
         }
 
         public override void Execute(GrapeCity.Documents.Spread.Workbook workbook)

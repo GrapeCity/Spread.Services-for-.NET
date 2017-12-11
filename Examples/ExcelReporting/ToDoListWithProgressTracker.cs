@@ -239,7 +239,7 @@ namespace GrapeCity.Documents.Spread.Examples.ExcelReporting
             theme.ThemeColorScheme[ThemeColor.Accent6].RGB = Color.FromRGB(251, 147, 59);
             theme.ThemeColorScheme[ThemeColor.Hyperlink].RGB = Color.FromRGB(71, 166, 181);
             theme.ThemeColorScheme[ThemeColor.FollowedHyperlink].RGB = Color.FromRGB(148, 112, 135);
-            theme.ThemeFontScheme.Major[FontLanguageIndex.Latin].Name = "Franklin Gothic Medium";
+            theme.ThemeFontScheme.Major[FontLanguageIndex.Latin].Name = "Helvetica Neue";
             theme.ThemeFontScheme.Minor[FontLanguageIndex.Latin].Name = "Bookman Old Style";
 
             //Apply the above custom theme.

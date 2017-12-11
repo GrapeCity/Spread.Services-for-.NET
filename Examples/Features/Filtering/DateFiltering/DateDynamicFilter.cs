@@ -34,5 +34,13 @@ namespace GrapeCity.Documents.Spread.Examples.Features.Filtering.DateFiltering
                 return false;
             }
         }
+
+        public override bool ShowScreenshot
+        {
+            get
+            {
+                return true;
+            }
+        }
     }
 }

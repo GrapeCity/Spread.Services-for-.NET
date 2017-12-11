@@ -28,5 +28,13 @@ namespace GrapeCity.Documents.Spread.Examples.Features.Formatting.Fonts
             }
         }
 
+        public override bool ShowScreenshot
+        {
+            get
+            {
+                return true;
+            }
+        }
+
     }
 }

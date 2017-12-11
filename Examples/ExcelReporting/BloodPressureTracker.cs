@@ -27,8 +27,8 @@ namespace GrapeCity.Documents.Spread.Examples.ExcelReporting
             theme.ThemeColorScheme[ThemeColor.Accent6].RGB = Color.FromRGB(194, 107, 112);
             theme.ThemeColorScheme[ThemeColor.Hyperlink].RGB = Color.FromRGB(122, 182, 186);
             theme.ThemeColorScheme[ThemeColor.FollowedHyperlink].RGB = Color.FromRGB(166, 140, 177);
-            theme.ThemeFontScheme.Major[FontLanguageIndex.Latin].Name = "Corbel";
-            theme.ThemeFontScheme.Minor[FontLanguageIndex.Latin].Name = "Corbel";
+            theme.ThemeFontScheme.Major[FontLanguageIndex.Latin].Name = "Gill Sans";
+            theme.ThemeFontScheme.Minor[FontLanguageIndex.Latin].Name = "Gill Sans";
 
             //assign the custom theme for workbook.
             workbook.Theme = theme;

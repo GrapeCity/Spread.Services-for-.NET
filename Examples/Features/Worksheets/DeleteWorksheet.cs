@@ -13,13 +13,5 @@ namespace GrapeCity.Documents.Spread.Examples.Features.Worksheets
             //workbook must contain one visible worksheet at least, if delete the one visible worksheet, it will throw exception.
             worksheet.Delete();
         }
-
-        public override bool ShowViewer
-        {
-            get
-            {
-                return false;
-            }
-        }
     }
 }

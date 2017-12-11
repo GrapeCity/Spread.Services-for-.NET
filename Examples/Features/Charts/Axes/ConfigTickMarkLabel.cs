@@ -10,37 +10,27 @@ namespace GrapeCity.Documents.Spread.Examples.Features.Charts.Axes
         {
             IWorksheet worksheet = workbook.Worksheets[0];
 
-            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.ColumnClustered, 300, 10, 300, 300);
+            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.ColumnClustered, 250, 20, 360, 230);
             worksheet.Range["A1:D6"].Value = new object[,]
             {
                 {null, "S1", "S2", "S3"},
-                {"Item1", 10, 25, 25},
-                {"Item2", -51, -36, 27},
-                {"Item3", 52, -85, -30},
-                {"Item4", 22, 65, 65},
-                {"Item5", 23, 69, 69}
+                {1, -25, 25, 25},
+                {2, 51, 36, 27},
+                {3, 52, 80, 30},
+                {4, 22, -20, 65},
+                {5, 23, 69, 69}
             };
             shape.Chart.SeriesCollection.Add(worksheet.Range["A1:D6"], GrapeCity.Documents.Spread.Drawing.RowCol.Columns, true, true);
-
             GrapeCity.Documents.Spread.Drawing.IAxis category_axis = shape.Chart.Axes.Item(GrapeCity.Documents.Spread.Drawing.AxisType.Category);
             GrapeCity.Documents.Spread.Drawing.IAxis value_axis = shape.Chart.Axes.Item(GrapeCity.Documents.Spread.Drawing.AxisType.Value);
 
+            //config tick label's format
             category_axis.TickLabelPosition = GrapeCity.Documents.Spread.Drawing.TickLabelPosition.NextToAxis;
             category_axis.TickLabelSpacing = 2;
-            category_axis.TickLabels.Font.Color.RGB = Color.MediumPurple;
-            category_axis.TickLabels.Font.Italic = true;
+            category_axis.TickLabels.Font.Color.RGB = Color.DarkOrange;           
+            category_axis.TickLabels.Font.Size = 12;
             category_axis.TickLabels.NumberFormat = "#,##0.00";
-            category_axis.TickLabels.Offset = 100;
-
             value_axis.TickLabels.NumberFormat = "#,##0;[Red]#,##0";
-        }
-
-        public override bool ShowViewer
-        {
-            get
-            {
-                return false;
-            }
         }
     }
 }

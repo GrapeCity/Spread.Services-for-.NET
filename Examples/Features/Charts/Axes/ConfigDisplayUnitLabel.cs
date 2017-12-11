@@ -10,7 +10,7 @@ namespace GrapeCity.Documents.Spread.Examples.Features.Charts.Axes
         {
             IWorksheet worksheet = workbook.Worksheets[0];
 
-            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.ColumnClustered, 300, 10, 300, 300);
+            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.ColumnClustered, 250, 20, 360, 230);
             worksheet.Range["A1:D6"].Value = new object[,]
             {
                 {null, "S1", "S2", "S3"},
@@ -26,16 +26,23 @@ namespace GrapeCity.Documents.Spread.Examples.Features.Charts.Axes
             value_axis.DisplayUnit = GrapeCity.Documents.Spread.Drawing.DisplayUnit.Custom;
             value_axis.DisplayUnitCustom = 100;
             value_axis.HasDisplayUnitLabel = true;
-            value_axis.DisplayUnitLabel.Font.Color.RGB = Color.Green;
-            value_axis.DisplayUnitLabel.Format.Fill.Color.RGB = Color.Pink;
-            value_axis.DisplayUnitLabel.Format.Line.Color.RGB = Color.Pink;
+            value_axis.DisplayUnitLabel.Font.Color.RGB = Color.CornflowerBlue;
+            value_axis.DisplayUnitLabel.Format.Fill.Color.RGB = Color.Orange;
+            value_axis.DisplayUnitLabel.Format.Line.Color.RGB = Color.CornflowerBlue;
         }
-
         public override bool ShowViewer
         {
             get
             {
                 return false;
+            }
+        }
+
+        public override bool ShowScreenshot
+        {
+            get
+            {
+                return true;
             }
         }
     }

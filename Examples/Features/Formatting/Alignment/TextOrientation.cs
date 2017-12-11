@@ -21,5 +21,13 @@ namespace GrapeCity.Documents.Spread.Examples.Features.Formatting.Alignment
                 return false;
             }
         }
+
+        public override bool ShowScreenshot
+        {
+            get
+            {
+                return true;
+            }
+        }
     }
 }

@@ -8,6 +8,18 @@ namespace GrapeCity.Documents.Spread.Examples.ExcelReporting
 {
     public class MovieList : ExampleBase
     {
+        protected override void BeforeExecute(Workbook workbook, string[] userAgents)
+        {
+            if (AgentIsMac(userAgents))
+            {
+                Themes themes = new Themes();
+                ITheme theme = themes.Add("testTheme", Themes.OfficeTheme);
+                theme.ThemeFontScheme.Minor[FontLanguageIndex.Latin].Name = "Trebuchet MS";
+                workbook.Theme = theme;
+                var style_Normal = workbook.Styles["Normal"];
+                style_Normal.Font.ThemeFont = ThemeFont.Minor;
+            }
+        }
         public override void Execute(GrapeCity.Documents.Spread.Workbook workbook)
         {
             IWorksheet worksheet = workbook.Worksheets[0];
@@ -74,7 +86,7 @@ namespace GrapeCity.Documents.Spread.Examples.ExcelReporting
             movieListBorderStyle.VerticalAlignment = VerticalAlignment.Center;
             movieListBorderStyle.WrapText = true;
             movieListBorderStyle.IncludeFont = true;
-            movieListBorderStyle.Font.Name = "Franklin Gothic Medium";
+            movieListBorderStyle.Font.Name = "Helvetica";
             movieListBorderStyle.Font.Size = 11;
             movieListBorderStyle.Font.Color = Color.White;
             movieListBorderStyle.IncludeBorder = true;
@@ -89,7 +101,7 @@ namespace GrapeCity.Documents.Spread.Examples.ExcelReporting
             nOStyle.HorizontalAlignment = HorizontalAlignment.Left;
             nOStyle.VerticalAlignment = VerticalAlignment.Center;
             nOStyle.IncludeFont = true;
-            nOStyle.Font.Name = "Franklin Gothic Medium";
+            nOStyle.Font.Name = "Helvetica";
             nOStyle.Font.Size = 11;
             nOStyle.Font.Color = Color.White;
             nOStyle.IncludeBorder = true;
@@ -101,7 +113,7 @@ namespace GrapeCity.Documents.Spread.Examples.ExcelReporting
             reviewStyle.IncludeAlignment = true;
             reviewStyle.VerticalAlignment = VerticalAlignment.Center;
             reviewStyle.IncludeFont = true;
-            reviewStyle.Font.Name = "Franklin Gothic Medium";
+            reviewStyle.Font.Name = "Helvetica";
             reviewStyle.Font.Size = 11;
             reviewStyle.Font.Color = Color.White;
             reviewStyle.IncludeBorder = true;
@@ -114,7 +126,7 @@ namespace GrapeCity.Documents.Spread.Examples.ExcelReporting
             yearStyle.HorizontalAlignment = HorizontalAlignment.Left;
             yearStyle.VerticalAlignment = VerticalAlignment.Center;
             yearStyle.IncludeFont = true;
-            yearStyle.Font.Name = "Franklin Gothic Medium";
+            yearStyle.Font.Name = "Helvetica";
             yearStyle.Font.Size = 11;
             yearStyle.Font.Color = Color.White;
             yearStyle.IncludeBorder = true;
@@ -128,7 +140,7 @@ namespace GrapeCity.Documents.Spread.Examples.ExcelReporting
             heading1Style.Borders[BordersIndex.EdgeBottom].LineStyle = BorderLineStyle.Thick;
             heading1Style.Borders[BordersIndex.EdgeBottom].Color = Color.FromRGB(68, 217, 255);
             heading1Style.IncludeFont = true;
-            heading1Style.Font.Name = "Franklin Gothic Medium";
+            heading1Style.Font.Name = "Helvetica";
             heading1Style.Font.Bold = false;
             heading1Style.Font.Size = 12;
             heading1Style.Font.Color = Color.Black;
@@ -139,7 +151,7 @@ namespace GrapeCity.Documents.Spread.Examples.ExcelReporting
             normalStyle.VerticalAlignment = VerticalAlignment.Center;
             normalStyle.WrapText = true;
             normalStyle.IncludeFont = true;
-            normalStyle.Font.Name = "Franklin Gothic Medium";
+            normalStyle.Font.Name = "Helvetica";
             normalStyle.Font.Size = 11;
             normalStyle.Font.Color = Color.White;
             normalStyle.IncludePatterns = true;
@@ -177,7 +189,7 @@ namespace GrapeCity.Documents.Spread.Examples.ExcelReporting
             IShape roundedRectangular = worksheet.Shapes.AddShape(AutoShapeType.RoundedRectangularCallout, 437.5, 22.75, 342, 143);
             roundedRectangular.Name = "Rounded Rectangular Callout 7";
             roundedRectangular.Placement = Placement.Move;
-            roundedRectangular.TextFrame.TextRange.Font.Name = "Franklin Gothic Medium";
+            roundedRectangular.TextFrame.TextRange.Font.Name = "Helvetica";
             roundedRectangular.TextFrame.TextRange.Font.Color.RGB = Color.FromRGB(38, 38, 38);
 
             roundedRectangular.Fill.Solid();

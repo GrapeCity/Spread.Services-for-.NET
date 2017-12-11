@@ -18,14 +18,5 @@ namespace GrapeCity.Documents.Spread.Examples.Features.Worksheets
             //Set worksheet's name.
             workbook.Worksheets[2].Name = "Product Plan";
         }
-
-        public override bool ShowViewer
-        {
-            get
-            {
-                return false;
-            }
-        }
-
     }
 }

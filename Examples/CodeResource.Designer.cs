@@ -20,7 +20,7 @@ namespace GrapeCity.Documents.Spread.Examples {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class CodeResource {
@@ -58,6 +58,3764 @@ namespace GrapeCity.Documents.Spread.Examples {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            #region theme
+        ///            //create a custom theme.
+        ///            Themes themes = new Themes();
+        ///            ITheme theme = themes.Add(&quot;testTheme&quot;);
+        ///            theme.ThemeColorScheme[ThemeColor.Light1].RGB = Color.FromRGB(255, 255, 255);
+        ///            theme.ThemeColorScheme[ThemeColor.Dark1].RGB = Color.FromRGB(0, 0, 0);
+        ///            theme.ThemeColorScheme[ThemeColor.Light2].RGB = Color.FromRGB(255, 255,  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_ExcelReporting_BasicSalesReport {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.ExcelReporting.BasicSalesReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///
+        ///            //***********************Set RowHeight &amp; ColumnWidth***************
+        ///            worksheet.StandardHeight = 30;
+        ///            worksheet.Range[&quot;1:1&quot;].RowHeight = 57.75;
+        ///            worksheet.Range[&quot;2:9&quot;].RowHeight = 30.25;
+        ///            worksheet.Range[&quot;A:A&quot;].ColumnWidth = 2.71;
+        ///            worksheet.Range[&quot;B:B&quot;].ColumnWidth = 11.71;
+        ///         [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_ExcelReporting_BidTracker {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.ExcelReporting.BidTracker", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            #region theme
+        ///            //create a custom theme.
+        ///            Themes themes = new Themes();
+        ///            ITheme theme = themes.Add(&quot;testTheme&quot;);
+        ///            theme.ThemeColorScheme[ThemeColor.Light1].RGB = Color.FromRGB(255, 255, 255);
+        ///            theme.ThemeColorScheme[ThemeColor.Dark1].RGB = Color.FromRGB(0, 0, 0);
+        ///            theme.Them [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_ExcelReporting_BloodPressureTracker {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.ExcelReporting.BloodPressureTracker", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            object[,] data = new object[,] {
+        ///                { &quot;Cost Center&quot;, &quot;Annual Cost&quot;, &quot;Percent of Total&quot;, &quot;Cumulative Percent&quot; },
+        ///                { &quot;Parts and materials&quot;, 1325000, null, null },
+        ///                { &quot;Manufacturing equipment&quot;, 900500, null, null },
+        ///                { &quot;Salaries&quot;, 575000, null, null },
+        ///                { &quot;Maintenance&quot;, 395000, null, null },
+        ///                { &quot;Office lease&quot;, 29500 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_ExcelReporting_CostAnalysisWithParetoChart {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.ExcelReporting.CostAnalysisWithParetoChart", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            object[,] data = new object[,] {
+        ///	            { null, &quot;[Segment Name]&quot;, &quot;[Segment Name]&quot;, &quot;[Segment Name]&quot;, &quot;Overall&quot; },
+        ///	            { &quot;Customer Activity:&quot;, null, null, null, null },
+        ///	            { &quot;Number of active customers—Beginning of period&quot;, 5, 8, 8, null },
+        ///	            { &quot;Number of customers added&quot;, 2, 4, 4, null },
+        ///	            { &quot;Number of customers lost/terminated&quot;, -1, -2, -2, null },
+        ///	 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_ExcelReporting_CustomerProfitabilityAnalysis {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.ExcelReporting.CustomerProfitabilityAnalysis", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            //------------------Set RowHeight &amp; ColumnWidth----------------
+        ///            worksheet.StandardHeight = 43.5;
+        ///            worksheet.StandardWidth = 8.43;
+        ///
+        ///            worksheet.Range[&quot;1:1&quot;].RowHeight = 171;
+        ///            worksheet.Range[&quot;2:2&quot;].RowHeight = 12.75;
+        ///            worksheet.Range[&quot;3:3&quot;].RowHeight = 22.5;
+        ///            worksheet.Rang [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_ExcelReporting_MovieList {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.ExcelReporting.MovieList", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///
+        ///            
+        ///            //***************************Set RowHeight &amp; Width****************************
+        ///                worksheet.StandardHeight = 30;
+        ///                worksheet.Range[&quot;3:4&quot;].RowHeight = 30.25;
+        ///                worksheet.Range[&quot;1:1&quot;].RowHeight = 103.50;
+        ///                worksheet.Range[&quot;2:2&quot;].RowHeight = 38.25;
+        ///                worksh [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_ExcelReporting_PersonalAddressBook {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.ExcelReporting.PersonalAddressBook", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            //-------------------------Set RowHeight &amp; Width-----------------------------------
+        ///            worksheet.StandardHeight = 30;
+        ///            worksheet.StandardWidth = 8.43;
+        ///
+        ///            worksheet.Range[&quot;1:1&quot;].RowHeight = 278.25;
+        ///            worksheet.Range[&quot;2:4&quot;].RowHeight = 30.25;
+        ///            worksheet.Range[&quot;8:8&quot;].RowHeight = 55.5;
+        ///      [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_ExcelReporting_PersonalNetWorthCalculator {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.ExcelReporting.PersonalNetWorthCalculator", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            object[,] data = new object[,]{
+        ///                { &quot;TASK&quot;, &quot;PRIORITY&quot;, &quot;STATUS&quot;, &quot;START DATE&quot;, &quot;DUE DATE&quot;,&quot;% COMPLETE&quot;, &quot;DONE?&quot;, &quot;NOTES&quot; },
+        ///                { &quot;First Thing I Need To Do&quot;, &quot;Normal&quot;, &quot;Not Started&quot;, null, null, 0, null, null },
+        ///                { &quot;Other Thing I Need To Finish&quot;, &quot;High&quot;, &quot;In Progress&quot;, null , null, 0.5, null, null},
+        ///                { &quot;Something Else To Get Done&quot;, &quot;Low&quot;, &quot;Compl [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_ExcelReporting_ToDoListWithProgressTracker {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.ExcelReporting.ToDoListWithProgressTracker", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            //Load template file Monthly business budget.xlsx from resource
+        ///            var fileStream = this.GetTemplateStream(&quot;Blood sugar tracker.xlsx&quot;);
+        ///
+        ///            workbook.Open(fileStream);
+        ///            var worksheet = workbook.ActiveSheet;
+        ///
+        ///            //insert 19 rows  
+        ///            worksheet.Range[&quot;1:19&quot;].Insert();
+        ///
+        ///            //Change the rows(2~5) RowHeight
+        ///            worksheet.Rows[1].RowHeight [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_ExcelTemplates_BloodSugarTracker {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.ExcelTemplates.BloodSugarTracker", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            //Load template file Event budget.xlsx from resource
+        ///            var fileStream = this.GetTemplateStream(&quot;Event budget.xlsx&quot;);
+        ///
+        ///            workbook.Open(fileStream);
+        ///            var worksheet = workbook.ActiveSheet;
+        ///
+        ///            //change range B2&apos;s font size.
+        ///            worksheet.Range[&quot;B2&quot;].Font.Size = 22;
+        ///
+        ///            //change range E4&apos;s font style to bold.
+        ///            worksheet.Range[&quot;E4&quot;]. [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_ExcelTemplates_EventBudget {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.ExcelTemplates.EventBudget", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            //Load template file Monthly business budget.xlsx from resource
+        ///            var fileStream = this.GetTemplateStream(&quot;Monthly business budget.xlsx&quot;);
+        ///
+        ///            workbook.Open(fileStream);
+        ///            var worksheet = workbook.ActiveSheet;
+        ///
+        ///            // change table style to TableStyleMedium14
+        ///            var totalsTable = worksheet.Tables[&quot;TotalsTable&quot;];
+        ///            totalsTable.TableStyle = work [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_ExcelTemplates_MonthlyBusinessBudget {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.ExcelTemplates.MonthlyBusinessBudget", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            //Load template file Simple invoice.xlsx from resource
+        ///            var fileStream = this.GetTemplateStream(&quot;Simple invoice.xlsx&quot;);
+        ///
+        ///            workbook.Open(fileStream);
+        ///            var worksheet = workbook.ActiveSheet;
+        ///
+        ///            // fill some new items
+        ///            worksheet.Range[&quot;E09:H09&quot;].Value = new object[] { &quot;DD1-001&quot;, &quot;Item 3&quot;, 5.60, 12 };
+        ///            worksheet.Range[&quot;E10:H10&quot;].Value = n [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_ExcelTemplates_SimpleInvoice {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.ExcelTemplates.SimpleInvoice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.Line, 300, 10, 300, 300);
+        ///            worksheet.Range[&quot;A1:D6&quot;].Value = new object[,]
+        ///            {
+        ///                {null, &quot;S1&quot;, &quot;S2&quot;, &quot;S3&quot;},
+        ///                {&quot;Item1&quot;, 10, 25, 25},
+        ///                {&quot;Item2&quot;, -51, -36, 27}, [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Charts_Axes_ConfigAxesFormat {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Charts.Axes.ConfigAxesFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.ColumnClustered, 300, 10, 300, 300);
+        ///            worksheet.Range[&quot;A1:D6&quot;].Value = new object[,]
+        ///            {
+        ///                {null, &quot;S1&quot;, &quot;S2&quot;, &quot;S3&quot;},
+        ///                {&quot;Item1&quot;, 10, 25, 25},
+        ///                {&quot;Item2&quot;, -51 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Charts_Axes_ConfigAxisTitle {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Charts.Axes.ConfigAxisTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            worksheet.Range[&quot;A2:A6&quot;].NumberFormat = &quot;m/d/yyyy&quot;;
+        ///            worksheet.Range[&quot;A1:D6&quot;].Value = new object[,]
+        ///            {
+        ///                {null, &quot;S1&quot;, &quot;S2&quot;, &quot;S3&quot;},
+        ///                {new DateTime(2015, 10, 21), 10, 25, 25},
+        ///                {new DateTime(2016, 10, 25), -51, -36, 27},
+        ///                {new DateTime(2017, 12, 20), 52, -85, - [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Charts_Axes_ConfigCategoryAxisUnits {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Charts.Axes.ConfigCategoryAxisUnits", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.ColumnClustered, 300, 10, 300, 300);
+        ///            worksheet.Range[&quot;A1:D6&quot;].Value = new object[,]
+        ///            {
+        ///                {null, &quot;S1&quot;, &quot;S2&quot;, &quot;S3&quot;},
+        ///                {&quot;Item1&quot;, 10, 25, 25},
+        ///                {&quot;Item2&quot;, -51 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Charts_Axes_ConfigDisplayUnitLabel {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Charts.Axes.ConfigDisplayUnitLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.ColumnClustered, 300, 10, 300, 300);
+        ///            worksheet.Range[&quot;A1:D6&quot;].Value = new object[,]
+        ///            {
+        ///                {null, &quot;S1&quot;, &quot;S2&quot;, &quot;S3&quot;},
+        ///                {&quot;Item1&quot;, 10, 25, 25},
+        ///                {&quot;Item2&quot;, -51 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Charts_Axes_ConfigGridlines {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Charts.Axes.ConfigGridlines", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.ColumnClustered, 300, 10, 300, 300);
+        ///            worksheet.Range[&quot;A1:D6&quot;].Value = new object[,]
+        ///            {
+        ///                {null, &quot;S1&quot;, &quot;S2&quot;, &quot;S3&quot;},
+        ///                {&quot;Item1&quot;, 10, 25, 25},
+        ///                {&quot;Item2&quot;, -51 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Charts_Axes_ConfigTickMarkLabel {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Charts.Axes.ConfigTickMarkLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.ColumnClustered, 300, 10, 300, 300);
+        ///            worksheet.Range[&quot;A1:D6&quot;].Value = new object[,]
+        ///            {
+        ///                {null, &quot;S1&quot;, &quot;S2&quot;, &quot;S3&quot;},
+        ///                {&quot;Item1&quot;, 10, 25, 25},
+        ///                {&quot;Item2&quot;, -51 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Charts_Axes_ConfigValueAxisUnits {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Charts.Axes.ConfigValueAxisUnits", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.ColumnClustered, 300, 10, 300, 300);
+        ///            worksheet.Range[&quot;A1:D6&quot;].Value = new object[,]
+        ///            {
+        ///                {null, &quot;S1&quot;, &quot;S2&quot;, &quot;S3&quot;},
+        ///                {&quot;Item1&quot;, 10, 25, 25},
+        ///                {&quot;Item2&quot;, -51 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Charts_Axes_SetAxisScaleType {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Charts.Axes.SetAxisScaleType", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.ColumnClustered, 300, 10, 300, 300);
+        ///            worksheet.Range[&quot;A1:D6&quot;].Value = new object[,]
+        ///            {
+        ///                {null, &quot;S1&quot;, &quot;S2&quot;, &quot;S3&quot;},
+        ///                {&quot;Item1&quot;, 10, 25, 25},
+        ///                {&quot;Item2&quot;, -51 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Charts_Axes_SetAxisTickMark {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Charts.Axes.SetAxisTickMark", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.Line, 300, 10, 300, 300);
+        ///            worksheet.Range[&quot;A1:D6&quot;].Value = new object[,]
+        ///            {
+        ///                {null, &quot;S1&quot;, &quot;S2&quot;, &quot;S3&quot;},
+        ///                {&quot;Item1&quot;, 10, 25, 25},
+        ///                {&quot;Item2&quot;, -51, -36, 27}, [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Charts_ChartJustPlotVisibleCell {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Charts.ChartJustPlotVisibleCell", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.Column3D, 300, 10, 300, 300);
+        ///            worksheet.Range[&quot;A1:D6&quot;].Value = new object[,]
+        ///            {
+        ///                {null, &quot;S1&quot;, &quot;S2&quot;, &quot;S3&quot;},
+        ///                {&quot;Item1&quot;, 10, 25, 25},
+        ///                {&quot;Item2&quot;, -51, -36,  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Charts_ConfigChartAreaFormat {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Charts.ConfigChartAreaFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.Column3D, 300, 10, 300, 300);
+        ///            worksheet.Range[&quot;A1:D6&quot;].Value = new object[,]
+        ///            {
+        ///                {null, &quot;S1&quot;, &quot;S2&quot;, &quot;S3&quot;},
+        ///                {&quot;Item1&quot;, 10, 25, 25},
+        ///                {&quot;Item2&quot;, -51, -36,  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Charts_ConfigChartFloorStyle {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Charts.ConfigChartFloorStyle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.Column3D, 300, 10, 300, 300);
+        ///            worksheet.Range[&quot;A1:D6&quot;].Value = new object[,]
+        ///            {
+        ///                {null, &quot;S1&quot;, &quot;S2&quot;, &quot;S3&quot;},
+        ///                {&quot;Item1&quot;, 10, 25, 25},
+        ///                {&quot;Item2&quot;, -51, -36,  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Charts_ConfigChartTitleStyle {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Charts.ConfigChartTitleStyle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.Column3D, 300, 10, 300, 300);
+        ///            worksheet.Range[&quot;A1:D6&quot;].Value = new object[,]
+        ///            {
+        ///                {null, &quot;S1&quot;, &quot;S2&quot;, &quot;S3&quot;},
+        ///                {&quot;Item1&quot;, 10, 25, 25},
+        ///                {&quot;Item2&quot;, -51, -36,  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Charts_ConfigChartWallStyle {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Charts.ConfigChartWallStyle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.Column3D, 300, 10, 300, 300);
+        ///            worksheet.Range[&quot;A1:D6&quot;].Value = new object[,]
+        ///            {
+        ///                {null, &quot;S1&quot;, &quot;S2&quot;, &quot;S3&quot;},
+        ///                {&quot;Item1&quot;, 10, 25, 25},
+        ///                {&quot;Item2&quot;, -51, -36,  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Charts_ConfigLegendEntryFontStyle {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Charts.ConfigLegendEntryFontStyle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.Column3D, 300, 10, 300, 300);
+        ///            worksheet.Range[&quot;A1:D6&quot;].Value = new object[,]
+        ///            {
+        ///                {null, &quot;S1&quot;, &quot;S2&quot;, &quot;S3&quot;},
+        ///                {&quot;Item1&quot;, 10, 25, 25},
+        ///                {&quot;Item2&quot;, -51, -36,  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Charts_ConfigLegendPositionAndLayout {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Charts.ConfigLegendPositionAndLayout" +
+                        "", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.Column3D, 300, 10, 300, 300);
+        ///            worksheet.Range[&quot;A1:D6&quot;].Value = new object[,]
+        ///            {
+        ///                {null, &quot;S1&quot;, &quot;S2&quot;, &quot;S3&quot;},
+        ///                {&quot;Item1&quot;, 10, 25, 25},
+        ///                {&quot;Item2&quot;, -51, -36,  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Charts_ConfigPlotAreaFormat {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Charts.ConfigPlotAreaFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.ColumnClustered, 300, 10, 300, 300);
+        ///            worksheet.Range[&quot;A1:D6&quot;].Value = new object[,]
+        ///            {
+        ///                {null, &quot;S1&quot;, &quot;S2&quot;, &quot;S3&quot;},
+        ///                {&quot;Item1&quot;, 10, 25, 25},
+        ///                {&quot;Item2&quot;, -51 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Charts_CreateChart {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Charts.CreateChart", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.ColumnClustered, 300, 10, 300, 300);
+        ///            worksheet.Range[&quot;A1:D6&quot;].Value = new object[,]
+        ///            {
+        ///                {null, &quot;S1&quot;, &quot;S2&quot;, &quot;S3&quot;},
+        ///                {&quot;Item1&quot;, 10, 25, 25},
+        ///                {&quot;Item2&quot;, -51 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Charts_DeleteChart {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Charts.DeleteChart", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.ColumnClustered, 300, 10, 300, 300);
+        ///            worksheet.Range[&quot;A1:D6&quot;].Value = new object[,]
+        ///            {
+        ///                {null, &quot;S1&quot;, &quot;S2&quot;, &quot;S3&quot;},
+        ///                {&quot;Item1&quot;, 10, 25, 25},
+        ///                {&quot;Item2&quot;, -51 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Charts_Series_AddSeries {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Charts.Series.AddSeries", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.Bubble, 300, 10, 300, 300);
+        ///            worksheet.Range[&quot;A1:D6&quot;].Value = new object[,]
+        ///            {
+        ///                {null, &quot;S1&quot;, &quot;S2&quot;, &quot;S3&quot;},
+        ///                {&quot;Item1&quot;, 10, 25, 25},
+        ///                {&quot;Item2&quot;, -51, -36, 27 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Charts_Series_ConfigBubbleChartLayout {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Charts.Series.ConfigBubbleChartLayou" +
+                        "t", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.ColumnClustered, 300, 10, 300, 300);
+        ///            worksheet.Range[&quot;A1:D6&quot;].Value = new object[,]
+        ///            {
+        ///                {null, &quot;S1&quot;, &quot;S2&quot;, &quot;S3&quot;},
+        ///                {&quot;Item1&quot;, 10, 25, 25},
+        ///                {&quot;Item2&quot;, -51 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Charts_Series_ConfigDataLabelTextAndFormat {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Charts.Series.ConfigDataLabelTextAnd" +
+                        "Format", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.ColumnClustered, 300, 10, 300, 300);
+        ///            worksheet.Range[&quot;A1:D6&quot;].Value = new object[,]
+        ///            {
+        ///                {null, &quot;S1&quot;, &quot;S2&quot;, &quot;S3&quot;},
+        ///                {&quot;Item1&quot;, 10, 25, 25},
+        ///                {&quot;Item2&quot;, -51 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Charts_Series_ConfigDataPointFormat {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Charts.Series.ConfigDataPointFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.PieOfPie, 300, 10, 300, 265);
+        ///            worksheet.Range[&quot;A1:D6&quot;].Value = new object[,]
+        ///            {
+        ///                {null, &quot;S1&quot;, &quot;S2&quot;, &quot;S3&quot;},
+        ///                {&quot;Item1&quot;, 10, 25, 25},
+        ///                {&quot;Item2&quot;, -51, -36,  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Charts_Series_CreateConnectorLine {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Charts.Series.CreateConnectorLine", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.Line, 300, 10, 300, 300);
+        ///            worksheet.Range[&quot;A1:D6&quot;].Value = new object[,]
+        ///            {
+        ///                {null, &quot;S1&quot;, &quot;S2&quot;, &quot;S3&quot;},
+        ///                {&quot;Item1&quot;, 10, 25, 25},
+        ///                {&quot;Item2&quot;, -51, -36, 27}, [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Charts_Series_CreateDropLine {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Charts.Series.CreateDropLine", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.Line, 300, 10, 300, 300);
+        ///            worksheet.Range[&quot;A1:D6&quot;].Value = new object[,]
+        ///            {
+        ///                {null, &quot;S1&quot;, &quot;S2&quot;, &quot;S3&quot;},
+        ///                {&quot;Item1&quot;, 10, 25, 25},
+        ///                {&quot;Item2&quot;, -51, -36, 27}, [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Charts_Series_CreateHiLoLine {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Charts.Series.CreateHiLoLine", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.ColumnStacked, 300, 10, 300, 300);
+        ///            worksheet.Range[&quot;A1:D6&quot;].Value = new object[,]
+        ///            {
+        ///                {null, &quot;S1&quot;, &quot;S2&quot;, &quot;S3&quot;},
+        ///                {&quot;Item1&quot;, 10, 25, 25},
+        ///                {&quot;Item2&quot;, -51,  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Charts_Series_CreateSeriesLine {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Charts.Series.CreateSeriesLine", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.ColumnClustered, 300, 10, 300, 300);
+        ///            worksheet.Range[&quot;A1:D6&quot;].Value = new object[,]
+        ///            {
+        ///                {null, &quot;S1&quot;, &quot;S2&quot;, &quot;S3&quot;},
+        ///                {&quot;Item1&quot;, 10, 25, 25},
+        ///                {&quot;Item2&quot;, -51 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Charts_Series_CreateTrendline {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Charts.Series.CreateTrendline", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.Line, 300, 10, 300, 300);
+        ///            worksheet.Range[&quot;A1:D6&quot;].Value = new object[,]
+        ///            {
+        ///                {null, &quot;S1&quot;, &quot;S2&quot;, &quot;S3&quot;},
+        ///                {&quot;Item1&quot;, 10, 25, 25},
+        ///                {&quot;Item2&quot;, -51, -36, 27}, [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Charts_Series_CreateUpDownBars {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Charts.Series.CreateUpDownBars", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.ColumnClustered, 300, 10, 300, 300);
+        ///            worksheet.Range[&quot;A1:D6&quot;].Value = new object[,]
+        ///            {
+        ///                {null, &quot;S1&quot;, &quot;S2&quot;, &quot;S3&quot;},
+        ///                {&quot;Item1&quot;, 10, 25, 25},
+        ///                {&quot;Item2&quot;, -51 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Charts_Series_ExtendSeries {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Charts.Series.ExtendSeries", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.ColumnClustered, 300, 10, 300, 300);
+        ///            worksheet.Range[&quot;A1:D6&quot;].Value = new object[,]
+        ///            {
+        ///                {null, &quot;S1&quot;, &quot;S2&quot;, &quot;S3&quot;},
+        ///                {&quot;Item1&quot;, 10, 25, 25},
+        ///                {&quot;Item2&quot;, -51 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Charts_Series_SetVaryColorForColumnChart {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Charts.Series.SetVaryColorForColumnC" +
+                        "hart", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            //create comment for range C3.
+        ///            IComment comment = worksheet.Range[&quot;C3&quot;].AddComment(&quot;Range C3&apos;s comment.&quot;);
+        ///
+        ///            //change comment&apos;s text.
+        ///            comment.Text = &quot;Range C3&apos;s new comment.&quot;;
+        ///        
+        ///   //save to an excel file
+        ///   workbook.Save(&quot;AddComment.xlsx&quot;);.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Comments_AddComment {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Comments.AddComment", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            worksheet.Range[&quot;C3&quot;].AddComment(&quot;Range C3&apos;s comment.&quot;);
+        ///            worksheet.Range[&quot;D4&quot;].AddComment(&quot;Range D4&apos;s comment.&quot;);
+        ///            worksheet.Range[&quot;D5&quot;].AddComment(&quot;Range D5&apos;s comment.&quot;);
+        ///
+        ///            //delete a single cell comment.
+        ///            worksheet.Range[&quot;D5&quot;].Comment.Delete();
+        ///
+        ///            //clear a range of cells comment.        /// [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Comments_ClearComment {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Comments.ClearComment", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            IComment commentC3 = worksheet.Range[&quot;C3&quot;].AddComment(&quot;Range C3&apos;s comment.&quot;);
+        ///            commentC3.Shape.Line.Color.RGB = Color.LightGreen;
+        ///            commentC3.Shape.Line.Weight = 3;
+        ///            commentC3.Shape.Line.Style = GrapeCity.Documents.Spread.Drawing.LineStyle.ThickThin;
+        ///            commentC3.Shape.Line.DashStyle = GrapeCity.Docu [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Comments_ConfigCommentLayout {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Comments.ConfigCommentLayout", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            IComment commentC3 = worksheet.Range[&quot;C3&quot;].AddComment(&quot;This is a rich text comment:\r\n&quot;);
+        ///
+        ///            //config the paragraph&apos;s style.
+        ///            commentC3.Shape.TextFrame.TextRange.Paragraphs[0].Font.Bold = true;
+        ///
+        ///            //add runs for the paragraph.
+        ///            commentC3.Shape.TextFrame.TextRange.Paragraphs[0].Runs.Add(&quot;Run1 font s [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Comments_SetRichTextForComment {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Comments.SetRichTextForComment", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            worksheet.Range[&quot;B:C&quot;].ColumnWidth = 17;
+        ///
+        ///            object[,] data = new object[,]{
+        ///                {&quot;Name&quot;, &quot;City&quot;, &quot;Birthday&quot;, &quot;Sex&quot;, &quot;Weight&quot;, &quot;Height&quot;},
+        ///                {&quot;Bob&quot;, &quot;NewYork&quot;, new DateTime(1968, 6, 8), &quot;male&quot;, 80, 180},
+        ///                {&quot;Betty&quot;, &quot;NewYork&quot;, new DateTime(1972, 7, 3), &quot;female&quot;, 72, 168},
+        ///                {&quot;Gar [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_ConditionalFormatting_CreateAverageRule {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.ConditionalFormatting.CreateAverageR" +
+                        "ule", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            worksheet.Range[&quot;B:C&quot;].ColumnWidth = 17;
+        ///
+        ///            object[,] data = new object[,]{
+        ///                {&quot;Name&quot;, &quot;City&quot;, &quot;Birthday&quot;, &quot;Sex&quot;, &quot;Weight&quot;, &quot;Height&quot;},
+        ///                {&quot;Bob&quot;, &quot;NewYork&quot;, new DateTime(1968, 6, 8), &quot;male&quot;, 80, 180},
+        ///                {&quot;Betty&quot;, &quot;NewYork&quot;, new DateTime(1972, 7, 3), &quot;female&quot;, 72, 168},
+        ///                {&quot;Gar [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_ConditionalFormatting_CreateCellValueRule {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.ConditionalFormatting.CreateCellValu" +
+                        "eRule", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            object[,] data = new object[,]{
+        ///                {&quot;Name&quot;, &quot;City&quot;, &quot;Birthday&quot;, &quot;Sex&quot;, &quot;Weight&quot;, &quot;Height&quot;},
+        ///                {&quot;Bob&quot;, &quot;NewYork&quot;, new DateTime(1968, 6, 8), &quot;male&quot;, 80, 180},
+        ///                {&quot;Betty&quot;, &quot;NewYork&quot;, new DateTime(1972, 7, 3), &quot;female&quot;, 72, 168},
+        ///                {&quot;Gary&quot;, &quot;NewYork&quot;, new DateTime(1964, 3, 2), &quot;male&quot;, 71, 1 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_ConditionalFormatting_CreateDatabBarRule {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.ConditionalFormatting.CreateDatabBar" +
+                        "Rule", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            object[,] data = new object[,]{
+        ///                {&quot;Name&quot;, &quot;City&quot;, &quot;Birthday&quot;, &quot;Sex&quot;, &quot;Weight&quot;, &quot;Height&quot;},
+        ///                {&quot;Bob&quot;, &quot;NewYork&quot;, new DateTime(1968, 6, 8), &quot;male&quot;, 80, 180},
+        ///                {&quot;Betty&quot;, &quot;NewYork&quot;, new DateTime(1972, 7, 3), &quot;female&quot;, 72, 168},
+        ///                {&quot;Gary&quot;, &quot;NewYork&quot;, new DateTime(1964, 3, 2), &quot;male&quot;, 71, 1 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_ConditionalFormatting_CreateExpressionRule {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.ConditionalFormatting.CreateExpressi" +
+                        "onRule", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            object[,] data = new object[,]{
+        ///                {&quot;Name&quot;, &quot;City&quot;, &quot;Birthday&quot;, &quot;Sex&quot;, &quot;Weight&quot;, &quot;Height&quot;},
+        ///                {&quot;Bob&quot;, &quot;NewYork&quot;, new DateTime(1968, 6, 8), &quot;male&quot;, 80, 180},
+        ///                {&quot;Betty&quot;, &quot;NewYork&quot;, new DateTime(1972, 7, 3), &quot;female&quot;, 72, 168},
+        ///                {&quot;Gary&quot;, &quot;NewYork&quot;, new DateTime(1964, 3, 2), &quot;male&quot;, 71, 1 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_ConditionalFormatting_CreateIconSetRule {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.ConditionalFormatting.CreateIconSetR" +
+                        "ule", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            object[,] data = new object[,]{
+        ///                {&quot;Name&quot;, &quot;City&quot;, &quot;Birthday&quot;, &quot;Sex&quot;, &quot;Weight&quot;, &quot;Height&quot;},
+        ///                {&quot;Bob&quot;, &quot;NewYork&quot;, new DateTime(1968, 6, 8), &quot;male&quot;, 80, 180},
+        ///                {&quot;Betty&quot;, &quot;NewYork&quot;, new DateTime(1972, 7, 3), &quot;female&quot;, 72, 168},
+        ///                {&quot;Gary&quot;, &quot;NewYork&quot;, new DateTime(1964, 3, 2), &quot;male&quot;, 71, 1 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_ConditionalFormatting_CreateMultiRuleForRange {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.ConditionalFormatting.CreateMultiRul" +
+                        "eForRange", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            object[,] data = new object[,]{
+        ///                {&quot;Name&quot;, &quot;City&quot;, &quot;Birthday&quot;, &quot;Sex&quot;, &quot;Weight&quot;, &quot;Height&quot;},
+        ///                {&quot;Bob&quot;, &quot;NewYork&quot;, new DateTime(1968, 6, 8), &quot;male&quot;, 80, 180},
+        ///                {&quot;Betty&quot;, &quot;NewYork&quot;, new DateTime(1972, 7, 3), &quot;female&quot;, 72, 168},
+        ///                {&quot;Gary&quot;, &quot;NewYork&quot;, new DateTime(1964, 3, 2), &quot;male&quot;, 71, 1 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_ConditionalFormatting_CreateThreeColorScaleRule {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.ConditionalFormatting.CreateThreeCol" +
+                        "orScaleRule", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            object[,] data = new object[,]{
+        ///                {&quot;Name&quot;, &quot;City&quot;, &quot;Birthday&quot;, &quot;Sex&quot;, &quot;Weight&quot;, &quot;Height&quot;},
+        ///                {&quot;Bob&quot;, &quot;NewYork&quot;, new DateTime(1968, 6, 8), &quot;male&quot;, 80, 180},
+        ///                {&quot;Betty&quot;, &quot;NewYork&quot;, new DateTime(1972, 7, 3), &quot;female&quot;, 72, 168},
+        ///                {&quot;Gary&quot;, &quot;NewYork&quot;, new DateTime(1964, 3, 2), &quot;male&quot;, 71, 1 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_ConditionalFormatting_CreateTopBottomRule {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.ConditionalFormatting.CreateTopBotto" +
+                        "mRule", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            object[,] data = new object[,]{
+        ///                {&quot;Name&quot;, &quot;City&quot;, &quot;Birthday&quot;, &quot;Sex&quot;, &quot;Weight&quot;, &quot;Height&quot;},
+        ///                {&quot;Bob&quot;, &quot;NewYork&quot;, new DateTime(1968, 6, 8), &quot;male&quot;, 80, 180},
+        ///                {&quot;Betty&quot;, &quot;NewYork&quot;, new DateTime(1972, 7, 3), &quot;female&quot;, 72, 168},
+        ///                {&quot;Gary&quot;, &quot;NewYork&quot;, new DateTime(1964, 3, 2), &quot;male&quot;, 71, 1 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_ConditionalFormatting_CreateTwoColorScaleRule {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.ConditionalFormatting.CreateTwoColor" +
+                        "ScaleRule", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            object[,] data = new object[,]{
+        ///                {&quot;Name&quot;, &quot;City&quot;, &quot;Birthday&quot;, &quot;Sex&quot;, &quot;Weight&quot;, &quot;Height&quot;},
+        ///                {&quot;Bob&quot;, &quot;NewYork&quot;, new DateTime(1968, 6, 8), &quot;male&quot;, 80, 180},
+        ///                {&quot;Betty&quot;, &quot;NewYork&quot;, new DateTime(1972, 7, 3), &quot;female&quot;, 72, 168},
+        ///                {&quot;Gary&quot;, &quot;NewYork&quot;, new DateTime(1964, 3, 2), &quot;male&quot;, 71, 1 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_ConditionalFormatting_CreateUniqueRule {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.ConditionalFormatting.CreateUniqueRu" +
+                        "le", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            object[,] data = new object[,]{
+        ///                {&quot;Name&quot;, &quot;City&quot;, &quot;Birthday&quot;, &quot;Sex&quot;, &quot;Weight&quot;, &quot;Height&quot;},
+        ///                {&quot;Bob&quot;, &quot;NewYork&quot;, new DateTime(1968, 6, 8), &quot;male&quot;, 80, 180},
+        ///                {&quot;Betty&quot;, &quot;NewYork&quot;, new DateTime(1972, 7, 3), &quot;female&quot;, 72, 168},
+        ///                {&quot;Gary&quot;, &quot;NewYork&quot;, new DateTime(1964, 3, 2), &quot;male&quot;, 71, 1 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_ConditionalFormatting_DeleteConditionalFormatRules {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.ConditionalFormatting.DeleteConditio" +
+                        "nalFormatRules", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            worksheet.Range[&quot;A2&quot;].Value = 1;
+        ///            worksheet.Range[&quot;A3&quot;].Value = 2;
+        ///
+        ///            worksheet.Range[&quot;C2&quot;].Value = 0;
+        ///
+        ///            //create custom validation, if the expression &quot;=$C$2&quot; result is true, the cell&apos;s validation will be true, otherwise, it is false.
+        ///            //when use custom validation, validationOperator and formula2 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_DataValidation_CreateCustomValidation {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.DataValidation.CreateCustomValidatio" +
+                        "n", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            worksheet.Range[&quot;C2:E4&quot;].Value = new object[,]
+        ///            {
+        ///                {new DateTime(2015, 12, 1), new DateTime(2015, 12, 14), new DateTime(2015, 12, 15) },
+        ///                {new DateTime(2015, 12, 18), new DateTime(2015, 12, 19), new DateTime(2015, 12, 30) },
+        ///                {new DateTime(2015, 12, 31), new DateTime(2014, 12, 13), new [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_DataValidation_CreateDateValidation {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.DataValidation.CreateDateValidation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            worksheet.Range[&quot;C2:E4&quot;].Value = new object[,]
+        ///            {
+        ///                {1, 3.0, 3.4},
+        ///                {7, 9, 102.7},
+        ///                {102.8, 110, 120}
+        ///            };
+        ///
+        ///            //add decimal validation.
+        ///            worksheet.Range[&quot;C2:E4&quot;].Validation.Add(ValidationType.Decimal, ValidationAlertStyle.Stop, ValidationOperator.Betwe [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_DataValidation_CreateDecimalValidation {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.DataValidation.CreateDecimalValidati" +
+                        "on", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            worksheet.Range[&quot;A1&quot;].Value = &quot;aaa&quot;;
+        ///            worksheet.Range[&quot;A2&quot;].Value = &quot;bbb&quot;;
+        ///            worksheet.Range[&quot;A3&quot;].Value = &quot;ccc&quot;;
+        ///
+        ///            worksheet.Range[&quot;C2:E4&quot;].Value = new object[,]
+        ///            {
+        ///                {&quot;aaa&quot;, &quot;bbb&quot;, &quot;ccc&quot;},
+        ///                {&quot;aaa1&quot;, &quot;bbb1&quot;, &quot;ccc1&quot;},
+        ///                {&quot;aaa2&quot;, &quot;bbb2&quot;, &quot;ccc2&quot;}
+        ///       [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_DataValidation_CreateListValidation {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.DataValidation.CreateListValidation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            worksheet.Range[&quot;C2:E4&quot;].Value = new object[,]
+        ///            {
+        ///                {&quot;aa&quot;, &quot;bb&quot;, &quot;aa1&quot;},
+        ///                {&quot;ccc&quot;, &quot;dddd&quot;, &quot;dddd1&quot;},
+        ///                {&quot;ff&quot;, &quot;ffff&quot;, &quot;ffff1&quot;}
+        ///            };
+        ///
+        ///            //create text length validation, text length between 2 and 3.
+        ///            worksheet.Range[&quot;C2:E4&quot;].Validation.Add(ValidationType.T [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_DataValidation_CreateTextLength {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.DataValidation.CreateTextLength", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            worksheet.Range[&quot;C2:E4&quot;].Value = new object[,]
+        ///            {
+        ///                {new TimeSpan(13, 0, 0), new TimeSpan(13, 29, 59), new TimeSpan(13, 30, 0)},
+        ///                {new TimeSpan(14, 0, 0), new TimeSpan(15, 0, 0), new TimeSpan(16, 30, 0)},
+        ///                {new TimeSpan(19, 0, 0), new TimeSpan(18, 29, 59), new TimeSpan(18, 30, 0)}
+        ///     [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_DataValidation_CreateTimeValidation {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.DataValidation.CreateTimeValidation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            worksheet.Range[&quot;C2:E4&quot;].Value = new object[,]
+        ///            {
+        ///                {1, 3, 5},
+        ///                {7, 9, 11},
+        ///                {13, 15, 17}
+        ///            };
+        ///
+        ///            //add whole number validation.
+        ///            worksheet.Range[&quot;C2:E4&quot;].Validation.Add(ValidationType.Whole, ValidationAlertStyle.Stop, ValidationOperator.Between, 1, 8) [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_DataValidation_CreateWholeNumberValidation {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.DataValidation.CreateWholeNumberVali" +
+                        "dation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            worksheet.Range[&quot;C2:E4&quot;].Value = new object[,]
+        ///            {
+        ///                {new TimeSpan(13, 0, 0), new TimeSpan(13, 29, 59), new TimeSpan(13, 30, 0)},
+        ///                {new TimeSpan(14, 0, 0), new TimeSpan(15, 0, 0), new TimeSpan(16, 30, 0)},
+        ///                {new TimeSpan(19, 0, 0), new TimeSpan(18, 29, 59), new TimeSpan(18, 30, 0)}
+        ///     [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_DataValidation_DeleteValidation {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.DataValidation.DeleteValidation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            worksheet.Range[&quot;C2:E4&quot;].Value = new object[,]
+        ///            {
+        ///                {new TimeSpan(13, 0, 0), new TimeSpan(13, 29, 59), new TimeSpan(13, 30, 0)},
+        ///                {new TimeSpan(14, 0, 0), new TimeSpan(15, 0, 0), new TimeSpan(16, 30, 0)},
+        ///                {new TimeSpan(19, 0, 0), new TimeSpan(18, 29, 59), new TimeSpan(18, 30, 0)}
+        ///     [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_DataValidation_ModifyValidation {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.DataValidation.ModifyValidation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            worksheet.Range[&quot;D3&quot;].Value = &quot;Numbers&quot;;
+        ///            worksheet.Range[&quot;D4&quot;].Value = 1;
+        ///            worksheet.Range[&quot;D5&quot;].Value = 2;
+        ///            worksheet.Range[&quot;D6&quot;].Value = 3;
+        ///
+        ///            //first time invoke. worksheet&apos;s filter range will be D3:D6.
+        ///            worksheet.Range[&quot;D3:D6&quot;].AutoFilter(0, &quot;&lt;&gt;2&quot;);
+        ///
+        ///            //set AutoFilter [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Filtering_ChangeWorksheetFilterRange {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Filtering.ChangeWorksheetFilterRange" +
+                        "", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            object[,] data = new object[,]{
+        ///                {&quot;Name&quot;, &quot;City&quot;, &quot;Birthday&quot;, &quot;Sex&quot;, &quot;Weight&quot;, &quot;Height&quot;},
+        ///                {&quot;Bob&quot;, &quot;NewYork&quot;, new DateTime(1968, 6, 8), &quot;male&quot;, 80, 180},
+        ///                {&quot;Betty&quot;, &quot;NewYork&quot;, new DateTime(1972, 7, 3), &quot;female&quot;, 72, 168},
+        ///                {&quot;Gary&quot;, &quot;NewYork&quot;, new DateTime(1964, 3, 2), &quot;male&quot;, 71, 1 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Filtering_ClearFilter {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Filtering.ClearFilter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            object[,] data = new object[,]{
+        ///                {&quot;Name&quot;, &quot;City&quot;, &quot;Birthday&quot;, &quot;Sex&quot;, &quot;Weight&quot;, &quot;Height&quot;},
+        ///                {&quot;Bob&quot;, &quot;NewYork&quot;, new DateTime(1968, 6, 8), &quot;male&quot;, 80, 180},
+        ///                {&quot;Betty&quot;, &quot;NewYork&quot;, new DateTime(1972, 7, 3), &quot;female&quot;, 72, 168},
+        ///                {&quot;Gary&quot;, &quot;NewYork&quot;, new DateTime(1964, 3, 2), &quot;male&quot;, 71, 1 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Filtering_DateFiltering_DateDynamicFilter {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Filtering.DateFiltering.DateDynamicF" +
+                        "ilter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            object[,] data = new object[,]{
+        ///                {&quot;Name&quot;, &quot;City&quot;, &quot;Birthday&quot;, &quot;Sex&quot;, &quot;Weight&quot;, &quot;Height&quot;},
+        ///                {&quot;Bob&quot;, &quot;NewYork&quot;, new DateTime(1968, 6, 8), &quot;male&quot;, 80, 180},
+        ///                {&quot;Betty&quot;, &quot;NewYork&quot;, new DateTime(1972, 7, 3), &quot;female&quot;, 72, 168},
+        ///                {&quot;Gary&quot;, &quot;NewYork&quot;, new DateTime(1964, 3, 2), &quot;male&quot;, 71, 1 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Filtering_DateFiltering_DateFilter {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Filtering.DateFiltering.DateFilter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            object[,] data = new object[,]{
+        ///                {&quot;Name&quot;, &quot;City&quot;, &quot;Birthday&quot;, &quot;Sex&quot;, &quot;Weight&quot;, &quot;Height&quot;},
+        ///                {&quot;Bob&quot;, &quot;NewYork&quot;, new DateTime(1968, 6, 8), &quot;male&quot;, 80, 180},
+        ///                {&quot;Betty&quot;, &quot;NewYork&quot;, new DateTime(1972, 7, 3), &quot;female&quot;, 72, 168},
+        ///                {&quot;Gary&quot;, &quot;NewYork&quot;, new DateTime(1964, 3, 2), &quot;male&quot;, 71, 1 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Filtering_FilteringByColor_FilterByAutomaticFontColor {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Filtering.FilteringByColor.FilterByA" +
+                        "utomaticFontColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            object[,] data = new object[,]{
+        ///                {&quot;Name&quot;, &quot;City&quot;, &quot;Birthday&quot;, &quot;Sex&quot;, &quot;Weight&quot;, &quot;Height&quot;},
+        ///                {&quot;Bob&quot;, &quot;NewYork&quot;, new DateTime(1968, 6, 8), &quot;male&quot;, 80, 180},
+        ///                {&quot;Betty&quot;, &quot;NewYork&quot;, new DateTime(1972, 7, 3), &quot;female&quot;, 72, 168},
+        ///                {&quot;Gary&quot;, &quot;NewYork&quot;, new DateTime(1964, 3, 2), &quot;male&quot;, 71, 1 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Filtering_FilteringByColor_FilterByCellColor {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Filtering.FilteringByColor.FilterByC" +
+                        "ellColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            object[,] data = new object[,]{
+        ///                {&quot;Name&quot;, &quot;City&quot;, &quot;Birthday&quot;, &quot;Sex&quot;, &quot;Weight&quot;, &quot;Height&quot;},
+        ///                {&quot;Bob&quot;, &quot;NewYork&quot;, new DateTime(1968, 6, 8), &quot;male&quot;, 80, 180},
+        ///                {&quot;Betty&quot;, &quot;NewYork&quot;, new DateTime(1972, 7, 3), &quot;female&quot;, 72, 168},
+        ///                {&quot;Gary&quot;, &quot;NewYork&quot;, new DateTime(1964, 3, 2), &quot;male&quot;, 71, 1 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Filtering_FilteringByColor_FilterByFontColor {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Filtering.FilteringByColor.FilterByF" +
+                        "ontColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            object[,] data = new object[,]{
+        ///                {&quot;Name&quot;, &quot;City&quot;, &quot;Birthday&quot;, &quot;Sex&quot;, &quot;Weight&quot;, &quot;Height&quot;},
+        ///                {&quot;Bob&quot;, &quot;NewYork&quot;, new DateTime(1968, 6, 8), &quot;male&quot;, 80, 180},
+        ///                {&quot;Betty&quot;, &quot;NewYork&quot;, new DateTime(1972, 7, 3), &quot;female&quot;, 72, 168},
+        ///                {&quot;Gary&quot;, &quot;NewYork&quot;, new DateTime(1964, 3, 2), &quot;male&quot;, 71, 1 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Filtering_FilteringByColor_FilterByNoFill {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Filtering.FilteringByColor.FilterByN" +
+                        "oFill", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            object[,] data = new object[,]{
+        ///                {&quot;Name&quot;, &quot;City&quot;, &quot;Birthday&quot;, &quot;Sex&quot;, &quot;Weight&quot;, &quot;Height&quot;},
+        ///                {&quot;Bob&quot;, &quot;NewYork&quot;, new DateTime(1968, 6, 8), &quot;male&quot;, 80, 180},
+        ///                {&quot;Betty&quot;, &quot;NewYork&quot;, new DateTime(1972, 7, 3), &quot;female&quot;, 72, 168},
+        ///                {&quot;Gary&quot;, &quot;NewYork&quot;, new DateTime(1964, 3, 2), &quot;male&quot;, 71, 1 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Filtering_FilteringByIcon_FilterByIcon {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Filtering.FilteringByIcon.FilterByIc" +
+                        "on", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            object[,] data = new object[,]{
+        ///                {&quot;Name&quot;, &quot;City&quot;, &quot;Birthday&quot;, &quot;Sex&quot;, &quot;Weight&quot;, &quot;Height&quot;},
+        ///                {&quot;Bob&quot;, &quot;NewYork&quot;, new DateTime(1968, 6, 8), &quot;male&quot;, 80, 180},
+        ///                {&quot;Betty&quot;, &quot;NewYork&quot;, new DateTime(1972, 7, 3), &quot;female&quot;, 72, 168},
+        ///                {&quot;Gary&quot;, &quot;NewYork&quot;, new DateTime(1964, 3, 2), &quot;male&quot;, 71, 1 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Filtering_FilteringByIcon_FilterByNoIcon {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Filtering.FilteringByIcon.FilterByNo" +
+                        "Icon", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            object[,] data = new object[,]{
+        ///                {&quot;Name&quot;, &quot;City&quot;, &quot;Birthday&quot;, &quot;Sex&quot;, &quot;Weight&quot;, &quot;Height&quot;},
+        ///                {&quot;Bob&quot;, &quot;NewYork&quot;, new DateTime(1968, 6, 8), &quot;male&quot;, 80, 180},
+        ///                {&quot;Betty&quot;, &quot;NewYork&quot;, new DateTime(1972, 7, 3), &quot;female&quot;, 72, 168},
+        ///                {&quot;Gary&quot;, &quot;NewYork&quot;, new DateTime(1964, 3, 2), &quot;male&quot;, 71, 1 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Filtering_MultiSelectFilter {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Filtering.MultiSelectFilter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            object[,] data = new object[,]{
+        ///                {&quot;Name&quot;, &quot;City&quot;, &quot;Birthday&quot;, &quot;Sex&quot;, &quot;Weight&quot;, &quot;Height&quot;},
+        ///                {&quot;Bob&quot;, &quot;NewYork&quot;, new DateTime(1968, 6, 8), &quot;male&quot;, 80, 180},
+        ///                {&quot;Betty&quot;, &quot;NewYork&quot;, new DateTime(1972, 7, 3), &quot;female&quot;, 72, 168},
+        ///                {&quot;Gary&quot;, &quot;NewYork&quot;, new DateTime(1964, 3, 2), &quot;male&quot;, 71, 1 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Filtering_NumberFiltering_NumberFilter {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Filtering.NumberFiltering.NumberFilt" +
+                        "er", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            object[,] data = new object[,]{
+        ///                {&quot;Name&quot;, &quot;City&quot;, &quot;Birthday&quot;, &quot;Sex&quot;, &quot;Weight&quot;, &quot;Height&quot;},
+        ///                {&quot;Bob&quot;, &quot;NewYork&quot;, new DateTime(1968, 6, 8), &quot;male&quot;, 80, 180},
+        ///                {&quot;Betty&quot;, &quot;NewYork&quot;, new DateTime(1972, 7, 3), &quot;female&quot;, 72, 168},
+        ///                {&quot;Gary&quot;, &quot;NewYork&quot;, new DateTime(1964, 3, 2), &quot;male&quot;, 71, 1 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Filtering_ReApplyFilter {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Filtering.ReApplyFilter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            object[,] data = new object[,]{
+        ///                {&quot;Name&quot;, &quot;City&quot;, &quot;Birthday&quot;, &quot;Sex&quot;, &quot;Weight&quot;, &quot;Height&quot;},
+        ///                {&quot;Bob&quot;, &quot;NewYork&quot;, new DateTime(1968, 6, 8), &quot;male&quot;, 80, 180},
+        ///                {&quot;Betty&quot;, &quot;NewYork&quot;, new DateTime(1972, 7, 3), &quot;female&quot;, 72, 168},
+        ///                {&quot;Gary&quot;, &quot;NewYork&quot;, new DateTime(1964, 3, 2), &quot;male&quot;, 71, 1 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Filtering_TextFiltering_TextFilter {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Filtering.TextFiltering.TextFilter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            worksheet.Columns[0].ColumnWidth = 17;
+        ///
+        ///            IRange rangeA1 = worksheet.Range[&quot;A1&quot;];
+        ///            rangeA1.Value = &quot;Right and top&quot;;
+        ///            rangeA1.HorizontalAlignment = HorizontalAlignment.Right;
+        ///            rangeA1.VerticalAlignment = VerticalAlignment.Top;
+        ///
+        ///            IRange rangeA2 = worksheet.Range[&quot;A2&quot;];
+        ///            rang [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Formatting_Alignment_HAlignVAlign {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Formatting.Alignment.HAlignVAlign", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            IRange rangeB2 = worksheet.Range[&quot;B2&quot;];
+        ///            rangeB2.Value = &quot;Rotated Cell Contents&quot;;
+        ///            rangeB2.HorizontalAlignment = HorizontalAlignment.Center;
+        ///            rangeB2.VerticalAlignment = VerticalAlignment.Center;
+        ///            //Rotate cell contents.
+        ///            rangeB2.Orientation = 15;
+        ///        
+        ///   //save to an excel file
+        ///  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Formatting_Alignment_RotateCellContents {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Formatting.Alignment.RotateCellConte" +
+                        "nts", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            IRange rangeB1 = worksheet.Range[&quot;B1&quot;];
+        ///            rangeB1.Value = &quot;The ShrinkToFit property is applied&quot;;
+        ///            rangeB1.ShrinkToFit = true;
+        ///        
+        ///   //save to an excel file
+        ///   workbook.Save(&quot;ShrinkToFit.xlsx&quot;);.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Formatting_Alignment_ShrinkToFit {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Formatting.Alignment.ShrinkToFit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            IRange rangeC1 = worksheet.Range[&quot;C1&quot;];
+        ///            rangeC1.Value = &quot;The ReadingOrder property is applied to set text direction.&quot;;
+        ///            rangeC1.ReadingOrder = ReadingOrder.RightToLeft;
+        ///        
+        ///   //save to an excel file
+        ///   workbook.Save(&quot;TextOrientation.xlsx&quot;);.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Formatting_Alignment_TextOrientation {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Formatting.Alignment.TextOrientation" +
+                        "", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            IRange rangeB3 = worksheet.Range[&quot;B3&quot;];
+        ///            rangeB3.Value = &quot;The WrapText property is applied to wrap the text within a cell&quot;;
+        ///            rangeB3.WrapText = true;
+        ///
+        ///            worksheet.Rows[2].RowHeight = 150;
+        ///        
+        ///   //save to an excel file
+        ///   workbook.Save(&quot;WrapText.xlsx&quot;);.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Formatting_Alignment_WrapText {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Formatting.Alignment.WrapText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            //Change to build in name style.
+        ///            worksheet.Range[&quot;A1&quot;].Value = &quot;Bad&quot;;
+        ///            worksheet.Range[&quot;A1&quot;].Style = workbook.Styles[&quot;Bad&quot;];
+        ///
+        ///
+        ///            //Change to custom name style.
+        ///            //Add custom name style.
+        ///            IStyle style = workbook.Styles.Add(&quot;testStyle&quot;);
+        ///
+        ///            //Config custom name style settin [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Formatting_ApplyStyle {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Formatting.ApplyStyle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            IRange rangeB2 = worksheet.Range[&quot;B2&quot;];
+        ///
+        ///            //set left, top, right, bottom borders together.
+        ///            rangeB2.Borders.LineStyle = BorderLineStyle.DashDot;
+        ///            rangeB2.Borders.Color = Color.Green;
+        ///
+        ///            //set top border individually.
+        ///            rangeB2.Borders[BordersIndex.EdgeTop].LineStyle = BorderLineStyle.Med [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Formatting_Borders_AddBordersToCell {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Formatting.Borders.AddBordersToCell", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            IRange rangeB2_E6 = worksheet.Range[&quot;B2:E6&quot;];
+        ///
+        ///            //set left, top, right, bottom borders together.
+        ///            rangeB2_E6.Borders.LineStyle = BorderLineStyle.DashDot;
+        ///            rangeB2_E6.Borders.Color = Color.Green;
+        ///
+        ///            //set inside horizontal border.
+        ///            rangeB2_E6.Borders[BordersIndex.InsideHorizontal].LineSt [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Formatting_Borders_AddingBordersToRange {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Formatting.Borders.AddingBordersToRa" +
+                        "nge", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            //Add custom name style.
+        ///            IStyle style = workbook.Styles.Add(&quot;testStyle&quot;);
+        ///
+        ///            //Config custom name style settings begin.
+        ///            //Border
+        ///            style.Borders[BordersIndex.EdgeLeft].LineStyle = BorderLineStyle.Thin;
+        ///            style.Borders[BordersIndex.EdgeTop].LineStyle = BorderLineStyle.Thick;
+        ///             [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Formatting_CreateCustomStyle {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Formatting.CreateCustomStyle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            worksheet.Range[&quot;A1&quot;].Interior.Pattern = GrapeCity.Documents.Spread.Pattern.LinearGradient;
+        ///            (worksheet.Range[&quot;A1&quot;].Interior.Gradient as ILinearGradient).ColorStops[0].Color = Color.Red;
+        ///            (worksheet.Range[&quot;A1&quot;].Interior.Gradient as ILinearGradient).ColorStops[1].Color = Color.Yellow;
+        ///
+        ///            (worksheet.Range[&quot;A1&quot;].I [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Formatting_Fill_LinearGradientFill {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Formatting.Fill.LinearGradientFill", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            worksheet.Range[&quot;A1&quot;].Interior.Pattern = GrapeCity.Documents.Spread.Pattern.LightDown;
+        ///            worksheet.Range[&quot;A1&quot;].Interior.Color = Color.Pink;
+        ///            worksheet.Range[&quot;A1&quot;].Interior.PatternColorIndex = 5;
+        ///        
+        ///   //save to an excel file
+        ///   workbook.Save(&quot;PatternFill.xlsx&quot;);.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Formatting_Fill_PatternFill {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Formatting.Fill.PatternFill", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            worksheet.Range[&quot;A1&quot;].Interior.Pattern = GrapeCity.Documents.Spread.Pattern.RectangularGradient;
+        ///            (worksheet.Range[&quot;A1&quot;].Interior.Gradient as IRectangularGradient).ColorStops[0].Color = Color.Red;
+        ///            (worksheet.Range[&quot;A1&quot;].Interior.Gradient as IRectangularGradient).ColorStops[1].Color = Color.Green;
+        ///
+        ///            (worksheet [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Formatting_Fill_RectangularGradientFill {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Formatting.Fill.RectangularGradientF" +
+                        "ill", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            worksheet.Range[&quot;A2&quot;].Interior.Color = Color.Green;
+        ///        
+        ///   //save to an excel file
+        ///   workbook.Save(&quot;SolidFill.xlsx&quot;);.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Formatting_Fill_SolidFill {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Formatting.Fill.SolidFill", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            worksheet.Range[&quot;A1&quot;].Value = &quot;font&quot;;
+        ///            worksheet.Range[&quot;A1&quot;].Font.Color = Color.Green;
+        ///        
+        ///   //save to an excel file
+        ///   workbook.Save(&quot;FontColor.xlsx&quot;);.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Formatting_Fonts_FontColor {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Formatting.Fonts.FontColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            worksheet.Range[&quot;A1&quot;].Value = &quot;Strikethrough&quot;;
+        ///            worksheet.Range[&quot;A1&quot;].Font.Strikethrough = true;
+        ///
+        ///            worksheet.Range[&quot;A2&quot;].Value = &quot;Superscript&quot;;
+        ///            worksheet.Range[&quot;A2&quot;].Font.Superscript = true;
+        ///
+        ///            worksheet.Range[&quot;A3&quot;].Value = &quot;Subscript&quot;;
+        ///            worksheet.Range[&quot;A3&quot;].Font.Subscript = true;
+        /// [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Formatting_Fonts_FontEffect {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Formatting.Fonts.FontEffect", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            //use Name property to set font name.
+        ///            worksheet.Range[&quot;A1&quot;].Value = &quot;Calibri&quot;;
+        ///            worksheet.Range[&quot;A1&quot;].Font.Name = &quot;Calibri&quot;;
+        ///
+        ///            //use ThemeFont property to set font name.
+        ///            worksheet.Range[&quot;A2&quot;].Value = &quot;Major theme font&quot;;
+        ///            worksheet.Range[&quot;A2&quot;].Font.ThemeFont = ThemeFont.Major;
+        ///      [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Formatting_Fonts_FontName {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Formatting.Fonts.FontName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            worksheet.Range[&quot;A1&quot;].Value = &quot;Font size is 15&quot;;
+        ///            worksheet.Range[&quot;A1&quot;].Font.Size = 15;
+        ///        
+        ///   //save to an excel file
+        ///   workbook.Save(&quot;FontSize.xlsx&quot;);.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Formatting_Fonts_FontSize {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Formatting.Fonts.FontSize", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            worksheet.Range[&quot;A1&quot;].Value = &quot;Bold&quot;;
+        ///            worksheet.Range[&quot;A1&quot;].Font.Bold = true;
+        ///
+        ///            worksheet.Range[&quot;A2&quot;].Value = &quot;Italic&quot;;
+        ///            worksheet.Range[&quot;A2&quot;].Font.Italic = true;
+        ///
+        ///            worksheet.Range[&quot;A3&quot;].Value = &quot;Bold Italic&quot;;
+        ///            worksheet.Range[&quot;A3&quot;].Font.Bold = true;
+        ///            worksheet.Range[&quot;A3 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Formatting_Fonts_FontStyle {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Formatting.Fonts.FontStyle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            worksheet.Range[&quot;A1&quot;].Value = &quot;Single Underline&quot;;
+        ///            worksheet.Range[&quot;A1&quot;].Font.Underline = UnderlineType.Single;
+        ///        
+        ///   //save to an excel file
+        ///   workbook.Save(&quot;FontUnderline.xlsx&quot;);.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Formatting_Fonts_FontUnderline {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Formatting.Fonts.FontUnderline", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            //Range A1&apos;s displaying color is table style
+        ///            worksheet.Tables.Add(worksheet.Range[&quot;A1:E5&quot;], true);
+        ///            var color_A1 = worksheet.Range[&quot;A1&quot;].DisplayFormat.Interior.Color;
+        ///
+        ///            //Range A1&apos;s displaying color will be cell style, yellow.
+        ///            worksheet.Range[&quot;A1&quot;].Interior.Color = Color.Yellow;
+        ///            va [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Formatting_GetDisplayFormat {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Formatting.GetDisplayFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            //Set range values.
+        ///            worksheet.Range[&quot;A2:B2&quot;].Value = -15.50;
+        ///            worksheet.Range[&quot;A3:B3&quot;].Value = 555;
+        ///            worksheet.Range[&quot;A4:B4&quot;].Value = 0;
+        ///            worksheet.Range[&quot;A5:B5&quot;].Value = &quot;Name&quot;;
+        ///
+        ///            //Apply custom number format.
+        ///            worksheet.Range[&quot;B2:B5&quot;].NumberFormat = &quot;[Green]#.00;[Red]#.00 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Formatting_NumberFormat_CustomNumberFormat {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Formatting.NumberFormat.CustomNumber" +
+                        "Format", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            worksheet.Range[&quot;A:F&quot;].ColumnWidth = 17;
+        ///            worksheet.Range[&quot;A1:F1&quot;].Formula = &quot;= Now()&quot;;
+        ///
+        ///            //Apply different date formats.
+        ///            worksheet.Range[&quot;A1&quot;].NumberFormat = &quot;m/d/yy&quot;;
+        ///            worksheet.Range[&quot;B1&quot;].NumberFormat = &quot;d-mmm-yy&quot;;
+        ///            worksheet.Range[&quot;C1&quot;].NumberFormat = &quot;dddd&quot;;
+        ///
+        ///            //Appl [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Formatting_NumberFormat_DateAndTimeFormat {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Formatting.NumberFormat.DateAndTimeF" +
+                        "ormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            worksheet.Range[&quot;A:H&quot;].ColumnWidth = 17;
+        ///
+        ///            // Display 111 as 111.
+        ///            worksheet.Range[&quot;A1&quot;].Value = 111;
+        ///            worksheet.Range[&quot;A1&quot;].NumberFormat = &quot;#####&quot;;
+        ///
+        ///            // Display 222 as 00222.
+        ///            worksheet.Range[&quot;B1&quot;].Value = 222;
+        ///            worksheet.Range[&quot;B1&quot;].NumberFormat = &quot;00000&quot;;
+        ///
+        ///             [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Formatting_NumberFormat_NumberFormats {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Formatting.NumberFormat.NumberFormat" +
+                        "s", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            worksheet.Range[&quot;B1&quot;].Formula = &quot;=A1&quot;;
+        ///
+        ///            //config range B1&apos;s FormulaHidden property.
+        ///            worksheet.Range[&quot;B1&quot;].FormulaHidden = true;
+        ///            //protect worksheet, range B1&apos;s formula will not show in exported xlsx file.
+        ///            worksheet.Protection = true;
+        ///        
+        ///   //save to an excel file
+        ///   workbook.Save(&quot;SetR [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Formatting_Protection_SetRangeFormulaHidden {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Formatting.Protection.SetRangeFormul" +
+                        "aHidden", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            //config range B1&apos;s Locked property.
+        ///            worksheet.Range[&quot;B1&quot;].Locked = false;
+        ///            //protect worksheet, range B1 can be modified in exported xlsx file.
+        ///            worksheet.Protection = true;
+        ///        
+        ///   //save to an excel file
+        ///   workbook.Save(&quot;SetRangeLocked.xlsx&quot;);.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Formatting_Protection_SetRangeLocked {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Formatting.Protection.SetRangeLocked" +
+                        "", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet1 = workbook.Worksheets[0];
+        ///            IWorksheet worksheet2 = workbook.Worksheets.Add();
+        ///
+        ///            worksheet1.Range[&quot;C8&quot;].NumberFormat = &quot;0.0000&quot;;
+        ///
+        ///            worksheet1.Names.Add(&quot;test1&quot;, &quot;=Sheet1!$A$1&quot;);
+        ///            worksheet1.Names.Add(&quot;test2&quot;, &quot;=Sheet1!test1*2&quot;);
+        ///            workbook.Names.Add(&quot;test3&quot;, &quot;=Sheet1!$A$1&quot;);
+        ///
+        ///            worksheet1.Range[&quot;A1&quot;].Value = 1;
+        /// [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Formulas_AddCustomName {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Formulas.AddCustomName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            //set workbook&apos;s reference style to R1C1. exported xlsx file will be R1C1 style.
+        ///            workbook.ReferenceStyle = ReferenceStyle.R1C1;
+        ///        
+        ///   //save to an excel file
+        ///   workbook.Save(&quot;ConfigWorkbookReferenceStyle.xlsx&quot;);.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Formulas_ConfigWorkbookReferenceStyle {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Formulas.ConfigWorkbookReferenceStyl" +
+                        "e", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            worksheet.Range[&quot;A1&quot;].Value = 1;
+        ///            worksheet.Range[&quot;A2&quot;].Formula = &quot;=A1&quot;;
+        ///            worksheet.Range[&quot;A3&quot;].Formula = &quot;=SUM(A1, A2)&quot;;
+        ///
+        ///            //when get value, calc engine will first calculate and cache the result, then returns the cached result.
+        ///            var value_A2 = worksheet.Range[&quot;A2&quot;].Value;
+        ///            var value_A3 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Formulas_DirtyAndCalculation {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Formulas.DirtyAndCalculation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            worksheet.Range[&quot;E4:J5&quot;].Value = new object[,]
+        ///             {
+        ///                {1, 2, 3},
+        ///                {4, 5, 6}
+        ///             };
+        ///
+        ///            worksheet.Range[&quot;I6:J8&quot;].Value = new object[,]
+        ///            {
+        ///                {2, 2},
+        ///                {3, 3},
+        ///                {4, 4}
+        ///            };
+        ///
+        ///            //O     P      Q
+        ///            / [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Formulas_UseArrayFormula {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Formulas.UseArrayFormula", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            worksheet.Range[&quot;A:E&quot;].ColumnWidth = 15;
+        ///            worksheet.Range[&quot;A1:E3&quot;].Value = new object[,]
+        ///            {
+        ///                {&quot;SalesPerson&quot;, &quot;Region&quot;,  &quot;SalesAmount&quot;, &quot;ComPct&quot;, &quot;ComAmt&quot;},
+        ///                {&quot;Joe&quot;, &quot;North&quot;, 260, 0.10, null},
+        ///                {&quot;Robert&quot;, &quot;South&quot;, 660, 0.15, null},
+        ///            };
+        ///
+        ///            worksheet.Tabl [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Formulas_UseTableFormula {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Formulas.UseTableFormula", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            //1:20 rows&apos; outline level will be 2.
+        ///            worksheet.Range[&quot;1:20&quot;].Group();
+        ///            //1:10 rows&apos; outline level will be 3.
+        ///            worksheet.Range[&quot;1:10&quot;].Group();
+        ///
+        ///            //1:20 rows&apos; outline level will be 1.
+        ///            worksheet.Range[&quot;1:20&quot;].ClearOutline();
+        ///        
+        ///   //save to an excel file
+        ///   workbook.Save(&quot;Clea [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Grouping_ClearOutline {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Grouping.ClearOutline", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            //1:20 rows&apos; outline level will be 2.
+        ///            worksheet.Range[&quot;1:20&quot;].Group();
+        ///            //1:10 rows&apos; outline level will be 3.
+        ///            worksheet.Range[&quot;1:10&quot;].Group();
+        ///
+        ///            //1:10 rows will be collapsed.
+        ///            worksheet.Range[&quot;11:11&quot;].ShowDetail = false;
+        ///        
+        ///   //save to an excel file
+        ///   workbook.Save(&quot;Collap [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Grouping_CollapseGroup {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Grouping.CollapseGroup", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            //1:20 rows&apos; outline level will be 2.
+        ///            worksheet.Range[&quot;1:20&quot;].Group();
+        ///            //1:10 rows&apos; outline level will be 3.
+        ///            worksheet.Range[&quot;1:10&quot;].Group();
+        ///
+        ///            //A:N columns&apos; outline level will be 2.
+        ///            worksheet.Range[&quot;A:N&quot;].Group();
+        ///            //A:E columns&apos; outline level will be 3.
+        ///            w [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Grouping_CreateRangeGroup {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Grouping.CreateRangeGroup", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            worksheet.Range[&quot;A:N&quot;].Group();
+        ///            worksheet.Range[&quot;A:F&quot;].Group();
+        ///            worksheet.Range[&quot;A:C&quot;].Group();
+        ///
+        ///            worksheet.Range[&quot;Q:Z&quot;].Group();
+        ///            worksheet.Range[&quot;Q:T&quot;].Group();
+        ///
+        ///            //level 3 and level 4 will be collapsed. level 2 and level 1 expand.
+        ///            worksheet.Outline.ShowLevels(columnLe [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Grouping_ShowSpecificLevel {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Grouping.ShowSpecificLevel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            //1:20 rows&apos; outline level will be 2.
+        ///            worksheet.Range[&quot;1:20&quot;].Group();
+        ///            //1:10 rows&apos; outline level will be 3.
+        ///            worksheet.Range[&quot;1:10&quot;].Group();
+        ///
+        ///            //1:10 rows&apos; outline level will be 2.
+        ///            worksheet.Range[&quot;1:10&quot;].Ungroup();
+        ///            //1:20 rows&apos; outline level will be 1.
+        ///            wo [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Grouping_UngroupRange {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Grouping.UngroupRange", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            worksheet.Range[&quot;A:A&quot;].ColumnWidth = 20;
+        ///            //add a hyperlink link to web page.
+        ///            worksheet.Range[&quot;A1:B2&quot;].Hyperlinks.Add(worksheet.Range[&quot;A1&quot;],
+        ///                                                &quot;http://www.baidu.com/&quot;,
+        ///                                                null,
+        ///                                                &quot;ope [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Hyperlinks_CreateHyperlinks {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Hyperlinks.CreateHyperlinks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            //add a hyperlink link to web page.
+        ///            worksheet.Range[&quot;A1:B2&quot;].Hyperlinks.Add(worksheet.Range[&quot;A1&quot;],
+        ///                                                &quot;http://www.baidu.com/&quot;,
+        ///                                                null,
+        ///                                                &quot;open Baidu web site.&quot;,
+        ///                                  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Hyperlinks_DeleteHyperlinks {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Hyperlinks.DeleteHyperlinks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            var assembly = this.GetType().GetTypeInfo().Assembly;            
+        ///            System.IO.Stream stream = assembly.GetManifestResourceStream(&quot;GrapeCity.Documents.Spread.Examples.Resource.logo.png&quot;);
+        ///            GrapeCity.Documents.Spread.Drawing.IShape picture = worksheet.Shapes.AddPicture(stream, GrapeCity.Documents.Spread.Drawing.ImageType.PN [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Picture_CreatePicture {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Picture.CreatePicture", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            var assembly = this.GetType().GetTypeInfo().Assembly;
+        ///            System.IO.Stream stream = assembly.GetManifestResourceStream(&quot;GrapeCity.Documents.Spread.Examples.Resource.logo.png&quot;);
+        ///            GrapeCity.Documents.Spread.Drawing.IShape picture = worksheet.Shapes.AddPicture(stream, GrapeCity.Documents.Spread.Drawing.ImageType.PNG, 20, 20, 1 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Picture_DeletePicture {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Picture.DeletePicture", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            object[,] sourceData = new object[,] {
+        ///                { &quot;Order ID&quot;, &quot;Product&quot;,  &quot;Category&quot;,   &quot;Amount&quot;, &quot;Date&quot;,                    &quot;Country&quot; },
+        ///                { 1,          &quot;Carrots&quot;,  &quot;Vegetables&quot;,  4270,    new DateTime(2012, 1, 6),  &quot;United States&quot; },
+        ///                { 2,          &quot;Broccoli&quot;, &quot;Vegetables&quot;,  8239,    new DateTime(2012, 1, 7),  &quot;United Kingdom&quot; },
+        ///                { 3,          &quot;Ban [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_PivotTable_ChangeDataFiledSummarizeFunction {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.PivotTable.ChangeDataFiledSummarizeF" +
+                        "unction", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            object[,] sourceData = new object[,] {
+        ///                { &quot;Order ID&quot;, &quot;Product&quot;,  &quot;Category&quot;,   &quot;Amount&quot;, &quot;Date&quot;,                    &quot;Country&quot; },
+        ///                { 1,          &quot;Carrots&quot;,  &quot;Vegetables&quot;,  4270,    new DateTime(2012, 1, 6),  &quot;United States&quot; },
+        ///                { 2,          &quot;Broccoli&quot;, &quot;Vegetables&quot;,  8239,    new DateTime(2012, 1, 7),  &quot;United Kingdom&quot; },
+        ///                { 3,          &quot;Ban [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_PivotTable_CreatePivotTable {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.PivotTable.CreatePivotTable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            object[,] sourceData = new object[,] {
+        ///                { &quot;Order ID&quot;, &quot;Product&quot;,  &quot;Category&quot;,   &quot;Amount&quot;, &quot;Date&quot;,                    &quot;Country&quot; },
+        ///                { 1,          &quot;Carrots&quot;,  &quot;Vegetables&quot;,  4270,    new DateTime(2012, 1, 6),  &quot;United States&quot; },
+        ///                { 2,          &quot;Broccoli&quot;, &quot;Vegetables&quot;,  8239,    new DateTime(2012, 1, 7),  &quot;United Kingdom&quot; },
+        ///                { 3,          &quot;Ban [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_PivotTable_FilterItemsInPivotTable {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.PivotTable.FilterItemsInPivotTable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            object[,] sourceData = new object[,] {
+        ///                { &quot;Order ID&quot;, &quot;Product&quot;,  &quot;Category&quot;,   &quot;Amount&quot;, &quot;Date&quot;,                    &quot;Country&quot; },
+        ///                { 1,          &quot;Carrots&quot;,  &quot;Vegetables&quot;,  4270,    new DateTime(2012, 1, 6),  &quot;United States&quot; },
+        ///                { 2,          &quot;Broccoli&quot;, &quot;Vegetables&quot;,  8239,    new DateTime(2012, 1, 7),  &quot;United Kingdom&quot; },
+        ///                { 3,          &quot;Ban [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_PivotTable_ModifySubtotalsForPivotField {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.PivotTable.ModifySubtotalsForPivotFi" +
+                        "eld", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            object[,] sourceData = new object[,] {
+        ///                { &quot;Order ID&quot;, &quot;Product&quot;,  &quot;Category&quot;,   &quot;Amount&quot;, &quot;Date&quot;,                    &quot;Country&quot; },
+        ///                { 1,          &quot;Carrots&quot;,  &quot;Vegetables&quot;,  4270,    new DateTime(2012, 1, 6),  &quot;United States&quot; },
+        ///                { 2,          &quot;Broccoli&quot;, &quot;Vegetables&quot;,  8239,    new DateTime(2012, 1, 7),  &quot;United Kingdom&quot; },
+        ///                { 3,          &quot;Ban [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_PivotTable_RefreshPivotTable {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.PivotTable.RefreshPivotTable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            var range = worksheet.Range[&quot;A5:B7&quot;];
+        ///
+        ///            //set value for cell A7.
+        ///            var cell = range.Cells[4];
+        ///            cell.Value = 1;
+        ///
+        ///            //set interior color for row range A6:B6.
+        ///            var row = range.Rows[1];
+        ///            row.Interior.Color = Color.LightBlue;
+        ///
+        ///            //set values for column range B5:B7.
+        ///   [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_RangeOperations_AccessCellsRowsColumns {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.RangeOperations.AccessCellsRowsColum" +
+                        "ns", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            var range = worksheet.Range[&quot;A5:B7, C3, H5:N6&quot;];
+        ///
+        ///            //set interior color for area1 A5:B7.
+        ///            var area1 = worksheet.Range[&quot;A5:B7, C3, H5:N6&quot;].Areas[0];
+        ///            area1.Interior.Color = Color.Pink;
+        ///
+        ///            //set interior color for area2 C3.
+        ///            var area2 = worksheet.Range[&quot;A5:B7, C3, H5:N6&quot;].Areas[1];
+        ///      [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_RangeOperations_AccessEachAreaOfRange {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.RangeOperations.AccessEachAreaOfRang" +
+                        "e", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            //use index to access range, Range A1.
+        ///            worksheet.Range[0, 0].Interior.Color = Color.LightGreen;
+        ///            worksheet.Range[0, 0, 2, 2].Value = 5;
+        ///
+        ///            //use string to access range.
+        ///            worksheet.Range[&quot;A2&quot;].Interior.Color = Color.LightYellow;
+        ///            worksheet.Range[&quot;C3:D4&quot;].Interior.Color = Color.Tomato;        /// [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_RangeOperations_AccessRange {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.RangeOperations.AccessRange", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            IWorksheet worksheet2 = workbook.Worksheets.Add();
+        ///
+        ///            worksheet.Range[&quot;B3:D12&quot;].Value = 5;
+        ///            worksheet.Range[&quot;B3:D12&quot;].Interior.Color = Color.LightGreen;
+        ///
+        ///            //Copy
+        ///            worksheet.Range[&quot;B3:D12&quot;].Copy(worksheet.Range[&quot;E5&quot;]);
+        ///
+        ///            //Cut
+        ///            worksheet.Range[&quot;B3:D12&quot;].Cut(worksheet.Range[&quot; [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_RangeOperations_CutCopyRange {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.RangeOperations.CutCopyRange", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            worksheet.Range[&quot;A1:B2&quot;].Value = new object[,]
+        ///            {
+        ///                {1, 2},
+        ///                {&quot;aaa&quot;, &quot;bbb&quot;}
+        ///            };
+        ///            worksheet.Range[&quot;A2:C3&quot;].Interior.Color = Color.Green;
+        ///
+        ///            //style used range is A2:C3.
+        ///            var UsedRange_style = worksheet.GetUsedRange(UsedRangeType.Style);
+        ///            UsedRa [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_RangeOperations_GetFeatureRelatedUsedRange {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.RangeOperations.GetFeatureRelatedUse" +
+                        "dRange", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            var range = worksheet.Range[&quot;A5:B7&quot;];
+        ///
+        ///            //cell count is 6.
+        ///            var cellcount = range.Count;
+        ///            //cell count is 6.
+        ///            var cellcount1 = range.Cells.Count;
+        ///            //row count is 3.
+        ///            var rowcount = range.Rows.Count;
+        ///            //column count is 2.
+        ///            var columncount = range.Colum [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_RangeOperations_GetRangeRowCountColumnCount {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.RangeOperations.GetRangeRowCountColu" +
+                        "mnCount", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            worksheet.Range[&quot;H6:M7&quot;].Value = 1;
+        ///            worksheet.Range[&quot;J9:J10&quot;].Merge();
+        ///
+        ///            //set interior color for worksheet usedRange &quot;H6:M10&quot;.
+        ///            var usedrange = worksheet.UsedRange;
+        ///            usedrange.Interior.Color = Color.LightBlue;
+        ///        
+        ///   //save to an excel file
+        ///   workbook.Save(&quot;GetWorksheetUsedRange.xlsx&quot;) [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_RangeOperations_GetWorksheetUsedRange {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.RangeOperations.GetWorksheetUsedRang" +
+                        "e", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            worksheet.Range[&quot;E1&quot;].Value = 1;
+        ///
+        ///            //Hidden row 2:6.
+        ///            worksheet.Range[&quot;2:6&quot;].Hidden = true;
+        ///
+        ///            //Hidden column A:D.
+        ///            worksheet.Range[&quot;A:D&quot;].Hidden = true;
+        ///        
+        ///   //save to an excel file
+        ///   workbook.Save(&quot;HiddenRowColumn.xlsx&quot;);.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_RangeOperations_HiddenRowColumn {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.RangeOperations.HiddenRowColumn", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet1 = workbook.Worksheets[0];
+        ///            IWorksheet worksheet2 = workbook.Worksheets.Add();
+        ///
+        ///            var data = new object[,]
+        ///            {
+        ///                {1, 2, 3},
+        ///                {4, 5, 6},
+        ///                {7, 8, 9}
+        ///            };
+        ///
+        ///            worksheet1.Range[&quot;A1:C3&quot;].Value = data;
+        ///            worksheet2.Range[&quot;A1:C3&quot;].Value = data;
+        ///
+        ///            //Insert cells
+        ///    [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_RangeOperations_InsertCellsDeleteCells {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.RangeOperations.InsertCellsDeleteCel" +
+                        "ls", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet1 = workbook.Worksheets[0];
+        ///            IWorksheet worksheet2 = workbook.Worksheets.Add();
+        ///
+        ///            var data = new object[,]
+        ///            {
+        ///                {1, 2, 3},
+        ///                {4, 5, 6},
+        ///                {7, 8, 9}
+        ///            };
+        ///
+        ///            worksheet1.Range[&quot;A1:C3&quot;].Value = data;
+        ///            worksheet2.Range[&quot;A1:C3&quot;].Value = data;
+        ///
+        ///            //Insert rows
+        ///     [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_RangeOperations_InsertDeleteRowsColumns {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.RangeOperations.InsertDeleteRowsColu" +
+                        "mns", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            //A1:C4 is a single merged cell.
+        ///            worksheet.Range[&quot;A1:C4&quot;].Merge();
+        ///            //H5:J5 is a single merged cell.
+        ///            //H6:J6 is a single merged cell.
+        ///            worksheet.Range[&quot;H5:J6&quot;].Merge(true);
+        ///
+        ///            //select A1:H5&apos;s entire merge area A1:J5, entire merge area is a bounding rectangle.
+        ///            var entire [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_RangeOperations_MergeCells {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.RangeOperations.MergeCells", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            worksheet.Range[&quot;A:F&quot;].ColumnWidth = 15;
+        ///            object[,] data = new object[,]{
+        ///                {&quot;Name&quot;, &quot;City&quot;, &quot;Birthday&quot;, &quot;Sex&quot;, &quot;Weight&quot;, &quot;Height&quot;},
+        ///                {&quot;Bob&quot;, &quot;NewYork&quot;, new DateTime(1968, 6, 8), &quot;male&quot;, 80, 180},
+        ///                {&quot;Betty&quot;, &quot;NewYork&quot;, new DateTime(1972, 7, 3), &quot;female&quot;, 72, 168},
+        ///                {&quot;Gary&quot; [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_RangeOperations_SetRangeValue {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.RangeOperations.SetRangeValue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            //set row height for row 1:2.
+        ///            worksheet.Range[&quot;1:2&quot;].RowHeight = 50;
+        ///
+        ///            //set column width for column C:D.
+        ///            worksheet.Range[&quot;C:D&quot;].ColumnWidth = 20;
+        ///        
+        ///   //save to an excel file
+        ///   workbook.Save(&quot;SetRowHeightColumnWidth.xlsx&quot;);.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_RangeOperations_SetRowHeightColumnWidth {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.RangeOperations.SetRowHeightColumnWi" +
+                        "dth", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddShape(GrapeCity.Documents.Spread.Drawing.AutoShapeType.Heart, 1, 1, 100, 100);
+        ///            shape.ThreeD.RotationX = 50;
+        ///            shape.ThreeD.RotationY = 20;
+        ///            shape.ThreeD.RotationZ = 30;
+        ///            shape.ThreeD.Depth = 7;
+        ///            shape.ThreeD.Z = 20;
+        ///  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Shape_ConfigShape3DFormat {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Shape.ConfigShape3DFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddShape(GrapeCity.Documents.Spread.Drawing.AutoShapeType.Heart, 1, 1, 100, 100);
+        ///            shape.Line.DashStyle = GrapeCity.Documents.Spread.Drawing.LineDashStyle.Dash;
+        ///            shape.Line.Style = GrapeCity.Documents.Spread.Drawing.LineStyle.Single;
+        ///            shape.Line [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Shape_ConfigShapeLine {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Shape.ConfigShapeLine", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddShape(GrapeCity.Documents.Spread.Drawing.AutoShapeType.Heart, 1, 1, 100, 100);
+        ///            shape.Fill.PresetGradient(GrapeCity.Documents.Spread.Drawing.GradientStyle.Vertical, 3, GrapeCity.Documents.Spread.Drawing.PresetGradientType.Silver);
+        ///            shape.Fill.RotateWithO [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Shape_ConfigShapeWithGradientFill {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Shape.ConfigShapeWithGradientFill", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddShape(GrapeCity.Documents.Spread.Drawing.AutoShapeType.Heart, 1, 1, 100, 100);
+        ///            shape.Fill.Patterned(GrapeCity.Documents.Spread.Drawing.PatternType.Percent10);
+        ///            shape.Fill.Color.ObjectThemeColor = ThemeColor.Accent2;
+        ///            shape.Fill.PatternColor. [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Shape_ConfigShapeWithPatternFill {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Shape.ConfigShapeWithPatternFill", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddShape(GrapeCity.Documents.Spread.Drawing.AutoShapeType.Rectangle, 20, 20, 100, 100);
+        ///
+        ///            var assembly = this.GetType().GetTypeInfo().Assembly;
+        ///            System.IO.Stream stream = assembly.GetManifestResourceStream(&quot;GrapeCity.Documents.Spread.Examples.Resource.logo [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Shape_ConfigShapeWithPictureFill {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Shape.ConfigShapeWithPictureFill", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddShape(GrapeCity.Documents.Spread.Drawing.AutoShapeType.Heart, 1, 1, 100, 100);
+        ///            shape.Fill.Solid();
+        ///            shape.Fill.Color.RGB = Color.Red;
+        ///        
+        ///   //save to an excel file
+        ///   workbook.Save(&quot;ConfigShapeWithSolidFill.xlsx&quot;);.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Shape_ConfigShapeWithSolidFill {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Shape.ConfigShapeWithSolidFill", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddShape(GrapeCity.Documents.Spread.Drawing.AutoShapeType.Heart, 1, 1, 100, 100);
+        ///            shape.Fill.PresetTextured(GrapeCity.Documents.Spread.Drawing.PresetTexture.Canvas);
+        ///            shape.Fill.TextureAlignment = GrapeCity.Documents.Spread.Drawing.TextureAlignment.Center; [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Shape_ConfigShapeWithTextureFill {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Shape.ConfigShapeWithTextureFill", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            GrapeCity.Documents.Spread.Drawing.IShape ShapeBegin = worksheet.Shapes.AddShape(GrapeCity.Documents.Spread.Drawing.AutoShapeType.Rectangle, 1, 1, 100, 100);
+        ///            GrapeCity.Documents.Spread.Drawing.IShape EndBegin = worksheet.Shapes.AddShape(GrapeCity.Documents.Spread.Drawing.AutoShapeType.Rectangle, 200, 200, 100, 100);
+        ///            Grap [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Shape_ConnectShapesByConnector {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Shape.ConnectShapesByConnector", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddShape(GrapeCity.Documents.Spread.Drawing.AutoShapeType.Heart, 1, 1, 100, 100);
+        ///            shape.Width = 600;
+        ///            shape.Height = 300;
+        ///
+        ///            shape.TextFrame.TextRange.Font.Color.RGB = GrapeCity.Documents.Spread.Color.FromRGB(0, 255, 0);
+        ///            shape.Text [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Shape_SetShapeText {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Shape.SetShapeText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            object[,] sourceData = new object[,] {
+        ///                { &quot;Order ID&quot;, &quot;Product&quot;,  &quot;Category&quot;,   &quot;Amount&quot;, &quot;Date&quot;,                    &quot;Country&quot; },
+        ///                { 1,          &quot;Carrots&quot;,  &quot;Vegetables&quot;,  4270,    new DateTime(2012, 1, 6),  &quot;United States&quot; },
+        ///                { 2,          &quot;Broccoli&quot;, &quot;Vegetables&quot;,  8239,    new DateTime(2012, 1, 7),  &quot;United Kingdom&quot; },
+        ///                { 3,          &quot;Ban [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Slicer_AddCustomSlicerStyle {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Slicer.AddCustomSlicerStyle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            object[,] sourceData = new object[,] {
+        ///                { &quot;Order ID&quot;, &quot;Product&quot;,  &quot;Category&quot;,   &quot;Amount&quot;, &quot;Date&quot;,                    &quot;Country&quot; },
+        ///                { 1,          &quot;Carrots&quot;,  &quot;Vegetables&quot;,  4270,    new DateTime(2012, 1, 6),  &quot;United States&quot; },
+        ///                { 2,          &quot;Broccoli&quot;, &quot;Vegetables&quot;,  8239,    new DateTime(2012, 1, 7),  &quot;United Kingdom&quot; },
+        ///                { 3,          &quot;Ban [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Slicer_AddSlicersForPivotTable {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Slicer.AddSlicersForPivotTable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            object[,] sourceData = new object[,] {
+        ///                { &quot;Order ID&quot;, &quot;Product&quot;,  &quot;Category&quot;,   &quot;Amount&quot;, &quot;Date&quot;,                    &quot;Country&quot; },
+        ///                { 1,          &quot;Carrots&quot;,  &quot;Vegetables&quot;,  4270,    new DateTime(2012, 1, 6),  &quot;United States&quot; },
+        ///                { 2,          &quot;Broccoli&quot;, &quot;Vegetables&quot;,  8239,    new DateTime(2012, 1, 7),  &quot;United Kingdom&quot; },
+        ///                { 3,          &quot;Ban [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Slicer_AddSlicersForTable {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Slicer.AddSlicersForTable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            object[,] sourceData = new object[,] {
+        ///                { &quot;Order ID&quot;, &quot;Product&quot;,  &quot;Category&quot;,   &quot;Amount&quot;, &quot;Date&quot;,                    &quot;Country&quot; },
+        ///                { 1,          &quot;Carrots&quot;,  &quot;Vegetables&quot;,  4270,    new DateTime(2012, 1, 6),  &quot;United States&quot; },
+        ///                { 2,          &quot;Broccoli&quot;, &quot;Vegetables&quot;,  8239,    new DateTime(2012, 1, 7),  &quot;United Kingdom&quot; },
+        ///                { 3,          &quot;Ban [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Slicer_ApplySlicerStyle {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Slicer.ApplySlicerStyle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            object[,] sourceData = new object[,] {
+        ///                { &quot;Order ID&quot;, &quot;Product&quot;,  &quot;Category&quot;,   &quot;Amount&quot;, &quot;Date&quot;,                    &quot;Country&quot; },
+        ///                { 1,          &quot;Carrots&quot;,  &quot;Vegetables&quot;,  4270,    new DateTime(2012, 1, 6),  &quot;United States&quot; },
+        ///                { 2,          &quot;Broccoli&quot;, &quot;Vegetables&quot;,  8239,    new DateTime(2012, 1, 7),  &quot;United Kingdom&quot; },
+        ///                { 3,          &quot;Ban [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Slicer_ConfigSlicerLayout {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Slicer.ConfigSlicerLayout", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            object[,] sourceData = new object[,] {
+        ///                { &quot;Order ID&quot;, &quot;Product&quot;,  &quot;Category&quot;,   &quot;Amount&quot;, &quot;Date&quot;,                    &quot;Country&quot; },
+        ///                { 1,          &quot;Carrots&quot;,  &quot;Vegetables&quot;,  4270,    new DateTime(2012, 1, 6),  &quot;United States&quot; },
+        ///                { 2,          &quot;Broccoli&quot;, &quot;Vegetables&quot;,  8239,    new DateTime(2012, 1, 7),  &quot;United Kingdom&quot; },
+        ///                { 3,          &quot;Ban [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Slicer_DoTableFilter {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Slicer.DoTableFilter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            object[,] sourceData = new object[,] {
+        ///                { &quot;Order ID&quot;, &quot;Product&quot;,  &quot;Category&quot;,   &quot;Amount&quot;, &quot;Date&quot;,                    &quot;Country&quot; },
+        ///                { 1,          &quot;Carrots&quot;,  &quot;Vegetables&quot;,  4270,    new DateTime(2012, 1, 6),  &quot;United States&quot; },
+        ///                { 2,          &quot;Broccoli&quot;, &quot;Vegetables&quot;,  8239,    new DateTime(2012, 1, 7),  &quot;United Kingdom&quot; },
+        ///                { 3,          &quot;Ban [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Slicer_UseSlicerDoFilter {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Slicer.UseSlicerDoFilter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            object[,] sourceData = new object[,] {
+        ///                { &quot;Order ID&quot;, &quot;Product&quot;,  &quot;Category&quot;,   &quot;Amount&quot;, &quot;Date&quot;,                    &quot;Country&quot; },
+        ///                { 1,          &quot;Carrots&quot;,  &quot;Vegetables&quot;,  4270,    new DateTime(2012, 1, 6),  &quot;United States&quot; },
+        ///                { 2,          &quot;Broccoli&quot;, &quot;Vegetables&quot;,  8239,    new DateTime(2012, 1, 7),  &quot;United Kingdom&quot; },
+        ///                { 3,          &quot;Ban [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Slicer_UseSlicerToClearFilter {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Slicer.UseSlicerToClearFilter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            object[,] data = new object[,]{
+        ///                {&quot;Name&quot;, &quot;City&quot;, &quot;Birthday&quot;, &quot;Sex&quot;, &quot;Weight&quot;, &quot;Height&quot;},
+        ///                {&quot;Bob&quot;, &quot;NewYork&quot;, new DateTime(1968, 6, 8), &quot;male&quot;, 80, 180},
+        ///                {&quot;Betty&quot;, &quot;NewYork&quot;, new DateTime(1972, 7, 3), &quot;female&quot;, 72, 168},
+        ///                {&quot;Gary&quot;, &quot;NewYork&quot;, new DateTime(1964, 3, 2), &quot;male&quot;, 71, 179},
+        ///                {&quot;Hunk&quot;, &quot;Washington&quot;, new DateTime(1972 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Sorting_CustomSort {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Sorting.CustomSort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            object[,] data = new object[,]{
+        ///                {&quot;Name&quot;, &quot;City&quot;, &quot;Birthday&quot;, &quot;Sex&quot;, &quot;Weight&quot;, &quot;Height&quot;},
+        ///                {&quot;Bob&quot;, &quot;NewYork&quot;, new DateTime(1968, 6, 8), &quot;male&quot;, 80, 180},
+        ///                {&quot;Betty&quot;, &quot;NewYork&quot;, new DateTime(1972, 7, 3), &quot;female&quot;, 72, 168},
+        ///                {&quot;Gary&quot;, &quot;NewYork&quot;, new DateTime(1964, 3, 2), &quot;male&quot;, 71, 179},
+        ///                {&quot;Hunk&quot;, &quot;Washington&quot;, new DateTime(1972 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Sorting_SortRangeByFontColor {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Sorting.SortRangeByFontColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            object[,] data = new object[,]{
+        ///                {&quot;Name&quot;, &quot;City&quot;, &quot;Birthday&quot;, &quot;Sex&quot;, &quot;Weight&quot;, &quot;Height&quot;},
+        ///                {&quot;Bob&quot;, &quot;NewYork&quot;, new DateTime(1968, 6, 8), &quot;male&quot;, 80, 180},
+        ///                {&quot;Betty&quot;, &quot;NewYork&quot;, new DateTime(1972, 7, 3), &quot;female&quot;, 72, 168},
+        ///                {&quot;Gary&quot;, &quot;NewYork&quot;, new DateTime(1964, 3, 2), &quot;male&quot;, 71, 179},
+        ///                {&quot;Hunk&quot;, &quot;Washington&quot;, new DateTime(1972 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Sorting_SortRangeByIcon {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Sorting.SortRangeByIcon", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            object[,] data = new object[,]{
+        ///                {&quot;Name&quot;, &quot;City&quot;, &quot;Birthday&quot;, &quot;Sex&quot;, &quot;Weight&quot;, &quot;Height&quot;},
+        ///                {&quot;Bob&quot;, &quot;NewYork&quot;, new DateTime(1968, 6, 8), &quot;male&quot;, 80, 180},
+        ///                {&quot;Betty&quot;, &quot;NewYork&quot;, new DateTime(1972, 7, 3), &quot;female&quot;, 72, 168},
+        ///                {&quot;Gary&quot;, &quot;NewYork&quot;, new DateTime(1964, 3, 2), &quot;male&quot;, 71, 179},
+        ///                {&quot;Hunk&quot;, &quot;Washington&quot;, new DateTime(1972 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Sorting_SortRangeByInterior {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Sorting.SortRangeByInterior", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            object[,] data = new object[,]{
+        ///                {&quot;Name&quot;, &quot;City&quot;, &quot;Birthday&quot;, &quot;Sex&quot;, &quot;Weight&quot;, &quot;Height&quot;},
+        ///                {&quot;Bob&quot;, &quot;NewYork&quot;, new DateTime(1968, 6, 8), &quot;male&quot;, 80, 180},
+        ///                {&quot;Betty&quot;, &quot;NewYork&quot;, new DateTime(1972, 7, 3), &quot;female&quot;, 72, 168},
+        ///                {&quot;Gary&quot;, &quot;NewYork&quot;, new DateTime(1964, 3, 2), &quot;male&quot;, 71, 179},
+        ///                {&quot;Hunk&quot;, &quot;Washington&quot;, new DateTime(1972 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Sorting_SortRangeByValue {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Sorting.SortRangeByValue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            object[,] data = new object[,]
+        ///            {
+        ///                {&quot;Number&quot;, &quot;Date&quot;, &quot;Customer&quot;, &quot;Description&quot;, &quot;Amount&quot;, &quot;0-30 Days&quot;, &quot;30-60 Days&quot;, &quot;60-90 Days&quot;, &quot;&gt;90 Days&quot;, &quot;Trend&quot;},
+        ///                {&quot;1001&quot;, new DateTime(2017, 5, 21), &quot;Customer A&quot;, &quot;Invoice 1001&quot;, null, 1200.15, 1916.18, 1105.23, 1806.53, null},
+        ///                {&quot;1002&quot;, new DateTime(2017, 3, 18), &quot;Customer B&quot;, &quot;Invoice 1002&quot;, null, 896.2 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Sparklines_ClearSparklineGroup {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Sparklines.ClearSparklineGroup", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            object[,] data = new object[,]
+        ///            {
+        ///                {&quot;Number&quot;, &quot;Date&quot;, &quot;Customer&quot;, &quot;Description&quot;, &quot;Amount&quot;, &quot;0-30 Days&quot;, &quot;30-60 Days&quot;, &quot;60-90 Days&quot;, &quot;&gt;90 Days&quot;, &quot;Trend&quot;},
+        ///                {&quot;1001&quot;, new DateTime(2017, 5, 21), &quot;Customer A&quot;, &quot;Invoice 1001&quot;, null, 1200.15, 1916.18, 1105.23, 1806.53, null},
+        ///                {&quot;1002&quot;, new DateTime(2017, 3, 18), &quot;Customer B&quot;, &quot;Invoice 1002&quot;, null, 896.2 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Sparklines_ClearSparklines {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Sparklines.ClearSparklines", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            object[,] data = new object[,]
+        ///            {
+        ///                {&quot;Number&quot;, &quot;Date&quot;, &quot;Customer&quot;, &quot;Description&quot;, &quot;Amount&quot;, &quot;0-30 Days&quot;, &quot;30-60 Days&quot;, &quot;60-90 Days&quot;, &quot;&gt;90 Days&quot;, &quot;Trend&quot;},
+        ///                {&quot;1001&quot;, new DateTime(2017, 5, 21), &quot;Customer A&quot;, &quot;Invoice 1001&quot;, null, 1200.15, 1916.18, 1105.23, 1806.53, null},
+        ///                {&quot;1002&quot;, new DateTime(2017, 3, 18), &quot;Customer B&quot;, &quot;Invoice 1002&quot;, null, 896.2 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Sparklines_ConfigSparklineSettings {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Sparklines.ConfigSparklineSettings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            object[,] data = new object[,]
+        ///            {
+        ///                {&quot;Number&quot;, &quot;Date&quot;, &quot;Customer&quot;, &quot;Description&quot;, &quot;Amount&quot;, &quot;0-30 Days&quot;, &quot;30-60 Days&quot;, &quot;60-90 Days&quot;, &quot;&gt;90 Days&quot;, &quot;Trend&quot;},
+        ///                {&quot;1001&quot;, new DateTime(2017, 5, 21), &quot;Customer A&quot;, &quot;Invoice 1001&quot;, null, 1200.15, 1916.18, 1105.23, 1806.53, null},
+        ///                {&quot;1002&quot;, new DateTime(2017, 3, 18), &quot;Customer B&quot;, &quot;Invoice 1002&quot;, null, 896.2 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Sparklines_CreateSparklines {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Sparklines.CreateSparklines", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            object[,] data = new object[,]
+        ///            {
+        ///                {&quot;Number&quot;, &quot;Date&quot;, &quot;Customer&quot;, &quot;Description&quot;, &quot;Amount&quot;, &quot;0-30 Days&quot;, &quot;30-60 Days&quot;, &quot;60-90 Days&quot;, &quot;&gt;90 Days&quot;, &quot;Trend&quot;},
+        ///                {&quot;1001&quot;, new DateTime(2017, 5, 21), &quot;Customer A&quot;, &quot;Invoice 1001&quot;, null, 1200.15, 1916.18, 1105.23, 1806.53, null},
+        ///                {&quot;1002&quot;, new DateTime(2017, 3, 18), &quot;Customer B&quot;, &quot;Invoice 1002&quot;, null, 896.2 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Sparklines_GroupExistSparklines {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Sparklines.GroupExistSparklines", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            object[,] data = new object[,]
+        ///            {
+        ///                {&quot;Number&quot;, &quot;Date&quot;, &quot;Customer&quot;, &quot;Description&quot;, &quot;Amount&quot;, &quot;0-30 Days&quot;, &quot;30-60 Days&quot;, &quot;60-90 Days&quot;, &quot;&gt;90 Days&quot;, &quot;Trend&quot;},
+        ///                {&quot;1001&quot;, new DateTime(2017, 5, 21), &quot;Customer A&quot;, &quot;Invoice 1001&quot;, null, 1200.15, 1916.18, 1105.23, 1806.53, null},
+        ///                {&quot;1002&quot;, new DateTime(2017, 3, 18), &quot;Customer B&quot;, &quot;Invoice 1002&quot;, null, 896.2 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Sparklines_UseDateAxis {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Sparklines.UseDateAxis", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            object[,] data = new object[,]{
+        ///                {&quot;Name&quot;, &quot;City&quot;, &quot;Birthday&quot;, &quot;Sex&quot;, &quot;Weight&quot;, &quot;Height&quot;},
+        ///                {&quot;Bob&quot;, &quot;NewYork&quot;, new DateTime(1968, 6, 8), &quot;male&quot;, 80, 180},
+        ///                {&quot;Betty&quot;, &quot;NewYork&quot;, new DateTime(1972, 7, 3), &quot;female&quot;, 72, 168},
+        ///                {&quot;Gary&quot;, &quot;NewYork&quot;, new DateTime(1964, 3, 2), &quot;male&quot;, 71, 179},
+        ///                {&quot;Hunk&quot;, &quot;Washington&quot;, new DateTime(1972 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Tables_AccessTableRanges {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Tables.AccessTableRanges", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            //Add one custom table style.
+        ///            ITableStyle style = workbook.TableStyles.Add(&quot;test&quot;);
+        ///
+        ///            //Set WholeTable element style.
+        ///            style.TableStyleElements[TableStyleElementType.WholeTable].Font.Italic = true;
+        ///            style.TableStyleElements[TableStyleElementType.WholeTable].Font.ThemeColor = ThemeColor.Accent6;
+        ///            style.TableStyleElements[TableStyleElementType.Wh [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Tables_AddCustomTableStyle {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Tables.AddCustomTableStyle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            //add table.
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///            ITable table = worksheet.Tables.Add(worksheet.Range[&quot;A1:F7&quot;], true);
+        ///            worksheet.Range[&quot;A:F&quot;].ColumnWidth = 15;
+        ///
+        ///            //Add one custom table style.
+        ///            ITableStyle style = workbook.TableStyles.Add(&quot;test&quot;);
+        ///            //set custom table style for table.
+        ///            table.TableStyle = style; [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Tables_ApplyTableStyle {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Tables.ApplyTableStyle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            object[,] data = new object[,]{
+        ///                {&quot;Name&quot;, &quot;City&quot;, &quot;Birthday&quot;, &quot;Sex&quot;, &quot;Weight&quot;, &quot;Height&quot;},
+        ///                {&quot;Bob&quot;, &quot;NewYork&quot;, new DateTime(1968, 6, 8), &quot;male&quot;, 80, 180},
+        ///                {&quot;Betty&quot;, &quot;NewYork&quot;, new DateTime(1972, 7, 3), &quot;female&quot;, 72, 168},
+        ///                {&quot;Gary&quot;, &quot;NewYork&quot;, new DateTime(1964, 3, 2), &quot;male&quot;, 71, 179},
+        ///                {&quot;Hunk&quot;, &quot;Washington&quot;, new DateTime(1972 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Tables_CreateTable {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Tables.CreateTable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            object[,] data = new object[,]{
+        ///                {&quot;Name&quot;, &quot;City&quot;, &quot;Birthday&quot;, &quot;Sex&quot;, &quot;Weight&quot;, &quot;Height&quot;},
+        ///                {&quot;Bob&quot;, &quot;NewYork&quot;, new DateTime(1968, 6, 8), &quot;male&quot;, 80, 180},
+        ///                {&quot;Betty&quot;, &quot;NewYork&quot;, new DateTime(1972, 7, 3), &quot;female&quot;, 72, 168},
+        ///                {&quot;Gary&quot;, &quot;NewYork&quot;, new DateTime(1964, 3, 2), &quot;male&quot;, 71, 179},
+        ///                {&quot;Hunk&quot;, &quot;Washington&quot;, new DateTime(1972 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Tables_InsertDeleteTableRowColumns {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Tables.InsertDeleteTableRowColumns", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            object[,] data = new object[,]{
+        ///                {&quot;Name&quot;, &quot;City&quot;, &quot;Birthday&quot;, &quot;Sex&quot;, &quot;Weight&quot;, &quot;Height&quot;},
+        ///                {&quot;Bob&quot;, &quot;NewYork&quot;, new DateTime(1968, 6, 8), &quot;male&quot;, 80, 180},
+        ///                {&quot;Betty&quot;, &quot;NewYork&quot;, new DateTime(1972, 7, 3), &quot;female&quot;, 72, 168},
+        ///                {&quot;Gary&quot;, &quot;NewYork&quot;, new DateTime(1964, 3, 2), &quot;male&quot;, 71, 179},
+        ///                {&quot;Hunk&quot;, &quot;Washington&quot;, new DateTime(1972 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Tables_PerformCalculationsInTable {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Tables.PerformCalculationsInTable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///                object[,] data = new object[,]{
+        ///                    {&quot;Name&quot;, &quot;City&quot;, &quot;Birthday&quot;, &quot;Sex&quot;, &quot;Weight&quot;, &quot;Height&quot;},
+        ///                    {&quot;Bob&quot;, &quot;NewYork&quot;, new DateTime(1968, 6, 8), &quot;male&quot;, 80, 180},
+        ///                    {&quot;Betty&quot;, &quot;NewYork&quot;, new DateTime(1972, 7, 3), &quot;female&quot;, 72, 168},
+        ///                    {&quot;Gary&quot;, &quot;NewYork&quot;, new DateTime(1964, 3, 2), &quot;male&quot;, 71, 179},
+        ///                    {&quot;Hunk&quot;, &quot;Washin [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Tables_RemoveTable {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Tables.RemoveTable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            object[,] data = new object[,]{
+        ///                {&quot;Name&quot;, &quot;City&quot;, &quot;Birthday&quot;, &quot;Sex&quot;, &quot;Weight&quot;, &quot;Height&quot;},
+        ///                {&quot;Bob&quot;, &quot;NewYork&quot;, new DateTime(1968, 6, 8), &quot;male&quot;, 80, 180},
+        ///                {&quot;Betty&quot;, &quot;NewYork&quot;, new DateTime(1972, 7, 3), &quot;female&quot;, 72, 168},
+        ///                {&quot;Gary&quot;, &quot;NewYork&quot;, new DateTime(1964, 3, 2), &quot;male&quot;, 71, 179},
+        ///                {&quot;Hunk&quot;, &quot;Washington&quot;, new DateTime(1972 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Tables_TableFilter {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Tables.TableFilter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            object[,] data = new object[,]{
+        ///                {&quot;Name&quot;, &quot;City&quot;, &quot;Birthday&quot;, &quot;Sex&quot;, &quot;Weight&quot;, &quot;Height&quot;},
+        ///                {&quot;Bob&quot;, &quot;NewYork&quot;, new DateTime(1968, 6, 8), &quot;male&quot;, 80, 180},
+        ///                {&quot;Betty&quot;, &quot;NewYork&quot;, new DateTime(1972, 7, 3), &quot;female&quot;, 72, 168},
+        ///                {&quot;Gary&quot;, &quot;NewYork&quot;, new DateTime(1964, 3, 2), &quot;male&quot;, 71, 179},
+        ///                {&quot;Hunk&quot;, &quot;Washington&quot;, new DateTime(1972 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Tables_TableSort {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Tables.TableSort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            Themes themes = new Themes();
+        ///
+        ///            //base theme is office theme when not give parameter.
+        ///            ITheme theme = themes.Add(&quot;testTheme&quot;);
+        ///            
+        ///            //Customize theme&apos;s color.
+        ///            theme.ThemeColorScheme[ThemeColor.Light1].RGB = Color.AntiqueWhite;
+        ///            theme.ThemeColorScheme[ThemeColor.Accent1].RGB = Color.AliceBlue;
+        ///
+        ///            //Customize theme&apos;s font.
+        /// [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Theme_AddCustomThemes {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Theme.AddCustomThemes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            //Change workbook&apos;s theme to built-in theme.
+        ///            workbook.Theme = Themes.Berlin;
+        ///
+        ///            Themes themes = new Themes();
+        ///            //base theme is office theme when not give parameter.
+        ///            ITheme theme = themes.Add(&quot;testTheme&quot;);
+        ///
+        ///            //Change workbook&apos;s theme to custom theme.
+        ///            workbook.Theme = theme;
+        ///
+        ///            //Customize theme&apos;s color.
+        ///            the [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Theme_ChangeWorkbookTheme {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Theme.ChangeWorkbookTheme", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            //Create empty workbook, contains one worksheet default.
+        ///            GrapeCity.Documents.Spread.Workbook workbookNew = new GrapeCity.Documents.Spread.Workbook();
+        ///        
+        ///   //save to an excel file
+        ///   workbook.Save(&quot;CreateNewWorkbook.xlsx&quot;);.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Workbook_CreateNewWorkbook {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Workbook.CreateNewWorkbook", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            //change the path to the real file path when open.
+        ///            workbook.Open(this.CurrentDirectory + &quot;source.xlsx&quot;);
+        ///        
+        ///   //save to an excel file
+        ///   workbook.Save(&quot;ImportExcelFileToWorkbook.xlsx&quot;);.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Workbook_ImportExcelFileToWorkbook {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Workbook.ImportExcelFileToWorkbook", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            //change the path to the real file path when open.
+        ///            workbook.Open(this.CurrentDirectory + &quot;source.xlsx&quot;, &quot;123456&quot;);
+        ///        
+        ///   //save to an excel file
+        ///   workbook.Save(&quot;ImportExcelFileWithPassword.xlsx&quot;);.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Workbook_ImportExcelFileWithPassword {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Workbook.ImportExcelFileWithPassword" +
+                        "", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            //change the path to real export path when save.
+        ///            workbook.Save(this.CurrentDirectory + &quot;dest.xlsx&quot;);
+        ///        
+        ///   //save to an excel file
+        ///   workbook.Save(&quot;SaveWorkbookToExcelFile.xlsx&quot;);.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Workbook_SaveWorkbookToExcelFile {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Workbook.SaveWorkbookToExcelFile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            //change the path to real export path when save.
+        ///            workbook.Save(this.CurrentDirectory + &quot;dest.xlsx&quot;, &quot;123456&quot;);
+        ///        
+        ///   //save to an excel file
+        ///   workbook.Save(&quot;SaveWorkbookWithPassword.xlsx&quot;);.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Workbook_SaveWorkbookWithPassword {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Workbook.SaveWorkbookWithPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            //ToJson&amp;FromJson can be used in combination with spread.sheets product:http://spread.grapecity.com/spreadjs/sheets/
+        ///
+        ///            //spread.services import an excel file.
+        ///            //change the path to real source file path.
+        ///            string source = this.CurrentDirectory + &quot;source.xlsx&quot;;
+        ///            workbook.Open(source);
+        ///            //spread.services export to a json string.
+        ///            var js [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Workbook_ToJsonFromJson {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Workbook.ToJsonFromJson", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            //Use sheet index to get worksheet.
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            //Use sheet name to get worksheet.
+        ///            IWorksheet worksheet1 = workbook.Worksheets[&quot;Sheet1&quot;];
+        ///        
+        ///   //save to an excel file
+        ///   workbook.Save(&quot;AccessWorksheet.xlsx&quot;);.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Worksheets_AccessWorksheet {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Worksheets.AccessWorksheet", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets.Add();
+        ///            //Activate new created worksheet.
+        ///            worksheet.Activate();
+        ///        
+        ///   //save to an excel file
+        ///   workbook.Save(&quot;ActivateWorksheet.xlsx&quot;);.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Worksheets_ActivateWorksheet {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Worksheets.ActivateWorksheet", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            // Add a new worksheet to the workbook. The worksheet will be inserted into the end of the existing worksheet collection.
+        ///            workbook.Worksheets.Add();
+        ///
+        ///            //Add a new worksheet to the specified position in the collection of worksheets.
+        ///            workbook.Worksheets.AddBefore(workbook.Worksheets[0]);
+        ///            workbook.Worksheets.AddAfter(workbook.Worksheets[1]);
+        ///
+        ///             [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Worksheets_AddWorksheet {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Worksheets.AddWorksheet", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            //worksheet sheet view settings.
+        ///            worksheet.SheetView.DisplayFormulas = false;
+        ///            worksheet.SheetView.DisplayRightToLeft = true;
+        ///            
+        ///            //Set worksheet tab color.
+        ///            worksheet.TabColor = Color.Green;
+        ///
+        ///            //Set worksheet default row height.
+        ///            worksheet.StandardHeight = 20; [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Worksheets_ConfigWorksheet {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Worksheets.ConfigWorksheet", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///           
+        ///            IWorksheet worksheet = workbook.Worksheets.Add();
+        ///
+        ///            //workbook must contain one visible worksheet at least, if delete the one visible worksheet, it will throw exception.
+        ///            worksheet.Delete();
+        ///        
+        ///   //save to an excel file
+        ///   workbook.Save(&quot;DeleteWorksheet.xlsx&quot;);.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Worksheets_DeleteWorksheet {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Worksheets.DeleteWorksheet", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            //protect worksheet, allow insert column.
+        ///            worksheet.Protection = true;
+        ///            worksheet.ProtectionSettings.AllowInsertingColumns = true;
+        ///        
+        ///   //save to an excel file
+        ///   workbook.Save(&quot;ProtectWorksheet.xlsx&quot;);.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Worksheets_ProtectWorksheet {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Worksheets.ProtectWorksheet", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            //protect worksheet, allow insert column.
+        ///            worksheet.Protection = true;
+        ///            worksheet.ProtectionSettings.AllowInsertingColumns = true;
+        ///
+        ///            //Unprotect worksheet.
+        ///            worksheet.Protection = false;
+        ///        
+        ///   //save to an excel file
+        ///   workbook.Save(&quot;UnprotectWorksheet.xlsx&quot;);.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Features_Worksheets_UnprotectWorksheet {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Features.Worksheets.UnprotectWorksheet", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            //Load template file
+        ///            var fileStream = this.GetTemplateStream(&quot;Home inventory.xlsx&quot;);
+        ///            workbook.Open(fileStream);
+        ///        
+        ///   //save to an excel file
+        ///   workbook.Save(&quot;HomeInventoryForJS.xlsx&quot;);.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_SpreadSheetsViewer_HomeInventory {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.SpreadSheetsViewer.HomeInventory", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            //Load template file
+        ///            var fileStream = this.GetTemplateStream(&quot;Project cost tracker.xlsx&quot;);
+        ///            workbook.Open(fileStream);
+        ///        
+        ///   //save to an excel file
+        ///   workbook.Save(&quot;ProjectCostTrackerForJS.xlsx&quot;);.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_SpreadSheetsViewer_ProjectCostTracker {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.SpreadSheetsViewer.ProjectCostTracker", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            //Load template file
+        ///            var fileStream = this.GetTemplateStream(&quot;Simple personal budget.xlsx&quot;);
+        ///            workbook.Open(fileStream);
+        ///        
+        ///   //save to an excel file
+        ///   workbook.Save(&quot;SimplePersonalBudgetForJS.xlsx&quot;);.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_SpreadSheetsViewer_SimplePersonalBudget {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.SpreadSheetsViewer.SimplePersonalBudget", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            //Load template file
+        ///            var fileStream = this.GetTemplateStream(&quot;Student calendar (Mon).xlsx&quot;);
+        ///            workbook.Open(fileStream);
+        ///        
+        ///   //save to an excel file
+        ///   workbook.Save(&quot;StudentCalendarForJS.xlsx&quot;);.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_SpreadSheetsViewer_StudentCalendar {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.SpreadSheetsViewer.StudentCalendar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            //Load template file
+        ///            var fileStream = this.GetTemplateStream(&quot;Travel expense report.xlsx&quot;);
+        ///            workbook.Open(fileStream);
+        ///        
+        ///   //save to an excel file
+        ///   workbook.Save(&quot;TravelExpenseReportForJS.xlsx&quot;);.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_SpreadSheetsViewer_TravelExpenseReport {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.SpreadSheetsViewer.TravelExpenseReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to    //create a new workbook
+        ///   var workbook = new GrapeCity.Documents.Spread.Workbook();
+        ///
+        ///            IWorksheet worksheet = workbook.Worksheets[0];
+        ///
+        ///            //-----------------------------Set Value------------------------------
+        ///            worksheet.Range[&quot;B3:C7&quot;].Value = new object[,]
+        ///            {
+        ///                { &quot;ITEM&quot;, &quot;AMOUNT&quot; },
+        ///                { &quot;Income 1&quot;, 2500 },
+        ///                { &quot;Income 2&quot;, 1000 },
+        ///                { &quot;Income 3&quot;, 250 },
+        ///                { &quot;Other&quot;, 250 },
+        ///          [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GrapeCity_Documents_Spread_Examples_Tutorial {
+            get {
+                return ResourceManager.GetString("GrapeCity.Documents.Spread.Examples.Tutorial", resourceCulture);
             }
         }
     }

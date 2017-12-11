@@ -142,7 +142,7 @@ namespace GrapeCity.Documents.Spread.Examples.ExcelReporting
             theme.ThemeColorScheme[ThemeColor.Hyperlink].RGB = Color.FromRGB(71, 166, 181);
             theme.ThemeColorScheme[ThemeColor.FollowedHyperlink].RGB = Color.FromRGB(120, 59, 101);
             theme.ThemeFontScheme.Major[FontLanguageIndex.Latin].Name = "Constantia";
-            theme.ThemeFontScheme.Minor[FontLanguageIndex.Latin].Name = "Franklin Gothic Book";
+            theme.ThemeFontScheme.Minor[FontLanguageIndex.Latin].Name = "Helvetica";
 
             //Apply the above custom theme.
             workbook.Theme = theme;

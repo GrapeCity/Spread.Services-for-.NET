@@ -6,6 +6,18 @@ namespace GrapeCity.Documents.Spread.Examples.ExcelReporting
 {
     public class PersonalAddressBook : ExampleBase
     {
+        protected override void BeforeExecute(Workbook workbook, string[] userAgents)
+        {
+            if (AgentIsMac(userAgents))
+            {
+                Themes themes = new Themes();
+                ITheme theme = themes.Add("testTheme", Themes.OfficeTheme);
+                theme.ThemeFontScheme.Minor[FontLanguageIndex.Latin].Name = "Trebuchet MS";
+                workbook.Theme = theme;
+                var style_Normal = workbook.Styles["Normal"];
+                style_Normal.Font.ThemeFont = ThemeFont.Minor;
+            }
+        }
         public override void Execute(GrapeCity.Documents.Spread.Workbook workbook)
         {
 

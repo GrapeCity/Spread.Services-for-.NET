@@ -25,13 +25,5 @@ namespace GrapeCity.Documents.Spread.Examples.Features.Charts
             //delete chart.
             shape.Chart.Delete();
         }
-
-        public override bool ShowViewer
-        {
-            get
-            {
-                return false;
-            }
-        }
     }
 }

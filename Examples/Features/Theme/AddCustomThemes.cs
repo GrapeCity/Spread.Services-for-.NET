@@ -23,14 +23,10 @@ namespace GrapeCity.Documents.Spread.Examples.Features.Theme
 
             //Change workbook's theme to custom theme.
             workbook.Theme = theme;
-        }
 
-        public override bool ShowViewer
-        {
-            get
-            {
-                return false;
-            }
+            IWorksheet worksheet = workbook.Worksheets[0];
+            worksheet.Range["B2"].Value = "Text";
+
         }
     }
 }

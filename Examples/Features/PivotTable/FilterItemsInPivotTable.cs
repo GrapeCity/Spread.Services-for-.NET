@@ -30,7 +30,7 @@ namespace GrapeCity.Documents.Spread.Examples.Features.PivotTable
             IWorksheet worksheet = workbook.Worksheets[0];
             worksheet.Range["A1:F16"].Value = sourceData;
             var pivotcache = workbook.PivotCaches.Create(worksheet.Range["A1:F16"]);
-            var pivottable = worksheet.PivotTables.Add(pivotcache, worksheet.Range["L7"], "pivottable1");
+            var pivottable = worksheet.PivotTables.Add(pivotcache, worksheet.Range["I7"], "pivottable1");
 
             var field_product = pivottable.PivotFields[1];
             field_product.Orientation = PivotFieldOrientation.RowField;
@@ -49,6 +49,10 @@ namespace GrapeCity.Documents.Spread.Examples.Features.PivotTable
             //page filter.
             field_Country.PivotItems["United States"].Visible = false;
             field_Country.PivotItems["Canada"].Visible = false;
+
+            worksheet.Range["E:E"].ColumnWidth = 12;
+            worksheet.Range["I:I"].ColumnWidth = 12;
+            worksheet.Range["J:J"].ColumnWidth = 16;
         }
 
         public override bool ShowViewer
@@ -56,6 +60,14 @@ namespace GrapeCity.Documents.Spread.Examples.Features.PivotTable
             get
             {
                 return false;
+            }
+        }
+
+        public override bool ShowScreenshot
+        {
+            get
+            {
+                return true;
             }
         }
     }

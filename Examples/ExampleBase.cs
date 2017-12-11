@@ -23,21 +23,6 @@ namespace GrapeCity.Documents.Spread.Examples
             }
         }
 
-        public virtual string Name
-        {
-            get
-            {
-                return StringResource.ResourceManager.GetString(this.NameResKey);
-            }
-        }
-        public virtual string Description
-        {
-            get
-            {
-                return StringResource.ResourceManager.GetString(this.DescripResKey);
-            }
-        }
-
         public string Code
         {
             get
@@ -62,6 +47,16 @@ namespace GrapeCity.Documents.Spread.Examples
             }
         }
 
+
+        public virtual bool ShowScreenshot
+        {
+            get
+            {
+                return false;
+            }
+        }
+
+
         public virtual bool ShowCode
         {
             get
@@ -78,6 +73,10 @@ namespace GrapeCity.Documents.Spread.Examples
             }
         }
 
+        internal string UserAgent
+        {
+            get; set;
+        }
         public virtual Stream GetTemplateStream(string templateName)
         {
             if (string.IsNullOrEmpty(templateName))
@@ -88,7 +87,7 @@ namespace GrapeCity.Documents.Spread.Examples
             var assembly = this.GetType().GetTypeInfo().Assembly;
             return assembly.GetManifestResourceStream(resource);
         }
-        
+
         public virtual string TemplateName
         {
             get
@@ -105,11 +104,19 @@ namespace GrapeCity.Documents.Spread.Examples
             }
         }
 
-        public virtual string SortKey
+        public virtual bool IsUpdate
         {
             get
             {
-                return this.Name;
+                return false;
+            }
+        }
+
+        public virtual bool IsNew
+        {
+            get
+            {
+                return false;
             }
         }
 
@@ -137,15 +144,29 @@ namespace GrapeCity.Documents.Spread.Examples
             }
         }
 
-        protected virtual void Execute()
+        public void ExecuteExample(GrapeCity.Documents.Spread.Workbook workbook, string[] userAgents)
         {
-            GrapeCity.Documents.Spread.Workbook workbook = new Spread.Workbook();
+            this.BeforeExecute(workbook, userAgents);
             this.Execute(workbook);
+            this.AfterExecute(workbook, userAgents);
+        }
+
+        protected virtual void BeforeExecute(GrapeCity.Documents.Spread.Workbook workbook, string[] userAgents)
+        {
+
         }
 
         public virtual void Execute(GrapeCity.Documents.Spread.Workbook workbook)
         {
 
+        }
+
+        protected virtual void AfterExecute(GrapeCity.Documents.Spread.Workbook workbook, string[] userAgents)
+        {
+            if (AgentIsMac(userAgents))
+            {
+                workbook.Calculate(); // ensure that all cached values can be saved in excel file, so number can display the file correctly even if the formulas are not supported in number.
+            }
         }
 
         public virtual bool IsContainedInTree
@@ -171,8 +192,50 @@ namespace GrapeCity.Documents.Spread.Examples
             return this.ID.Substring(this.ID.LastIndexOf(".") + 1);
         }
 
+        public string ScreenshotBase64
+        {
+            get
+            {
+                if (ShowScreenshot)
+                {
+                    var id = GetType().FullName;
+                    var assembly = GetType().GetTypeInfo().Assembly;
+                    Stream stream = assembly.GetManifestResourceStream("GrapeCity.Documents.Spread.Examples.Resource.Screenshots." + id + ".png");
+                    return ReadStreamToBase64(stream);
+                }
+                return null;
+            }
+        }
+
+        public virtual string GetNameByCulture(string culture)
+        {
+            return StringResource.ResourceManager.GetString(this.NameResKey, new System.Globalization.CultureInfo(culture));
+        }
+
+        public virtual string GetDescriptionByCulture(string culture)
+        {
+            return StringResource.ResourceManager.GetString(this.DescripResKey, new System.Globalization.CultureInfo(culture));
+        }
+
+        protected bool AgentIsMac(string[] userAgents)
+        {
+            if (userAgents.Length > 0 && userAgents[0].ToLower().Contains("macintosh"))
+            {
+                return true;
+            }
+            return false;
+        }
+
+        private string ReadStreamToBase64(Stream input)
+        {
+            using (MemoryStream ms = new MemoryStream())
+            {
+                input.CopyTo(ms);
+                return "data:image/png;base64," + Convert.ToBase64String(ms.ToArray());
+            }
+        }
     }
-    
+
 
     public class FolderExample : ExampleBase
     {
@@ -288,6 +351,47 @@ namespace GrapeCity.Documents.Spread.Examples
             return null;
         }
 
+        public override bool IsNew
+        {
+            get
+            {
+                return false;
+            }
+        }
+
+        public override bool IsUpdate
+        {
+            get
+            {
+                return IsUpdateRecursive(this);
+            }
+        }
+
+        private bool IsUpdateRecursive(ExampleBase example)
+        {
+            if (example is FolderExample)
+            {
+                FolderExample childFolderExample = example as FolderExample;
+                foreach (var item in childFolderExample.Children)
+                {
+                    if (item.IsUpdate || item.IsNew)
+                    {
+                        return true;
+                    }
+
+                    if (IsUpdateRecursive(item))
+                    {
+                        return true;
+                    }
+                }
+            }
+            else if (example.IsUpdate || example.IsNew)
+            {
+                return true;
+            }
+
+            return false;
+        }
     }
 
     public static class AssemblyUtility

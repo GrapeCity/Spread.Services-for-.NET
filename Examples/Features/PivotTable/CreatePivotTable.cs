@@ -31,7 +31,7 @@ namespace GrapeCity.Documents.Spread.Examples.Features.PivotTable
             worksheet.Range["A1:F16"].Value = sourceData;
             worksheet.Range["A:F"].ColumnWidth = 15;
             var pivotcache = workbook.PivotCaches.Create(worksheet.Range["A1:F16"]);
-            var pivottable = worksheet.PivotTables.Add(pivotcache, worksheet.Range["L7"], "pivottable1");
+            var pivottable = worksheet.PivotTables.Add(pivotcache, worksheet.Range["H7"], "pivottable1");
 
             //config pivot table's fields
             var field_Category = pivottable.PivotFields["Category"];
@@ -52,6 +52,14 @@ namespace GrapeCity.Documents.Spread.Examples.Features.PivotTable
             get
             {
                 return false;
+            }
+        }
+
+        public override bool ShowScreenshot
+        {
+            get
+            {
+                return true;
             }
         }
     }

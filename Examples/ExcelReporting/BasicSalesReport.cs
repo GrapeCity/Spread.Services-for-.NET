@@ -26,7 +26,7 @@ namespace GrapeCity.Documents.Spread.Examples.ExcelReporting
             theme.ThemeColorScheme[ThemeColor.Hyperlink].RGB = Color.FromRGB(106, 159, 207);
             theme.ThemeColorScheme[ThemeColor.FollowedHyperlink].RGB = Color.FromRGB(146, 98, 74);
             theme.ThemeFontScheme.Major[FontLanguageIndex.Latin].Name = "Garamond";
-            theme.ThemeFontScheme.Minor[FontLanguageIndex.Latin].Name = "Euphemia";
+            theme.ThemeFontScheme.Minor[FontLanguageIndex.Latin].Name = "Garamond";
 
             //assign the custom theme for workbook.
             workbook.Theme = theme;

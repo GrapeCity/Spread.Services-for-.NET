@@ -21,11 +21,66 @@
   <ItemGroup>
     <None Remove="Resource\list.png" />
     <None Remove="Resource\logo.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Charts.Axes.ConfigDisplayUnitLabel.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Charts.Chart3DFormat.ConfigChart3DFormat.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Charts.Chart3DFormat.ConfigChartBackWall.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Charts.Chart3DFormat.ConfigChartFloorStyle.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Charts.Chart3DFormat.ConfigChartSideWall.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Charts.Chart3DFormat.ConfigChartWallStyle.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Charts.ChartLines.CreateConnectorLine.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Charts.ChartLines.CreateDropLine.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Charts.ChartLines.CreateHiLoLine.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Charts.ChartLines.CreateSeriesLine.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Charts.ChartLines.CreateTrendline.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Charts.ChartLines.CreateUpDownBars.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Charts.ChartTitle.ConfigChartTitleRichText.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Charts.DataPoint.ConfigDataPointFormat.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Charts.DataPoint.ConfigNegativePoint.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Charts.DataPoint.ConfigSecondarySection.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Charts.Markers.ConfigMarkerStyle.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Charts.Series.SetVaryColorForColumnChart.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Comments.SetRichTextForComment.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Filtering.DateFiltering.DateDynamicFilter.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Filtering.FilteringByColor.FilterByAutomaticFontColor.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Filtering.FilteringByColor.FilterByNoFill.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Filtering.FilteringByIcon.FilterByIcon.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Filtering.FilteringByIcon.FilterByNoIcon.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Formatting.Alignment.RotateCellContents.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Formatting.Alignment.TextOrientation.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Formatting.Borders.AddBordersToCell.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Formatting.Fill.LinearGradientFill.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Formatting.Fill.PatternFill.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Formatting.Fill.RectangularGradientFill.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Formatting.Fonts.FontEffect.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.PivotTable.ChangeDataFieldSummarizeFunction.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.PivotTable.ChangeDataFiledSummarizeFunction.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.PivotTable.CreatePivotTable.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.PivotTable.FilterItemsInPivotTable.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.PivotTable.ModifySubtotalsForPivotField.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.PivotTable.RefreshPivotTable.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Shape.ConfigShape3DFormat.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Shape.ConfigShapeLine.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Shape.ConfigShapeWithGradientFill.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Shape.ConfigShapeWithPatternFill.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Shape.ConfigShapeWithPictureFill.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Shape.ConfigShapeWithSolidFill.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Shape.ConfigShapeWithTextureFill.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Shape.ConnectShapesByConnector.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Shape.SetShapeText.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Slicer.AddSlicersForPivotTable.png" />
+    <None Remove="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Worksheets.ConfigWorksheet.png" />
     <None Remove="Resource\Tutorial.md" />
     <None Remove="Resource\xlsx\Blood sugar tracker.xlsx" />
     <None Remove="Resource\xlsx\Event budget.xlsx" />
+    <None Remove="Resource\xlsx\Event planning tracker.xlsx" />
+    <None Remove="Resource\xlsx\Family budget.xlsx" />
     <None Remove="Resource\xlsx\Home inventory.xlsx" />
     <None Remove="Resource\xlsx\Monthly business budget.xlsx" />
+    <None Remove="Resource\xlsx\PageSetup Demo.xlsx" />
+    <None Remove="Resource\xlsx\PageSetup Demo2.xlsx" />
+    <None Remove="Resource\xlsx\PageSetup Print Area.xlsx" />
+    <None Remove="Resource\xlsx\PageSetup Print Title Columns.xlsx" />
+    <None Remove="Resource\xlsx\PageSetup Print Title Rows.xlsx" />
     <None Remove="Resource\xlsx\Project cost tracker.xlsx" />
     <None Remove="Resource\xlsx\Simple invoice.xlsx" />
     <None Remove="Resource\movie.png" />
@@ -43,19 +98,175 @@
     <EmbeddedResource Include="Resource\logo.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Charts.Axes.ConfigDisplayUnitLabel.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Charts.Chart3DFormat.ConfigChart3DFormat.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Charts.Chart3DFormat.ConfigChartBackWall.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Charts.Chart3DFormat.ConfigChartFloorStyle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Charts.Chart3DFormat.ConfigChartSideWall.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Charts.Chart3DFormat.ConfigChartWallStyle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Charts.ChartLines.CreateConnectorLine.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Charts.ChartLines.CreateDropLine.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Charts.ChartLines.CreateHiLoLine.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Charts.ChartLines.CreateSeriesLine.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Charts.ChartLines.CreateTrendline.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Charts.ChartLines.CreateUpDownBars.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Charts.ChartTitle.ConfigChartTitleRichText.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Charts.DataPoint.ConfigDataPointFormat.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Charts.DataPoint.ConfigNegativePoint.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Charts.DataPoint.ConfigSecondarySection.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Charts.Markers.ConfigMarkerStyle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Charts.Series.SetVaryColorForColumnChart.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Comments.SetRichTextForComment.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Filtering.DateFiltering.DateDynamicFilter.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Filtering.FilteringByColor.FilterByAutomaticFontColor.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Filtering.FilteringByColor.FilterByNoFill.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Filtering.FilteringByIcon.FilterByIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Filtering.FilteringByIcon.FilterByNoIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Formatting.Alignment.RotateCellContents.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Formatting.Alignment.TextOrientation.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Formatting.Borders.AddBordersToCell.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Formatting.Fill.LinearGradientFill.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Formatting.Fill.PatternFill.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Formatting.Fill.RectangularGradientFill.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Formatting.Fonts.FontEffect.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.PivotTable.ChangeDataFieldSummarizeFunction.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.PivotTable.CreatePivotTable.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.PivotTable.FilterItemsInPivotTable.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.PivotTable.ModifySubtotalsForPivotField.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.PivotTable.RefreshPivotTable.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Shape.ConfigShape3DFormat.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Shape.ConfigShapeLine.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Shape.ConfigShapeWithGradientFill.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Shape.ConfigShapeWithPatternFill.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Shape.ConfigShapeWithPictureFill.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Shape.ConfigShapeWithSolidFill.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Shape.ConfigShapeWithTextureFill.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Shape.ConnectShapesByConnector.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Shape.SetShapeText.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Slicer.AddSlicersForPivotTable.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Screenshots\GrapeCity.Documents.Spread.Examples.Features.Worksheets.ConfigWorksheet.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
     <EmbeddedResource Include="Resource\xlsx\Event budget.xlsx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tutorial\Tutorial.md">
+    <EmbeddedResource Include="Resource\xlsx\Blood sugar tracker.xlsx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resource\xlsx\Blood sugar tracker.xlsx">
+    <EmbeddedResource Include="Resource\xlsx\Event planning tracker.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\xlsx\Family budget.xlsx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resource\xlsx\Home inventory.xlsx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resource\xlsx\Monthly business budget.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\xlsx\PageSetup Demo.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\xlsx\PageSetup Print Area.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\xlsx\PageSetup Print Title Columns.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\xlsx\PageSetup Print Title Rows.xlsx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resource\xlsx\Project cost tracker.xlsx">
@@ -74,6 +285,9 @@
     <EmbeddedResource Include="Resource\xlsx\Travel expense report.xlsx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
+    <EmbeddedResource Include="Tutorial\Tutorial_en-US.md">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>
@@ -81,8 +295,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Tutorial\Tutorial_zh-CN.md">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
-    <PackageReference Include="Spread.Services" Version="1.3.0" />
+    <PackageReference Include="Spread.Services" Version="1.4.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -105,6 +325,9 @@
     </EmbeddedResource>
     <EmbeddedResource Update="Resource\xlsx\Student calendar %28Mon%29.xlsx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Update="StringResource.zh-CN.resx">
+      <Generator></Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="StringResource.resx">
       <Generator>ResXFileCodeGenerator</Generator>

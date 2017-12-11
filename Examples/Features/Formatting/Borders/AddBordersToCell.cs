@@ -35,5 +35,13 @@ namespace GrapeCity.Documents.Spread.Examples.Features.Formatting.Borders
                 return false;
             }
         }
+
+        public override bool ShowScreenshot
+        {
+            get
+            {
+                return true;
+            }
+        }
     }
 }

@@ -30,7 +30,7 @@ namespace GrapeCity.Documents.Spread.Examples.Features.PivotTable
             IWorksheet worksheet = workbook.Worksheets[0];
             worksheet.Range["A1:F16"].Value = sourceData;
             var pivotcache = workbook.PivotCaches.Create(worksheet.Range["A1:F16"]);
-            var pivottable = worksheet.PivotTables.Add(pivotcache, worksheet.Range["L7"], "pivottable1");
+            var pivottable = worksheet.PivotTables.Add(pivotcache, worksheet.Range["I5"], "pivottable1");
 
             var field_product = pivottable.PivotFields["Product"];
             field_product.Orientation = PivotFieldOrientation.RowField;
@@ -43,6 +43,10 @@ namespace GrapeCity.Documents.Spread.Examples.Features.PivotTable
 
             //sync cache's data to pivot table.
             worksheet.PivotTables[0].Refresh();
+
+            worksheet.Range["E:E"].ColumnWidth = 12;
+            worksheet.Range["I:I"].ColumnWidth = 12;
+            worksheet.Range["J:J"].ColumnWidth = 16;
         }
 
         public override bool ShowViewer
@@ -50,6 +54,14 @@ namespace GrapeCity.Documents.Spread.Examples.Features.PivotTable
             get
             {
                 return false;
+            }
+        }
+
+        public override bool ShowScreenshot
+        {
+            get
+            {
+                return true;
             }
         }
     }

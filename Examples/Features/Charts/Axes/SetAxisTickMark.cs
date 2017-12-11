@@ -10,7 +10,7 @@ namespace GrapeCity.Documents.Spread.Examples.Features.Charts.Axes
         {
             IWorksheet worksheet = workbook.Worksheets[0];
 
-            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.ColumnClustered, 300, 10, 300, 300);
+            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddChart(GrapeCity.Documents.Spread.Drawing.ChartType.Line, 250, 20, 360, 230);
             worksheet.Range["A1:D6"].Value = new object[,]
             {
                 {null, "S1", "S2", "S3"},
@@ -24,17 +24,10 @@ namespace GrapeCity.Documents.Spread.Examples.Features.Charts.Axes
 
             GrapeCity.Documents.Spread.Drawing.IAxis category_axis = shape.Chart.Axes.Item(GrapeCity.Documents.Spread.Drawing.AxisType.Category);
             category_axis.Format.Line.Color.RGB = Color.Green;
+            category_axis.Format.Line.Weight = 1.5;
             category_axis.MajorTickMark = GrapeCity.Documents.Spread.Drawing.TickMark.Inside;
             category_axis.MinorTickMark = GrapeCity.Documents.Spread.Drawing.TickMark.Cross;
             category_axis.TickMarkSpacing = 2;
-        }
-
-        public override bool ShowViewer
-        {
-            get
-            {
-                return false;
-            }
         }
     }
 }

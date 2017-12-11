@@ -9,7 +9,7 @@ namespace GrapeCity.Documents.Spread.Examples.Features.Shape
         public override void Execute(GrapeCity.Documents.Spread.Workbook workbook)
         {
             IWorksheet worksheet = workbook.Worksheets[0];
-            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddShape(GrapeCity.Documents.Spread.Drawing.AutoShapeType.Heart, 1, 1, 100, 100);
+            GrapeCity.Documents.Spread.Drawing.IShape shape = worksheet.Shapes.AddShape(GrapeCity.Documents.Spread.Drawing.AutoShapeType.Heart, 50, 30, 100, 100);
             shape.ThreeD.RotationX = 50;
             shape.ThreeD.RotationY = 20;
             shape.ThreeD.RotationZ = 30;
@@ -22,6 +22,14 @@ namespace GrapeCity.Documents.Spread.Examples.Features.Shape
             get
             {
                 return false;
+            }
+        }
+
+        public override bool ShowScreenshot
+        {
+            get
+            {
+                return true;
             }
         }
     }

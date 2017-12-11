@@ -37,5 +37,13 @@ namespace GrapeCity.Documents.Spread.Examples.Features.Filtering.FilteringByColo
                 return false;
             }
         }
+
+        public override bool ShowScreenshot
+        {
+            get
+            {
+                return true;
+            }
+        }
     }
 }

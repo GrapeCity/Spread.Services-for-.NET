@@ -35,5 +35,13 @@ namespace GrapeCity.Documents.Spread.Examples.Features.Worksheets
             }
         }
 
+        public override bool ShowScreenshot
+        {
+            get
+            {
+                return true;
+            }
+        }
+
     }
 }

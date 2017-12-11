@@ -124,7 +124,7 @@
     <value>Activate a worksheet</value>
   </data>
   <data name="AddCustomTableStyle.Name" xml:space="preserve">
-    <value>Add custom table style</value>
+    <value>Add a custom table style</value>
   </data>
   <data name="AddCustomThemes.Name" xml:space="preserve">
     <value>Add custom themes</value>
@@ -133,25 +133,25 @@
     <value>Add a worksheet</value>
   </data>
   <data name="ApplyTableStyle.Name" xml:space="preserve">
-    <value>Apply built-in style to table</value>
+    <value>Apply built-in styles to tables</value>
   </data>
   <data name="ChangeWorkbookTheme.Name" xml:space="preserve">
-    <value>Change workbook theme</value>
+    <value>Change workbook themes</value>
   </data>
   <data name="ClearSparklineGroup.Name" xml:space="preserve">
-    <value>Clear sparkline group</value>
+    <value>Clear the sparkline group</value>
   </data>
   <data name="ClearSparklines.Name" xml:space="preserve">
     <value>Clear sparklines</value>
   </data>
   <data name="ConfigSparklineSettings.Name" xml:space="preserve">
-    <value>Config sparkline's setting</value>
+    <value>Configure sparkline settings</value>
   </data>
   <data name="ConfigWorksheet.Name" xml:space="preserve">
-    <value>Config worksheet properties</value>
+    <value>Configure worksheet properties</value>
   </data>
   <data name="CreateNewWorkbook.Name" xml:space="preserve">
-    <value>Create new work book</value>
+    <value>Create new workbook</value>
   </data>
   <data name="CreateSparklines.Name" xml:space="preserve">
     <value>Create sparklines</value>
@@ -160,7 +160,7 @@
     <value>Create a table</value>
   </data>
   <data name="CustomSort.Name" xml:space="preserve">
-    <value>Sort by custom list</value>
+    <value>Sort list by custom parameter</value>
   </data>
   <data name="DeleteWorksheet.Name" xml:space="preserve">
     <value>Delete a worksheet</value>
@@ -172,16 +172,16 @@
     <value>Group exist sparklines</value>
   </data>
   <data name="ImportExcelFileToWorkbook.Name" xml:space="preserve">
-    <value>Import excel file</value>
+    <value>Import Excel file</value>
   </data>
   <data name="ImportExcelFileWithPassword.Name" xml:space="preserve">
-    <value>Import excel file with password</value>
+    <value>Import Excel file with password</value>
   </data>
   <data name="InsertDeleteTableRowColumns.Name" xml:space="preserve">
     <value>Insert or delete table rows and columns</value>
   </data>
   <data name="PerformCalculationsInTable.Name" xml:space="preserve">
-    <value>Perform calculations in table</value>
+    <value>Perform calculations in the table</value>
   </data>
   <data name="ProtectWorksheet.Name" xml:space="preserve">
     <value>Protect worksheet</value>
@@ -190,10 +190,10 @@
     <value>Remove table</value>
   </data>
   <data name="SaveWorkbookToExcelFile.Name" xml:space="preserve">
-    <value>Save to excel file</value>
+    <value>Save to Excel file</value>
   </data>
   <data name="SaveWorkbookWithPassword.Name" xml:space="preserve">
-    <value>Save to excel file with password</value>
+    <value>Save to Excel file with password</value>
   </data>
   <data name="Sorting.Name" xml:space="preserve">
     <value>Sorting</value>
@@ -205,7 +205,7 @@
     <value>Sort by icon</value>
   </data>
   <data name="SortRangeByInterior.Name" xml:space="preserve">
-    <value>Sort by interior</value>
+    <value>Sort range by content</value>
   </data>
   <data name="SortRangeByValue.Name" xml:space="preserve">
     <value>Sort range by value</value>
@@ -229,10 +229,10 @@
     <value>Theme</value>
   </data>
   <data name="UnprotectWorksheet.Name" xml:space="preserve">
-    <value>Unprotect a worksheet</value>
+    <value>Unprotect worksheet</value>
   </data>
   <data name="UseDateAxis.Name" xml:space="preserve">
-    <value>Use Date axis</value>
+    <value>Use date axis</value>
   </data>
   <data name="ValueFilter.Descrip" xml:space="preserve">
     <value>Create value filter</value>
@@ -247,25 +247,25 @@
     <value>Worksheets</value>
   </data>
   <data name="AddSlicersForTable.Name" xml:space="preserve">
-    <value>Add slicers for table</value>
+    <value>Add slicers to tables</value>
   </data>
   <data name="Slicer.Name" xml:space="preserve">
     <value>Slicer</value>
   </data>
   <data name="AddSlicersForPivotTable.Name" xml:space="preserve">
-    <value>Add slicers for pivot tables</value>
+    <value>Add slicers to pivot tables</value>
   </data>
   <data name="DoTableFilter.Name" xml:space="preserve">
-    <value>Do table filter</value>
+    <value>Auto-filter table with slicer</value>
   </data>
   <data name="ApplySlicerStyle.Name" xml:space="preserve">
     <value>Apply built-in style to slicer</value>
   </data>
   <data name="UseSlicerDoFilter.Name" xml:space="preserve">
-    <value>Use slicer do filter operation</value>
+    <value>Use slicer to filter table</value>
   </data>
   <data name="ConfigSlicerLayout.Name" xml:space="preserve">
-    <value>Config slicer's layout</value>
+    <value>Configure slicer layout</value>
   </data>
   <data name="CreateConnectorShape.Name" xml:space="preserve">
     <value>Create connector shape</value>
@@ -274,7 +274,7 @@
     <value>Shape</value>
   </data>
   <data name="ConnectShapesByConnector.Name" xml:space="preserve">
-    <value>Connect shape by connector shape</value>
+    <value>Connect shapes with connector shape</value>
   </data>
   <data name="ConfigShapeWithPictureFill.Name" xml:space="preserve">
     <value>Set shape's picture fill</value>
@@ -286,7 +286,7 @@
     <value>Set shape's pattern fill</value>
   </data>
   <data name="ConfigShapeWithTextureFill.Name" xml:space="preserve">
-    <value>Set shape with texture fill</value>
+    <value>Set shape's texture fill</value>
   </data>
   <data name="ConfigShapeWithSolidFill.Name" xml:space="preserve">
     <value>Set shape's solid fill</value>
@@ -313,10 +313,10 @@
     <value>Range Operations</value>
   </data>
   <data name="AccessEachAreaOfRange.Name" xml:space="preserve">
-    <value>Access each area in range</value>
+    <value>Access areas in a range</value>
   </data>
   <data name="GetRangeRowCountColumnCount.Name" xml:space="preserve">
-    <value>Get row count and column count</value>
+    <value>Get row and column count</value>
   </data>
   <data name="AccessCellsRowsColumns.Name" xml:space="preserve">
     <value>Access cells, rows and columns</value>
@@ -328,7 +328,7 @@
     <value>Set row height and column width</value>
   </data>
   <data name="AccessRange.Name" xml:space="preserve">
-    <value>Access range</value>
+    <value>Access a range</value>
   </data>
   <data name="InsertCellsDeleteCells.Name" xml:space="preserve">
     <value>Insert or delete cells</value>
@@ -337,25 +337,25 @@
     <value>Insert or delete rows and columns</value>
   </data>
   <data name="CutCopyRange.Name" xml:space="preserve">
-    <value>Cut copy range</value>
+    <value>Cut or copy ranges</value>
   </data>
   <data name="GetFeatureRelatedUsedRange.Name" xml:space="preserve">
-    <value>Get feature related used range</value>
+    <value>Get used range features</value>
   </data>
   <data name="PivotTable.Name" xml:space="preserve">
-    <value>PivotTable</value>
+    <value>Pivot Table</value>
   </data>
   <data name="CreatePivotTable.Name" xml:space="preserve">
-    <value>Create pivot table</value>
+    <value>Create pivot tables</value>
   </data>
-  <data name="ChangeDataFiledSummarizeFunction.Name" xml:space="preserve">
-    <value>Change data field's summarize function</value>
+  <data name="ChangeDataFieldSummarizeFunction.Name" xml:space="preserve">
+    <value>Set field's summarize function</value>
   </data>
   <data name="ModifySubtotalsForPivotField.Name" xml:space="preserve">
-    <value>Modify subtotals for pivot field</value>
+    <value>Modify pivot field subtotal type</value>
   </data>
   <data name="FilterItemsInPivotTable.Name" xml:space="preserve">
-    <value>Filter items in pivot table</value>
+    <value>Filter items in pivot tables</value>
   </data>
   <data name="RefreshPivotTable.Name" xml:space="preserve">
     <value>Refresh pivot table</value>
@@ -376,7 +376,7 @@
     <value>Show specific level group</value>
   </data>
   <data name="AddCustomName.Name" xml:space="preserve">
-    <value>Add custom name</value>
+    <value>Add custom names</value>
   </data>
   <data name="Grouping.Name" xml:space="preserve">
     <value>Grouping</value>
@@ -394,16 +394,16 @@
     <value>Formulas</value>
   </data>
   <data name="UseArrayFormula.Name" xml:space="preserve">
-    <value>Use array formula</value>
+    <value>Use array formulas</value>
   </data>
   <data name="UseTableFormula.Name" xml:space="preserve">
-    <value>Use table formula</value>
+    <value>Use table formulas</value>
   </data>
   <data name="DirtyAndCalculation.Name" xml:space="preserve">
-    <value>Dirty and calculate</value>
+    <value>Dirty and Calculate methods</value>
   </data>
   <data name="SetRangeValue.Name" xml:space="preserve">
-    <value>Set values to range</value>
+    <value>Set values to a range</value>
   </data>
   <data name="ToJsonFromJson.Name" xml:space="preserve">
     <value>ToJson and FromJson</value>
@@ -416,9 +416,6 @@
   </data>
   <data name="Formatting.Name" xml:space="preserve">
     <value>Formatting</value>
-  </data>
-  <data name="NumberFormat.Name" xml:space="preserve">
-    <value>NumberFormat</value>
   </data>
   <data name="NumberFormats.Name" xml:space="preserve">
     <value>Set number format</value>
@@ -499,13 +496,13 @@
     <value>Protection</value>
   </data>
   <data name="SetRangeFormulaHidden.Name" xml:space="preserve">
-    <value>Config formula hidden</value>
+    <value>Hide Configure formula</value>
   </data>
   <data name="SetRangeLocked.Name" xml:space="preserve">
-    <value>Config range locked</value>
+    <value>Lock Configure range</value>
   </data>
   <data name="AddComment.Name" xml:space="preserve">
-    <value>Add comment for cell</value>
+    <value>Add comment to cell</value>
   </data>
   <data name="ClearComment.Name" xml:space="preserve">
     <value>Clear comments</value>
@@ -514,7 +511,7 @@
     <value>Comments</value>
   </data>
   <data name="ConfigCommentLayout.Name" xml:space="preserve">
-    <value>Config comment's layout</value>
+    <value>Configure comment's layout</value>
   </data>
   <data name="SetRichTextForComment.Name" xml:space="preserve">
     <value>Set rich text for comment</value>
@@ -538,7 +535,7 @@
     <value>Create icon set rule</value>
   </data>
   <data name="CreateMultiRuleForRange.Name" xml:space="preserve">
-    <value>Create multi rules for a range</value>
+    <value>Create multiple rules for a range</value>
   </data>
   <data name="CreateThreeColorScaleRule.Name" xml:space="preserve">
     <value>Create three color scale rule</value>
@@ -583,7 +580,7 @@
     <value>Create whole number validation</value>
   </data>
   <data name="DataValidation.Name" xml:space="preserve">
-    <value>DataValidation</value>
+    <value>Data Validation</value>
   </data>
   <data name="DeleteValidation.Name" xml:space="preserve">
     <value>Delete validation</value>
@@ -598,13 +595,13 @@
     <value>Charts</value>
   </data>
   <data name="ConfigBubbleChartLayout.Name" xml:space="preserve">
-    <value>Config bubble chart's layout</value>
+    <value>Configure bubble chart's layout</value>
   </data>
-  <data name="ConfigDataLabelTextAndFormat.Name" xml:space="preserve">
-    <value>Config data label's text and format</value>
+  <data name="ConfigDataLabelText.Name" xml:space="preserve">
+    <value>Configure data label's text</value>
   </data>
   <data name="ConfigDataPointFormat.Name" xml:space="preserve">
-    <value>Config data point's format</value>
+    <value>Configure data point's format</value>
   </data>
   <data name="CreateChart.Name" xml:space="preserve">
     <value>Create chart</value>
@@ -625,7 +622,7 @@
     <value>Series</value>
   </data>
   <data name="SetVaryColorForColumnChart.Name" xml:space="preserve">
-    <value>Set vary color for column chart</value>
+    <value>Set column chart colors to vary</value>
   </data>
   <data name="CreateConnectorLine.Name" xml:space="preserve">
     <value>Create connector line for pie of pie chart</value>
@@ -643,58 +640,58 @@
     <value>Access each table range</value>
   </data>
   <data name="Axes.Name" xml:space="preserve">
-    <value>Axes</value>
+    <value>Axis</value>
   </data>
-  <data name="ConfigAxesFormat.Name" xml:space="preserve">
-    <value>Config category and value axis style</value>
+  <data name="ConfigCategoryAxesFormat.Name" xml:space="preserve">
+    <value>Configure category axis style</value>
   </data>
   <data name="ConfigAxisTitle.Name" xml:space="preserve">
-    <value>Config axis title's style</value>
+    <value>Configure axis title style</value>
   </data>
   <data name="ConfigCategoryAxisUnits.Name" xml:space="preserve">
-    <value>Set category axis's units</value>
+    <value>Set data axis units</value>
   </data>
   <data name="ConfigDisplayUnitLabel.Name" xml:space="preserve">
-    <value>Config display unit label's style</value>
+    <value>Configure display unit label style</value>
   </data>
   <data name="ConfigGridlines.Name" xml:space="preserve">
-    <value>Config gridline's style</value>
+    <value>Configure gridline style</value>
   </data>
   <data name="ConfigTickMarkLabel.Name" xml:space="preserve">
-    <value>Set tick mark label's tyle</value>
+    <value>Set tick mark label style</value>
   </data>
   <data name="ConfigValueAxisUnits.Name" xml:space="preserve">
-    <value>Config value axis's units</value>
+    <value>Set value axis units</value>
   </data>
   <data name="SetAxisScaleType.Name" xml:space="preserve">
-    <value>Set value axis's scale type</value>
+    <value>Set value axis scale type</value>
   </data>
   <data name="SetAxisTickMark.Name" xml:space="preserve">
-    <value>Config axis tick mark layout</value>
+    <value>Configure axis tick mark layout</value>
   </data>
   <data name="ChartJustPlotVisibleCell.Name" xml:space="preserve">
-    <value>Specify chart just plot visible cells</value>
+    <value>Plot only visible cells</value>
   </data>
   <data name="ConfigChartAreaFormat.Name" xml:space="preserve">
-    <value>Config chart area format</value>
+    <value>Configure chart area format</value>
   </data>
   <data name="ConfigChartFloorStyle.Name" xml:space="preserve">
-    <value>Config chart floor style</value>
+    <value>Configure chart floor style</value>
   </data>
   <data name="ConfigChartTitleStyle.Name" xml:space="preserve">
-    <value>Config chart title style</value>
+    <value>Configure chart title style</value>
   </data>
   <data name="ConfigChartWallStyle.Name" xml:space="preserve">
-    <value>Config chart wall style</value>
+    <value>Configure chart walls style</value>
   </data>
   <data name="ConfigLegendEntryFontStyle.Name" xml:space="preserve">
-    <value>Config legend entry font style</value>
+    <value>Configure legend entry font style</value>
   </data>
   <data name="ConfigLegendPositionAndLayout.Name" xml:space="preserve">
-    <value>Config legend position and layout</value>
+    <value>Configure legend position and layout</value>
   </data>
   <data name="ConfigPlotAreaFormat.Name" xml:space="preserve">
-    <value>Config plot area format</value>
+    <value>Configure plot area format</value>
   </data>
   <data name="BloodPressureTracker.Name" xml:space="preserve">
     <value>Blood pressure tracker</value>
@@ -706,10 +703,10 @@
     <value>To do list with progress tracker</value>
   </data>
   <data name="CostAnalysisWithParetoChart.Name" xml:space="preserve">
-    <value>Cost analysis with pareto chart</value>
+    <value>Cost analysis with Pareto chart</value>
   </data>
   <data name="DateDynamicFilter.Name" xml:space="preserve">
-    <value>Filter date dynamicly</value>
+    <value>Filter date dynamically</value>
   </data>
   <data name="BidTracker.Name" xml:space="preserve">
     <value>Bid tracker</value>
@@ -721,7 +718,7 @@
     <value>Customer profitability analysis</value>
   </data>
   <data name="DateFiltering.Name" xml:space="preserve">
-    <value>DateFilter</value>
+    <value>Date Filter</value>
   </data>
   <data name="FilteringByColor.Name" xml:space="preserve">
     <value>Filter by color</value>
@@ -730,10 +727,10 @@
     <value>Filter by icon</value>
   </data>
   <data name="NumberFiltering.Name" xml:space="preserve">
-    <value>NumberFilter</value>
+    <value>Number Filter</value>
   </data>
   <data name="TextFiltering.Name" xml:space="preserve">
-    <value>TextFilter</value>
+    <value>Text Filter</value>
   </data>
   <data name="ChangeWorksheetFilterRange.Name" xml:space="preserve">
     <value>Change worksheet filter range</value>
@@ -763,10 +760,7 @@
     <value>Filter by no icon</value>
   </data>
   <data name="MultiSelectFilter.Name" xml:space="preserve">
-    <value>Multi check filter</value>
-  </data>
-  <data name="NumberFilter.Name" xml:space="preserve">
-    <value>Apply number filter</value>
+    <value>Apply multiple value filter</value>
   </data>
   <data name="ReApplyFilter.Name" xml:space="preserve">
     <value>Reapply filter</value>
@@ -790,53 +784,89 @@
     <value>Basic sales report</value>
   </data>
   <data name="Axes.Descrip" xml:space="preserve">
-    <value>Chart contains three type of axes, **category axis**, **value axis** and **series axis**,  they all generated automatically, **can not add or delete by programming**.
+    <value>Charts contain three axis types: 
+- category axis
+- value axis
+- series axis
 
-Examples in Axes folder demonstrate how to specify **axes relative settings**, such as axis title, axis units, display unit label, gridlines, tick mark and tick mark label settings.</value>
+They are all generated automatically, and you **can not add or delete them in code**.
+
+Examples in the Axis folder demonstrate how to specify axis-related settings such as:
+- axis titles
+- axis units
+- display unit labels
+- gridlines
+- tick marks
+- tick mark labels</value>
   </data>
   <data name="Charts.Descrip" xml:space="preserve">
     <value>**Spread.Services** provides a comprehensive charting API:
 
-- Add Charts to a **worksheet** using the **IWorksheet.AddChart** method, it returns an instance of **IShape** whose **Chart** property can be used to access the new added chart.
-- Add data series with **IChart.SeriesCollection.Add** method
-- Cutomize chart tile with **IChart.ChartTitle** property
-- Cutomize chart legend with **IChart.Legend** property
-- Access and customize each data series through **ISeries** interface
-- Customize each data point in a data series by **IPoint** interface
-- Add, remove or customize each data label of a data series by **IDataLabel** interface
-- Access and customize a group os series through **IChartGroup** interface
-- Access and customize value axis, category axis or series axis by **IAxis** interface
+- Add charts to a worksheet using the **IWorksheet.AddChart** method
+-- Returns an instance of **IShape** 
+-- Use the **Chart** property to access the newly added chart
+- Add data series with the **IChart.SeriesCollection.Add** method
+- Cutomize chart titles with the **IChart.ChartTitle** property
+- Cutomize chart legends with the **IChart.Legend** property
+- Access and customize each data series through the **ISeries** interface
+- Customize each data point in a data series using the **IPoint** interface
+- Add, remove, or customize each data label in a series using the **IDataLabel** interface
+- Access and customize a group of series through the **IChartGroup** interface
+- Access and customize value axes, category axes, and series axes using the **IAxis** interface
 
-Besides the basic using of each chart features, you can create combination chart by changing the **ISeries.ChartType**, you can even specify whether a series will be plotted on the primary or secondary axis with the **ISeries.AxisGroup** property.
+Over and above the basic usage of each chart feature, you can change the **ISeries.ChartType** to create combination charts. You can even specify whether to plot a series on the primary or secondary axis with the **ISeries.AxisGroup** property.
 
-Each series in a chart is associated with one **chart group**. Typically there is one chart group for each chart type.  Multiple chart groups are created automatically when using combination charts .The **IChartGroup** interface provides options for customizing the appearance of every series in a group, such as setting the **start angle** on a pie chart, changing the **gap width** on a bar or column chart, as well as showing or hiding stock chart options on a line chart with **HasHiLoLines** and **HasUpDownBars**.
+Each series in a chart is associated with a chart group. Typically there is one chart group for each chart type. Multiple chart groups are created automatically when you use combination charts. 
 
-The **IAxis** interface provides options for fixed **minimum scale** and **maximum scale** values on a value axis or changing the **tick label spacing** on a category axis.  Show or hide major or minor gridlines with **HasMajorGridlines** and **HasMinorGridlines**.
+The **IChartGroup** interface provides options that let you customize the appearance of every series in a group. For example, you can set these properties on certain chart types:
 
-Many chart objects, such as the **chart area**, **plot area**, **chart title**, **legend** and **series** provide a **Format** property which can be used to access and modify **fills** and **lines**, including support for solid fill colors, gradient fills, dashed line styles and transparency.</value>
+- **StartAngle** for pie charts
+- **GapWidth** for bar or column charts
+- **HasHiLoLines** and **HasUpDownBars** shows or hides stock chart options on a line chart
+
+The **IAxis** interface provides options that let you customize the appearance of chart axes. For example, you can these properties on certain axis types:
+
+- **MinimumScale** and **MaximumScale** for a value axis
+- **TickLabelSpacing** for a category axis
+- **HasMajorGridlines** and **HasMinorGridlines** for a value axis
+
+Many chart objects (chart area, plot area, chart title, legend, series) provide a **Format** property so you can access and modify:
+
+- **fills** solid or gradient 
+- **lines** dashed or transparency</value>
   </data>
   <data name="Series.Descrip" xml:space="preserve">
-    <value>**Series** is the most frequently used feature in chart, each chart contains one or serveral data series, and each series consists of a group of **data points**. 
+    <value>**Series** is the most frequently used feature in charts. Each chart contains one or more data series, and each series consists of a group of data points. 
 
-These examples demonstrate how to **add series** for chart, and how to specify series relative settings, such as bubble chart's **bubble scale** and what **size represents**, **data label**'s text and style, specific **data point**'s style, show pie of pie chart's **connector line**, show **drop line**, **high-low line**, **up-down bar**, and specify **vary color** for column chart.</value>
+These examples demonstrate how to add a series to a chart, and how to specify settings for each series, such as:
+
+- **BubbleScale** and **SizeRepresents** for bubble charts
+- Configure **Series** format
+- Chage **Series Tyepe**
+- Add **Secondary Axis**
+- **VaryByCategories** colors for single-series column charts</value>
   </data>
   <data name="PersonalNetWorthCalculator.Name" xml:space="preserve">
     <value>Personal net worth calculator</value>
   </data>
   <data name="Comments.Descrip" xml:space="preserve">
-    <value>Spread.Services enables users to annotate a worksheet by allowing them to write comments on cells in order to specify additional information about the data it contains.
+    <value>Spread.Services enables users to annotate worksheets. They can write comments for cells to add information about the data it contains.
 
-Add comment for **range** using range's **AddComment** method. it returns an instance of **IComment**, Show comment all the time with **Visible** property. Modify comment's layout with **Shape** property.
+Add comments for a range using the **AddComment** method. It returns an instance of the **IComment** interface. 
 
-Create rich text using **TextFrame** property of IShape, each runs can be different font styles.</value>
+Always show comments with the **Visible** property. 
+
+Modify comment layouts with the **Shape** property.
+
+Create rich text using the **TextFrame** property of the **IShape** interface. You can use different font styles for each run.</value>
   </data>
   <data name="SpreadSheetsViewer.Name" xml:space="preserve">
     <value>Spread.Sheets Viewer</value>
   </data>
   <data name="UseCases.Descrip" xml:space="preserve">
-    <value>Another two of Spread.Services useage scenario are as follows:
-- Use Spread.Services API programming, then export to an excel file -**Programming** Part.
-- Import excel template to Spread.Services data model, then use Spread.Services API programming, make contents more abundantly, then export to an excel file - **Templates** Part.</value>
+    <value>Two more Spread.Services usage scenarios are as follows:
+- **Code** Use Spread.Services API code, then export to an Excel file.
+- **Templates** Import an Excel template to the Spread.Services data model, then use Spread.Services API code to add content, then export it to an Excel file.</value>
   </data>
   <data name="ExcelReporting.Name" xml:space="preserve">
     <value>Excel Reporting</value>
@@ -847,27 +877,36 @@ Create rich text using **TextFrame** property of IShape, each runs can be differ
   <data name="HiddenRowColumn.Name" xml:space="preserve">
     <value>Hide rows and columns</value>
   </data>
-  <data name="HomeInventoryForJS.Name" xml:space="preserve">
+  <data name="HomeInventory.Name" xml:space="preserve">
     <value>Home inventory</value>
   </data>
   <data name="CollapseGroup.Name" xml:space="preserve">
     <value>Collapse group</value>
   </data>
-  <data name="SimplePersonalBudgetForJS.Name" xml:space="preserve">
+  <data name="SimplePersonalBudget.Name" xml:space="preserve">
     <value>Simple personal budget</value>
   </data>
-  <data name="StudentCalendarForJS.Name" xml:space="preserve">
+  <data name="StudentCalendar.Name" xml:space="preserve">
     <value>Student calendar</value>
   </data>
-  <data name="TravelExpenseReportForJS.Name" xml:space="preserve">
+  <data name="TravelExpenseReport.Name" xml:space="preserve">
     <value>Travel expense report</value>
   </data>
   <data name="ConditionalFormatting.Descrip" xml:space="preserve">
-    <value>In order to enable you to highlight important information in rows or columns of a worksheet, Spread.Services allows users to create conditional formatting rules for individual cells or a range of cells based on cell values. If the format condition matches with the cell value, it is assumed as true and the cell is formatted as per the specified rule.
+    <value>In order to enable you to highlight important information in rows or columns of a worksheet, Spread.Services allows users to create conditional formatting rules for individual cells or a range of cells based on cell values. If the format condition matches with the cell value, it is assumed as true and the cell is formatted as per the specified rule..
 
-Spread.Services supports all type of condition format rules, such as **Cell Value** Rule, **Average** Rule, **Color Scale** Rule, **Data Bar** Rule, **Icon Sets** Rule, **Top Bottom** Rule, **Unique** Rule, **Expression** Rule.
+Spread.Services supports all types of conditional formatting rules:
 
-Add conditional format rule for **range** using **Add** method of range's **format condition collection**. or any other specific method, as follows:
+- Cell Value
+- Average
+- Color Scale
+- Data Bar
+- Icon Sets
+- Top Bottom 
+- Unique
+- Expression
+
+Apply conditional formatting rules to a range using the **Add** method of **IRange.FormatConditions**. You can also use other specific Add methods:
 
 - AddAboveAverage
 - AddColorScale
@@ -876,60 +915,94 @@ Add conditional format rule for **range** using **Add** method of range's **form
 - AddTop10
 - AddUniqueValues
 
-All the Add functions returns an instance of **IFormatCondition** or specific format condition type, such as **IAboveAverage** and so on. Modify rule priority with **Priority**, forbid lower rule evaluate if current rule evaluate to true with **StopIfTrue**.</value>
+All of the Add functions return an instance of the **IFormatCondition** interface, or an interface specific to another Add method, such as **IAboveAverage**.</value>
   </data>
   <data name="DataValidation.Descrip" xml:space="preserve">
-    <value>Spread.Services provides users with the ability to validate data by restricting the type of information format and the values that can be entered in cells of a worksheet. You can create distinct validation scenarios for individual cells or a range of cells as per your requirements.
+    <value>Spread.Services lets you validate data by restricting the information format and the values that can be entered in cells of a worksheet. You can create distinct validation scenarios for individual cells or for a range of cells.
 
-Spread.Services supports all type of validations, such as **Whole Number** validation, **Decimal** validation, **List** validation, **Date** validation, **Time** validation, **Text length** validation, **Custom** validation.
+Spread.Services supports all types of validations, including:
+- Whole Number
+- Decimal
+- List
+- Date
+- Time
+- Text length
+- Custom
 
-Add validation for **range** using **Add** method of range's **validation**. it returns an instance of **IValidation**. modify validation's input message and error message with **InputMessage** and **ErrorMessage** , specify if show message or not with **ShowInputMessage** and **ShowError**. show list validation's drop down with **InCellDropdown**.</value>
+Add validation for a range using the **Add** method of  **IRange.Validation** property. The method returns an instance of the **IValidation** interface. 
+- To set input and error messages for the validation, use these properties:
+-- InputMessage 
+-- ErrorMessage 
+- To specify whether to show the messages, use these properties:
+-- ShowInputMessage 
+-- ShowError
+- To specify whether to show a drop down list in a list validation:
+-- InCellDropdown property</value>
   </data>
   <data name="MonthlyBusinessBudget.Name" xml:space="preserve">
     <value>Monthly bussiness budget</value>
   </data>
   <data name="Filtering.Descrip" xml:space="preserve">
-    <value>Spread.Services support all type of filters, such as **Number Filter**, **Text Filter**, **Date Filter**, **Color Filter** and **Icon Filter**.
+    <value>Spread.Services supports all types of filters, including: 
+- Number Filter
+- Text Filter
+- Date Filter
+- Color Filter
+- Icon Filter
 
-Filter range using range's **AutoFilter** method, apply **multi column filter** need invoke AutoFilter method more than once. if want to **re-apply filter** conditions when filter performed range's value changed, using **ApplyFilter** method of worksheet's **AutoFilter** instance.</value>
+Filter a range using the range's **AutoFilter** method. If you want to apply the filter to multiple columns, you can invoke the AutoFilter method several times.
+
+To re-apply filter conditions when the range's value changes, use the **ApplyFilter** method of the worksheet's **AutoFilter** instance.</value>
   </data>
   <data name="FilteringByColor.Descrip" xml:space="preserve">
-    <value>The examples in this folder demonstrate how to use AutoFilter method to do color filter, such as filter by **font color**, filter by **interior**, filter by **automatic font color**, filter by **no fill**.</value>
+    <value>The examples in this folder demonstrate how to use the AutoFilter method to create a color filter. You can filter by:
+- font color
+- interior color
+- automatic font color
+- no fill</value>
   </data>
   <data name="FilteringByIcon.Descrip" xml:space="preserve">
-    <value>The examples in this folder demonstrate how to use AutoFilter method to do icon filter, filter by **specify icon** or filter by **no icon**, Range must **apply icon set conditional format rule** firstly before do icon filter.</value>
+    <value>The examples in this folder demonstrate how to use the AutoFilter method to filter by icon.  You can set the **AutoFilterOperator** parameter to: 
+
+- **Icon** and filter by the specified icon
+- **NoIcon** and filter by rows with no icon
+
+Before you can apply an icon filter, you must first create an **IIconSetCondition** instance and an **IFormatCondition** instance for the Range.</value>
   </data>
   <data name="SimpleBudget.Name" xml:space="preserve">
     <value>Simple Budget</value>
   </data>
   <data name="TextFiltering.Descrip" xml:space="preserve">
-    <value>The example in this folder demonstrates how to use AutoFilter method to do **text filter**, such as filter in rows **contains "e"**.</value>
+    <value>The example in this folder demonstrates how to use the AutoFilter method to create a text filter. For example, you can filter by rows that contain the letter "e".</value>
   </data>
   <data name="Alignment.Descrip" xml:space="preserve">
-    <value>The examples in this folder demonstrate how to specify alignment settings, as folllows:
-- Horizontal alignment and vertical alignment
-- Text Orientation
-- Shrink to fit
-- Reading order
-- Wrap Text</value>
+    <value>The examples in this folder demonstrate how to use these alignment settings:
+- HorizontalAlignment (Left, Center, or Right)
+- VerticalAlignment (Top, Center, or Bottom)
+- ReadingOrder (sets text direction to RightToLeft or LeftToRight)
+- ShrinkToFit 
+- Orientation (sets the text rotation angle in degrees)
+- Wrap Text </value>
   </data>
   <data name="Borders.Descrip" xml:space="preserve">
-    <value>The examples in **Borders** demonstrate how to specify border settings for range.
-- Border line style
-- Border color</value>
+    <value>The examples in this folder demonstrate how to specify border settings for a range. You can set these border options:
+- BorderLineStyle (Dashed, DashDot, Dotted, Double, Medium, Hair, etc.)
+- Color (Green, Red, Blue, Tomato, LimeGreen, etc.)</value>
   </data>
   <data name="DateFiltering.Descrip" xml:space="preserve">
-    <value>The examples in this folder demonstrate how to use AutoFilter method do Date filter, such as filter **dates between two days**, **all dates in February**.</value>
+    <value>The examples in this folder demonstrate how to use the AutoFilter method to filter by date. They show how you can filter:
+- between two dates
+- all dates in February</value>
   </data>
   <data name="Fill.Descrip" xml:space="preserve">
-    <value>The examples in **Fill** demonstrate how to set different kinds of fill to range.
+    <value>The examples in this folder demonstrate how to apply several kinds of fill to a range.
 - Solid fill
 - Pattern fill
-- Linnear gradient fill
-- Rectgangular gradient fill</value>
+- Linear gradient fill
+- Rectangular gradient fill</value>
   </data>
   <data name="Fonts.Descrip" xml:space="preserve">
-    <value>The examples in **Font** demonstrate how to specify font settings to range:
+    <value>The examples in this folder demonstrate how to apply font settings to a range:
 - Font color
 - Font size
 - Font name
@@ -938,43 +1011,46 @@ Filter range using range's **AutoFilter** method, apply **multi column filter** 
 - Strikethrough, Superscript, Subscript</value>
   </data>
   <data name="Formatting.Descrip" xml:space="preserve">
-    <value>**Spread.Services** provides a lot of APIs to customize appearances for range:
+    <value>Spread.Services provides a lot of properties to customize the appearance of a range:
 
-- Set **number format** for range with **IRange.NumberFormat** property.
-- Set **alignment** for range with **IRange.HorizontalAlignment**,  **IRange.VerticalAlignment**, **IRange.IndentLevel** and so on.
-- Set **font** for range with **IRange.Font** property.
-- Set **border** for range with **IRange.Borders** property.
-- Specify **solid fill, pattern fill and gradient fill** for range with **IRange.Interior** property.
-- Set **protection** for range with **IRange.Locked** and **IRang.FormulaHidden** property of range.
+- **IRange.NumberFormat** sets the number format
+- **IRange.HorizontalAlignment**,  **IRange.VerticalAlignment**, **IRange.IndentLevel**, etc. set the alignment
+- **IRange.Font** sets the font
+- **IRange.Borders** sets the border
+- **IRange.Interior** sets solid fill, pattern fill, and gradient fill
+- **IRange.Locked** and **IRange.FormulaHidden** sets up protection
 
-Besides, You can create custome or just use built-in named styles, apply named styles to one or multiple ranges.</value>
+You can also create custom styles or use the built-in named styles, and apply named styles to one or more ranges.</value>
   </data>
   <data name="Formulas.Descrip" xml:space="preserve">
-    <value>Spread.Services provides you with the ability to create and use formulas - expressions to calculate the value of a cell quickly and accurately in the spreadsheets. You can also use some built-in functions and operators to generate formulas and calculate values in cells.
+    <value>Spread.Services lets you create and use formulas. These are expressions that let you calculate the value of a cell quickly and accurately. You can also use built-in functions and operators to generate formulas and calculate values in cells.
 
-Calc engine has follow capacities:
-- Hundreds of excel built-in functions
-- Array formula
-- Dirty and Calculation
+The calc engine handles many calculations, for example:
+- Hundreds of built-in Excel functions
+- Array formulas
+- Dirty and Calculate methods
 - Table formula</value>
   </data>
   <data name="Grouping.Descrip" xml:space="preserve">
-    <value>Spreadsheets with tons of data can often become a hassle to read, consuming a lot of time in visualizing, managing and analyzing the information which is relevant for you.
+    <value>Spreadsheets with tons of data can be a headache to read. You can spend a lot of time and effort trying to visualize, manage, and analyze the information that is relevant to you.
 
-Spread.Services provides you with the ability to summarize large amounts of information in groups so that complex spreadsheets are easier to navigate. After rows of data in a spreadsheet are grouped, users can expand and collapse details with the click of a square button placed in the group header row.
+Spread.Services lets you summarize large amounts of information in groups so that complex spreadsheets are easier to navigate. After rows of data in a spreadsheet are grouped, users can expand and collapse details with the click of a button in the group header row. You can use the following methods and properties to customize your groupings:
 
-**Increase** specific rows **outline level** with **Group** method of range, **decrease** specific rows outline level with **Ungroup** method of range. **Collapse** a group with **ShowDetail** property. show specific level groups use **ShowLevels** method of worksheet's **Outline** instance.</value>
+- The **Group** method of the range increases the outline level of specific rows
+- The **Ungroup** method of the range decreases the outline level of specific rows
+- The **ShowDetail** Boolean property expands or collapses a group
+- The **ShowLevels** method of the worksheet's Outline instance expands specific level groups</value>
   </data>
   <data name="NumberFormat.Descrip" xml:space="preserve">
-    <value>The example in **NumberFormat** demonstrates how to set number format to range, *Spread.Services* use excel like number formatter.</value>
+    <value>The Number Format examples demonstrate how to apply a number format to a range. Spread.Services uses Excel-style number formats.</value>
   </data>
   <data name="Protection.Descrip" xml:space="preserve">
-    <value>The examples in **Protection** demonstrate how to specify range's protection settings, as follows:
-- Formula Hidden
-- Locked</value>
+    <value>The Protection examples demonstrate how to apply security settings to a range, for example:
+- The **FormulaHidden** property keeps formulas in a range from appearing in exported .xlsx files.
+- The **Locked** property protects cells in a range from being modified</value>
   </data>
   <data name="AddCustomSlicerStyle.Name" xml:space="preserve">
-    <value>Add custom slicer style</value>
+    <value>Add a custom slicer style</value>
   </data>
   <data name="BloodSugarTracker.Name" xml:space="preserve">
     <value>Blood sugar tracker</value>
@@ -983,55 +1059,64 @@ Spread.Services provides you with the ability to summarize large amounts of info
     <value>Tutorial</value>
   </data>
   <data name="Hyperlinks.Descrip" xml:space="preserve">
-    <value>Create hyperlink for **range** with **Add** method of **worksheet's Hyperlinks** instance or **range's Hyperlinks** instance. Spread.Services support follow type hyperlinks:
-- Link to web page
-- Link to specific range in this document
-- Link to external file
-- Link to email address</value>
+    <value>Apply hyperlinks to a range using the **Add** method of a worksheet or range's **Hyperlinks** instance. Spread.Services supports the following types of hyperlink:
+- Link to a web page
+- Link to a specific range in the current document
+- Link to an external file
+- Link to an email address</value>
   </data>
   <data name="Picture.Descrip" xml:space="preserve">
-    <value>Spread.Services allows inserting picture for worksheet.
+    <value>Spread.Services allows you to add a picture to a worksheet.
 
-Add picture for **worksheet** use **AddPicture** method of worksheet's **shapes** colletion.</value>
+To add a picture to a worksheet, use the **AddPicture** method of the worksheet's **Shapes** collection.</value>
   </data>
   <data name="PivotTable.Descrip" xml:space="preserve">
-    <value>**Pivot table** is a **data summarization tool**. it can automatically count, total or average the data stored in spread sheet, displaying the results **in a second table showing the summarized data**.
+    <value>A pivot table is a data summarization tool. It can automatically count, total, or average the data stored in a spreadsheet, and display the resulting summarized data in a second table.
 
-Create pivot cache with **Create** method of workbook's **PivotCaches** collection. it returns an instance of **IPivotCache**, Create pivot table with **CreatePivotTable** method of pivot cache instance. another way is using **Add** method of worksheet's **PivotTables** collection.
+Create a pivot cache using the **Create** method of the workbook's **PivotCaches** collection. It returns an instance of the **IPivotCache** interface. 
 
-Specify pivot table's **row field**, **column field**, **value field** and **page field** with **PivotFieldOrientation** property of pivot field instance.</value>
+Create a pivot table using the **CreatePivotTable** method of the pivot cache instance. Or you can opt to use the **Add** method of the worksheet's **PivotTables** collection.
+
+Use the **PivotFieldOrientation** property of each pivot field to specify whether it is a RowField, ColumnField, ValueField, or PageField.</value>
   </data>
   <data name="RangeOperations.Descrip" xml:space="preserve">
-    <value>Range is the most important concept in Spread.Services. it is the entrance for most of features.
+    <value>Range is the most important concept in Spread.Services. It is the entrance to most of the features.
 
-Examples in **RangeOperations** demonstrates how to:
-- Access cells, rows and columns
-- Access each area of range
-- Access range in various of ways
-- Cut, Copy, Paste range
-- Work with Used range
-- Get row count and column count
-- Hide row or column
+Examples in this folder demonstrate how to:
+- Access cells, rows, and columns
+- Access each area of a range
+- Access ranges in various ways
+- Cut, Copy, and Paste a range
+- Work with a used range of cells
+- Get a row count or column count
+- Hide a row or column
 - Insert or delete cells
 - Insert or delete rows and columns
 - Merge cells
-- Set values to range
+- Set values to a range
 - Set row height and column width</value>
   </data>
   <data name="Shape.Descrip" xml:space="preserve">
-    <value>Spread.Services provides you the ability to embed drawing objects like shapes and pictures in cells of a worksheet. You can insert arrows, lines, chart, slicer, pictures and general shape.
+    <value>Spread.Services lets you embed drawing objects like shapes and pictures in the cells of a worksheet. You can insert arrows, lines, charts, slicers, pictures, and general shapes.
 
-Create shape for worksheet use **AddShape** method of worksheet's **shapes** collection. Use **Fill** property of shape instance to config shape's fill style, **Line** property to config shape's line style, **ThreeD** property to config shape's 3D format, **TextFrame** property to config shape's rich text.</value>
+To create a shape for a worksheet, use the **AddShape** method of the worksheet's Shapes collection. Then you can configure the Shape instance using properties like these:
+
+- Configure a shape's fill style using the **Fill** property 
+- Configure a shape's line style using the **Line** property
+- Configure a shape's 3D format using the **ThreeD** property 
+- Configure a shape's rich text using the **TextFrame** property</value>
   </data>
   <data name="Slicer.Descrip" xml:space="preserve">
-    <value>Slicers are **visual filters**. Can filter table or pivot table by slicers.
+    <value>Slicers are visual filters that you can use to filter a table or pivot table.
 
-Create **slicer cache** with **Add** method of workbook's **SlicerCaches** collection, it returns an instance of slicer cache. create **slice**r with **Add** method of slicer cache's **slicers** collection.
+Use the **Add** method of a workbook's **SlicerCaches** collection to create a slicer cache. It returns an instance of a slicer cache. 
 
-Support either **built-in** slicer style or **custom slier** style.</value>
+Use the **Add** method of the slicer cashe's **Slicers** collection to create a slicer.
+
+It supports both built-in and custom slicer styles.</value>
   </data>
   <data name="Sorting.Descrip" xml:space="preserve">
-    <value>Spread.Services support all type of sorting, as follows:
+    <value>Spread.Services supports all types of sorting, including:
 - Sort by value
 - Sort by font color
 - Sort by interior
@@ -1039,96 +1124,406 @@ Support either **built-in** slicer style or **custom slier** style.</value>
 - Sort by custom list</value>
   </data>
   <data name="Sparklines.Descrip" xml:space="preserve">
-    <value>Spread.Services allows you to highlight specific information and see how it varies over time using Sparklines. Sparklines can be understood as small, lightweight charts that are drawn inside cells to quickly visualize data for improved analysis.
+    <value>Spread.Services allows you to highlight specific information and see how it varies over time using Sparklines. Sparklines are small, lightweight charts that are drawn inside cells to quickly visualize data for improved analysis.
 
-Create **a group of new sparklines** with **Add** method of range's **SparklineGroups** collection, sparkline rely on sparkline group, no way to create sparkline alone without sparkline group.
+Use the **Add** method of a range's **SparklineGroups** collection to create a group of new sparklines. Sparklines only exist inside of a sparkline group. There is no way to create a sparkline outside of a sparkline group.
 
-Support follow type of sparklines:
+We support the following types of sparklines:
 - Line
 - Column
 - Win/Loss</value>
   </data>
   <data name="SpreadSheetsViewer.Descrip" xml:space="preserve">
-    <value>Examples in **Spread.Sheets Viewer** demonstrate how to use **Spread.Services** and **Spread.Sheets** together, **Spread.Services** works at the server side to import/export excel template files, **Spread.Sheets** works at browser side as a viwer or editor, to learn more about **Spread.Sheets**, visit [Spread.Sheets Home Page](http://spread.grapecity.com/spreadjs/sheets//).
+    <value>Examples in this folder demonstrate how to use **Spread.Services** and **Spread.Sheets**, another Spread product that is included in SpreadJS. Spread.Services works on the server side to import and export Excel template files. Spread.Sheets works in the browser (client side) as a viewer or editor.
 
-All examples in this part will work as following steps:
-- **Spread.Services** **Open** an existing excel file at server side
-- **Spread.Services** **ToJson** to get an json string
-- **Spread.Sheets** **FromJson** the json string to show the content of excel file
+To learn more about **Spread.Sheets**, visit the [Spread.Sheets Home Page](http://spread.grapecity.com/spreadjs/sheets//).
 
-You can download and view the excel file by clicking **"Template"** button.
+All examples in this folder work as below steps:
+- Open an Excel file with **Spread.Services** existing on server.
+- Export the whole workbook to a JSON string by calling **Workbook.ToJson**, then transfer the JSON string to client side.
+- At client side, **Spread.Sheets** control will **FromJson** to let you view the result of the excel file on server.
 
-In the demo page, you can edit the content in **Spread.Sheets** control, then click the **"Export"** button to get the changed excel file, the **"Export"** works as following:
-- **Spread.Sheets** first **ToJson** to an json string.
-- **Spread.Services** then **FromJson** the json string at server side.
-- **Spread.Services** **Save** everything to an excel file.
+Click the **"Template"** button to download and view the excel file.
 
-Then you can get the changed excel file.</value>
+In the demo page, you can edit the content in the Spread.Sheets control, then click the **"Export"** button to get the changed Excel file. The "Export" button works by following steps:
+- Spread.Sheets uses **ToJson** to get a JSON string which contains the latest changes, and post the string to server.
+- Spread.Services at server uses **FromJson** with the JSON string, and then calls **Workbook.Save** to save everything to an excel file.
+- Finally, you can download the changed Excel file.</value>
   </data>
   <data name="Tables.Descrip" xml:space="preserve">
-    <value>To manage and analyse related data easier and faster, you can create tables using a range of cells in your spreadsheet. A table consists of rows and columns that can be formatted and managed independently in a worksheet. You will learn how to:
+    <value>To more easily manage and analyze data in spreadsheet, you can create table for a range. A table consists of rows and columns that you can format and manage independently in a worksheet. You will learn how to:
 
-- Add or remove a table in worksheet
-- Apply **filter** for a column of table
-- Apply **sort** for a column of table
-- Apply either **built-in** or **custom** table style
-- Access each part of table conviniently
-- Add or remove a column in table
-- Performn calculations for a specific range of table</value>
+- Add or remove a table in a worksheet
+- Apply filtering to a table column
+- Apply sorting to a table column
+- Apply either built-in or custom table styles
+- Access each range of a table
+- Add or remove a table column
+- Perform calculations for a specific table range</value>
   </data>
   <data name="Theme.Descrip" xml:space="preserve">
-    <value>Spread.Services provides users with a set of built-in themes so as to enable them to change the overall appearance of workbook. Besides, it also allows users to create custom theme and apply it in order to set up a workbook as per their own preferences and requirements.
+    <value>Spread.Services provides you with a set of built-in themes so you can quickly change the overall appearance of a workbook. It also lets you create custom themes and apply them to workbooks.
 
-Change workbook's theme with **Theme** property of **workbook** instance, Add custom theme with **Add** method of **Themes** class instance, get built-in theme instance with built-in properties of **Themes** class, get custom theme instance with the indexer of **Themes**.</value>
+- Use the **Theme** property of a workbook instance to change the workbook's theme. 
+- Use the **Add** method of a themes class instance to add a custom theme. 
+- Use the built-in properties of the **Themes** class to get a built-in theme instance.
+- Use the **Themes** indexer to get a custom theme instance.</value>
   </data>
   <data name="Workbook.Descrip" xml:space="preserve">
-    <value>A workbook is a spreadsheet document that comprises of one or more worksheets that are stored within the Worksheets collection.
+    <value>A workbook is a spreadsheet document that contains one or more worksheets that are stored within the Worksheets collection.
 
-The examples in this folder demonstrate follow cases:
-- Create new workbook
-- Import excel file to workbook
-- Import excel file with password to workbook
-- Export workbook to an excel file
-- Export workbook to an excel file with password
-- ToJson, FromJson</value>
+The examples in this folder demonstrate the following cases:
+- Create  a new workbook
+- Import an Excel file into a workbook
+- Import an Excel file with a password to a workbook
+- Export a workbook to an Excel file
+- Export a workbook to an Excel file with a password
+- Import or export a workbook using ToJson and FromJson</value>
   </data>
   <data name="Worksheets.Descrip" xml:space="preserve">
-    <value>The examples in this folder demonstrate follow cases:
-- Add worksheet
-- delete worksheet
-- Protect worksheet
-- Unprotect worksheet
-- Active worksheet
-- worksheet settings</value>
+    <value>The examples in this folder demonstrate the following cases:
+- Add a worksheet
+- Delete a worksheet
+- Protect a worksheet
+- Unprotect a worksheet
+- Activate a worksheet
+- Apply settings to a worksheet</value>
   </data>
   <data name="ExcelReporting.Descrip" xml:space="preserve">
-    <value>In **Excel Reporting**, you will explore some complete demo codes deonstrating how to generate an excel file or reporting at server side, after you click the **"Run"** button, something at server will happen as following:
+    <value>In this folder, you can explore complete code demonstrating how to generate an Excel file or report at server side. 
+
+Click the **"Run"** button to perform the following actions on the server:
 - Create an empty workbook
-- Execute all the codes in the code window
+- Execute all of code in the code window
 - Save to an excel file
 
-Then you can view the result by downloading the excel file.</value>
+Then you can view the results by downloading the excel file.</value>
   </data>
   <data name="ExcelTemplates.Descrip" xml:space="preserve">
-    <value>In some typical scenarios, you may have your own excel templates, you just want to open and update some of its contents at server side, such as changing values, cusomizing formattings, for such scenario, you can open an existing excel file with **Spread.Services** and manipulate it through plent of *Spread.Services APIs*, in this part:
-- You can download and view the original excel template by clicking the **"Template"** button
-- You can run all the codes and get changed excel file by clicking the **"Run"** button</value>
+    <value>In some scenarios, you may have your own Excel templates and just want to open and update some of the contents at server side. You can use the extensive Spread.Services API to open an existing Excel file and then change some of its values, customize its formatting, and whatever else you need to do.
+- Click the **Template** button to download and view the original Excel template
+- Click the **Run** button to run the code and get the changed Excel file</value>
   </data>
   <data name="UseSlicerToClearFilter.Name" xml:space="preserve">
-    <value>Use slicer to clear filter</value>
+    <value>Use a slicer to clear a filter</value>
   </data>
   <data name="Features.Descrip" xml:space="preserve">
-    <value>**Spread.Services** provides some remarkable features that empowers users to include spreadsheets with high-performance attributes, customizable themes, configurable components, summarized data, application of custom styles, embedded drawing objects, integrated calculation engine, and so much more.
+    <value>Spread.Services provides some remarkable features that empower developers to create spreadsheets with:
+- High-performance attributes
+- Custom themes
+- Configurable components
+- Summarized data
+- Custom styles
+- Embedded drawing objects
+- Integrated calculation engine
+- And much more...
 
-You will explore a lot of example codes in this part about how to use each feature of Spread.Services.</value>
+You can explore a lot of example code in the Features section that shows you how to use each feature in Spread.Services.
+
+Click the **"Run"** button to perform the following actions on the server:
+- Create an empty workbook
+- Execute all of the code in the code window
+- Save to an Excel file
+
+Then you can view the results by downloading the Excel file.
+
+**NOTE**: In this demo, Spread.Sheets is in read-only mode. Don't be alarmed if some features are not interactive. Download the fully functional  Excel file to interact with the features.</value>
   </data>
-  <data name="ProjectCostTrackerForJS.Name" xml:space="preserve">
+  <data name="ProjectCostTracker.Name" xml:space="preserve">
     <value>Project cost tracker</value>
   </data>
   <data name="EventBudget.Name" xml:space="preserve">
     <value>Event budget</value>
   </data>
+  <data name="NumberFilter.Name" xml:space="preserve">
+    <value>Apply number filter</value>
+  </data>
   <data name="NumberFiltering.Descrip" xml:space="preserve">
-    <value> </value>
+    <value>The examples in this folder demonstrates how to use number filtering for range.</value>
+  </data>
+  <data name="NumberFormat.Name" xml:space="preserve">
+    <value>Number Format</value>
+  </data>
+  <data name="ConfigValueAxesFormat.Name" xml:space="preserve">
+    <value>Configure value axis style</value>
+  </data>
+  <data name="ChangeSeriesType.Name" xml:space="preserve">
+    <value>Change series type</value>
+  </data>
+  <data name="ConfigDataLabelFormat.Name" xml:space="preserve">
+    <value>Configure data label's format</value>
+  </data>
+  <data name="ConfigMarkerStyle.Name" xml:space="preserve">
+    <value>Configure markers style</value>
+  </data>
+  <data name="ConfigNegativePoint.Name" xml:space="preserve">
+    <value>Configure negative point style</value>
+  </data>
+  <data name="ConfigSeriesFormat.Name" xml:space="preserve">
+    <value>Configure series format</value>
+  </data>
+  <data name="CreateSecondaryAxis.Name" xml:space="preserve">
+    <value>Create secondary axis</value>
+  </data>
+  <data name="DeleteSeries.Name" xml:space="preserve">
+    <value>Delete series</value>
+  </data>
+  <data name="ConfigChartTitleRichText.Name" xml:space="preserve">
+    <value>Configure chart title with rich text</value>
+  </data>
+  <data name="ChartArea.Name" xml:space="preserve">
+    <value>Chart area</value>
+  </data>
+  <data name="ChartLines.Name" xml:space="preserve">
+    <value>Chart lines</value>
+  </data>
+  <data name="ChartTitle.Name" xml:space="preserve">
+    <value>Chart title</value>
+  </data>
+  <data name="ChartWalls.Name" xml:space="preserve">
+    <value>Chart walls</value>
+  </data>
+  <data name="ConfigChartAreaFont.Name" xml:space="preserve">
+    <value>Configure chart area's font</value>
+  </data>
+  <data name="ConfigChartBackWall.Name" xml:space="preserve">
+    <value>Configure chart back wall</value>
+  </data>
+  <data name="ConfigChartSideWall.Name" xml:space="preserve">
+    <value>Configure chart side wall</value>
+  </data>
+  <data name="DataLabel.Name" xml:space="preserve">
+    <value>Data label</value>
+  </data>
+  <data name="DataPoint.Name" xml:space="preserve">
+    <value>Data point</value>
+  </data>
+  <data name="Legend.Name" xml:space="preserve">
+    <value>Legend</value>
+  </data>
+  <data name="ChartArea.Descrip" xml:space="preserve">
+    <value>Chart area is the complete chart area, include plot area, chart title and legend.
+
+These examples demonstrate how to Configure chart area style and whole chart area font style.</value>
+  </data>
+  <data name="ChartLines.Descrip" xml:space="preserve">
+    <value>Chart lines include: **Trendline**, **Dropline** , **High-Low Line** and **Series Line**.
+
+- **Trendline** is for specific series.
+- **Dropline** set for line chart or area chart.
+- **High-Low line** set for line chart.
+- **Series line** set for stackes column chart or bar chart, Pie of Pie chart or Bar of Pie chart also has connector lines between the two sections.
+
+These examples demonstrate how to add these lines and how to Configure lines style.</value>
+  </data>
+  <data name="ChartTitle.Descrip" xml:space="preserve">
+    <value>**Chart title** is the name of the chart.
+
+These examples demonstrate how to display chart name  and how to specify settings for chart title.</value>
+  </data>
+  <data name="ChartWalls.Descrip" xml:space="preserve">
+    <value>**Chart walls** include **back wall** and **side wall**.
+
+These examaple demonstrete how to specity settings for chart walls, include:
+- Configure walls style together
+- Configure back wall and side wall separately</value>
+  </data>
+  <data name="Chart3DFormat.Name" xml:space="preserve">
+    <value>Chart 3D format</value>
+  </data>
+  <data name="ConfigLegendFormat.Name" xml:space="preserve">
+    <value>Configure legend format</value>
+  </data>
+  <data name="ConfigSecondarySection.Name" xml:space="preserve">
+    <value>Configure secondary section for pie of pie chart</value>
+  </data>
+  <data name="DataLabel.Descrip" xml:space="preserve">
+    <value>**Datalabel** can display specified series information. With interface **ShowLwgendKey**, **ShowPercentage** , **ShowValue** , **ShowSeriesName** .etc to Configure datalabel layout.
+
+These examples demonstrate how to display datalabels and how to specified settings for datalabel.</value>
+  </data>
+  <data name="DataPoint.Descrip" xml:space="preserve">
+    <value>**Datapoints** is a collectiong of all points in specific series.
+
+These examples demontrate how to specified settings for datapoint</value>
+  </data>
+  <data name="Legend.Descrip" xml:space="preserve">
+    <value>These examples demontrate how to Configure legend's style and position.</value>
+  </data>
+  <data name="PlotArea.Descrip" xml:space="preserve">
+    <value>These examples demonstrate how to specified setting for plot area.</value>
+  </data>
+  <data name="PlotArea.Name" xml:space="preserve">
+    <value>Plot area</value>
+  </data>
+  <data name="ChartGallery.Descrip" xml:space="preserve">
+    <value>**Chart gallery** include all kinds of chart type.
+
+These examples in this folder demonstrate the all types of chart.</value>
+  </data>
+  <data name="ChartGallery.Name" xml:space="preserve">
+    <value>Chart gallery</value>
+  </data>
+  <data name="AreaChart.Name" xml:space="preserve">
+    <value>Area chart</value>
+  </data>
+  <data name="AreaStacked100.Name" xml:space="preserve">
+    <value>100% Stacked chart</value>
+  </data>
+  <data name="AreaStackedChart.Name" xml:space="preserve">
+    <value>Stacked Area chart</value>
+  </data>
+  <data name="BarClusteredChart.Name" xml:space="preserve">
+    <value>Clustered Bar chart</value>
+  </data>
+  <data name="BarStacked100Chart.Name" xml:space="preserve">
+    <value>100% Stacked Bar chart</value>
+  </data>
+  <data name="BarStackedChart.Name" xml:space="preserve">
+    <value>Stacked Bar chart</value>
+  </data>
+  <data name="ColumnClusteredChart.Name" xml:space="preserve">
+    <value>Clustered Column chart</value>
+  </data>
+  <data name="ColumnStacked100Chart.Name" xml:space="preserve">
+    <value>100% Stacked Column chart</value>
+  </data>
+  <data name="ColumnStackedChart.Name" xml:space="preserve">
+    <value>Stacked Column chart</value>
+  </data>
+  <data name="LineChart.Name" xml:space="preserve">
+    <value>Line chart</value>
+  </data>
+  <data name="LineMarkersChart.Name" xml:space="preserve">
+    <value>Line Markers chart</value>
+  </data>
+  <data name="LineStacked100Chart.Name" xml:space="preserve">
+    <value>100% Stacked Line chart</value>
+  </data>
+  <data name="LineStackedChart.Name" xml:space="preserve">
+    <value>Stacked Line chart</value>
+  </data>
+  <data name="PieChart.Name" xml:space="preserve">
+    <value>Pie chart</value>
+  </data>
+  <data name="Stock_HighLowCloseStockChart.Name" xml:space="preserve">
+    <value>High-Low-Close stock chart</value>
+  </data>
+  <data name="Stock_OpenHighLowCloseStock.Name" xml:space="preserve">
+    <value>Open-High-Low-Close stock chart</value>
+  </data>
+  <data name="Stock_VolumeHighLowCloseStock.Name" xml:space="preserve">
+    <value>Volume-High-Low-Close stock chart</value>
+  </data>
+  <data name="XYScatterChart.Name" xml:space="preserve">
+    <value>Scatter chart</value>
+  </data>
+  <data name="XYScatterLinesChart.Name" xml:space="preserve">
+    <value>Scatter with straight lines and markers</value>
+  </data>
+  <data name="XYScatterSmooth.Name" xml:space="preserve">
+    <value>Scatter with smooth Lines</value>
+  </data>
+  <data name="BarCluteredChart.Name" xml:space="preserve">
+    <value>Clustered bar chart</value>
+  </data>
+  <data name="BubbleChart.Name" xml:space="preserve">
+    <value>Bubble chart</value>
+  </data>
+  <data name="ConfigHeaderFooter.Name" xml:space="preserve">
+    <value>Configure page header footer</value>
+  </data>
+  <data name="ConfigEvenPageHeaderFooter.Name" xml:space="preserve">
+    <value>Configure even page header footer</value>
+  </data>
+  <data name="ConfigFirstPageNumber.Name" xml:space="preserve">
+    <value>Configure first page number</value>
+  </data>
+  <data name="ConfigPageMargins.Name" xml:space="preserve">
+    <value>Configure page margins</value>
+  </data>
+  <data name="ConfigPageOrder.Name" xml:space="preserve">
+    <value>Configure page order</value>
+  </data>
+  <data name="ConfigPageOrientation.Name" xml:space="preserve">
+    <value>Configure page orientation</value>
+  </data>
+  <data name="ConfigPaperScaling.Name" xml:space="preserve">
+    <value>Configure paper scaling</value>
+  </data>
+  <data name="ConfigPaperSize.Name" xml:space="preserve">
+    <value>Configure paper size</value>
+  </data>
+  <data name="ConfigPrintArea.Name" xml:space="preserve">
+    <value>Configure print area</value>
+  </data>
+  <data name="ConfigSheetPrintSetings.Name" xml:space="preserve">
+    <value>Configure sheet print setings</value>
+  </data>
+  <data name="PageSetup.Name" xml:space="preserve">
+    <value>Page Setup</value>
+  </data>
+  <data name="CombinationChart1.Name" xml:space="preserve">
+    <value>Combination chart</value>
+  </data>
+  <data name="CombinationChart2.Name" xml:space="preserve">
+    <value>Combination chart</value>
+  </data>
+  <data name="LineMarkerStackedChart.Name" xml:space="preserve">
+    <value>Stack line with markers chart</value>
+  </data>
+  <data name="Pie_DoughnutChart.Name" xml:space="preserve">
+    <value>Doughnut chart</value>
+  </data>
+  <data name="Stock_VolumeOpenHighLowClose.Name" xml:space="preserve">
+    <value>Volume-Open-High-Low-Close chart</value>
+  </data>
+  <data name="XYScatterSmoothWithMarkers.Name" xml:space="preserve">
+    <value>Scatter with smooth lines and markers</value>
+  </data>
+  <data name="LineMarkerStacked100Chart.Name" xml:space="preserve">
+    <value>100% Stacked line with markers chart</value>
+  </data>
+  <data name="Chart3DFormat.Descrip" xml:space="preserve">
+    <value>These examples in this folder demonstrate how to set charts 3D format</value>
+  </data>
+  <data name="ConfigMarkersFormat.Name" xml:space="preserve">
+    <value>Configure markers format</value>
+  </data>
+  <data name="Markers.Descrip" xml:space="preserve">
+    <value>These examples in this folder demonstrate how to set **Markers** sytle and format</value>
+  </data>
+  <data name="Markers.Name" xml:space="preserve">
+    <value>Markers</value>
+  </data>
+  <data name="PageSetup.Descrip" xml:space="preserve">
+    <value>Spread.Services supports page setup. The **PageSetup** object contains all page setup attributes (left margin, bottom margin, paper size, and so on) as properties.</value>
+  </data>
+  <data name="ConfigChart3DFormat.Name" xml:space="preserve">
+    <value>Configure chart 3D format</value>
+  </data>
+  <data name="ConfigFirstPageHeaderFooter.Name" xml:space="preserve">
+    <value>Configure first page header footer</value>
+  </data>
+  <data name="EventPlanningTracker.Name" xml:space="preserve">
+    <value>Event planning tracker</value>
+  </data>
+  <data name="FamilyBudget.Name" xml:space="preserve">
+    <value>Family budget</value>
+  </data>
+  <data name="ConfigPrintTitleColumns.Name" xml:space="preserve">
+    <value>Configure columns to repeat at left</value>
+  </data>
+  <data name="ConfigPrintTitleRows.Name" xml:space="preserve">
+    <value>Configure rows to repeat at top</value>
+  </data>
+  <data name="ConfigPageCenter.Name" xml:space="preserve">
+    <value>Configure page center</value>
+  </data>
+  <data name="ImportExcelFileDataOnly.Name" xml:space="preserve">
+    <value>Only import data from Excel</value>
+  </data>
+  <data name="ImportExcelFileWithoutCalculation.Name" xml:space="preserve">
+    <value>Do not recalucate after opening Excel</value>
   </data>
 </root>

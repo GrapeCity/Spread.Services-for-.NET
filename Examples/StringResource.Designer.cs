@@ -20,7 +20,7 @@ namespace GrapeCity.Documents.Spread.Examples {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class StringResource {
@@ -71,7 +71,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Access each area in range.
+        ///   Looks up a localized string similar to Access areas in a range.
         /// </summary>
         internal static string AccessEachAreaOfRange_Name {
             get {
@@ -80,7 +80,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Access range.
+        ///   Looks up a localized string similar to Access a range.
         /// </summary>
         internal static string AccessRange_Name {
             get {
@@ -125,7 +125,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Add comment for cell.
+        ///   Looks up a localized string similar to Add comment to cell.
         /// </summary>
         internal static string AddComment_Name {
             get {
@@ -134,7 +134,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Add custom name.
+        ///   Looks up a localized string similar to Add custom names.
         /// </summary>
         internal static string AddCustomName_Name {
             get {
@@ -143,7 +143,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Add custom slicer style.
+        ///   Looks up a localized string similar to Add a custom slicer style.
         /// </summary>
         internal static string AddCustomSlicerStyle_Name {
             get {
@@ -152,7 +152,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Add custom table style.
+        ///   Looks up a localized string similar to Add a custom table style.
         /// </summary>
         internal static string AddCustomTableStyle_Name {
             get {
@@ -188,7 +188,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Add slicers for pivot tables.
+        ///   Looks up a localized string similar to Add slicers to pivot tables.
         /// </summary>
         internal static string AddSlicersForPivotTable_Name {
             get {
@@ -197,7 +197,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Add slicers for table.
+        ///   Looks up a localized string similar to Add slicers to tables.
         /// </summary>
         internal static string AddSlicersForTable_Name {
             get {
@@ -215,12 +215,13 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The examples in this folder demonstrate how to specify alignment settings, as folllows:
-        ///- Horizontal alignment and vertical alignment
-        ///- Text Orientation
-        ///- Shrink to fit
-        ///- Reading order
-        ///- Wrap Text.
+        ///   Looks up a localized string similar to The examples in this folder demonstrate how to use these alignment settings:
+        ///- HorizontalAlignment (Left, Center, or Right)
+        ///- VerticalAlignment (Top, Center, or Bottom)
+        ///- ReadingOrder (sets text direction to RightToLeft or LeftToRight)
+        ///- ShrinkToFit 
+        ///- Orientation (sets the text rotation angle in degrees)
+        ///- Wrap Text .
         /// </summary>
         internal static string Alignment_Descrip {
             get {
@@ -256,7 +257,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Apply built-in style to table.
+        ///   Looks up a localized string similar to Apply built-in styles to tables.
         /// </summary>
         internal static string ApplyTableStyle_Name {
             get {
@@ -265,9 +266,47 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Chart contains three type of axes, **category axis**, **value axis** and **series axis**,  they all generated automatically, **can not add or delete by programming**.
+        ///   Looks up a localized string similar to Area chart.
+        /// </summary>
+        internal static string AreaChart_Name {
+            get {
+                return ResourceManager.GetString("AreaChart.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 100% Stacked chart.
+        /// </summary>
+        internal static string AreaStacked100_Name {
+            get {
+                return ResourceManager.GetString("AreaStacked100.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Stacked Area chart.
+        /// </summary>
+        internal static string AreaStackedChart_Name {
+            get {
+                return ResourceManager.GetString("AreaStackedChart.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Charts contain three axis types: 
+        ///- category axis
+        ///- value axis
+        ///- series axis
         ///
-        ///Examples in Axes folder demonstrate how to specify **axes relative settings**, such as axis title, axis units, display unit label, gridlines, tick mark and tick mark label settings..
+        ///They are all generated automatically, and you **can not add or delete them in code**.
+        ///
+        ///Examples in the Axis folder demonstrate how to specify axis-related settings such as:
+        ///- axis titles
+        ///- axis units
+        ///- display unit labels
+        ///- gridlines
+        ///- tick marks
+        ///- tick mark labels.
         /// </summary>
         internal static string Axes_Descrip {
             get {
@@ -276,11 +315,47 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Axes.
+        ///   Looks up a localized string similar to Axis.
         /// </summary>
         internal static string Axes_Name {
             get {
                 return ResourceManager.GetString("Axes.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Clustered Bar chart.
+        /// </summary>
+        internal static string BarClusteredChart_Name {
+            get {
+                return ResourceManager.GetString("BarClusteredChart.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Clustered bar chart.
+        /// </summary>
+        internal static string BarCluteredChart_Name {
+            get {
+                return ResourceManager.GetString("BarCluteredChart.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 100% Stacked Bar chart.
+        /// </summary>
+        internal static string BarStacked100Chart_Name {
+            get {
+                return ResourceManager.GetString("BarStacked100Chart.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Stacked Bar chart.
+        /// </summary>
+        internal static string BarStackedChart_Name {
+            get {
+                return ResourceManager.GetString("BarStackedChart.Name", resourceCulture);
             }
         }
         
@@ -321,9 +396,9 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The examples in **Borders** demonstrate how to specify border settings for range.
-        ///- Border line style
-        ///- Border color.
+        ///   Looks up a localized string similar to The examples in this folder demonstrate how to specify border settings for a range. You can set these border options:
+        ///- BorderLineStyle (Dashed, DashDot, Dotted, Double, Medium, Hair, etc.)
+        ///- Color (Green, Red, Blue, Tomato, LimeGreen, etc.).
         /// </summary>
         internal static string Borders_Descrip {
             get {
@@ -341,16 +416,34 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Change data field&apos;s summarize function.
+        ///   Looks up a localized string similar to Bubble chart.
         /// </summary>
-        internal static string ChangeDataFiledSummarizeFunction_Name {
+        internal static string BubbleChart_Name {
             get {
-                return ResourceManager.GetString("ChangeDataFiledSummarizeFunction.Name", resourceCulture);
+                return ResourceManager.GetString("BubbleChart.Name", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Change workbook theme.
+        ///   Looks up a localized string similar to Set field&apos;s summarize function.
+        /// </summary>
+        internal static string ChangeDataFieldSummarizeFunction_Name {
+            get {
+                return ResourceManager.GetString("ChangeDataFieldSummarizeFunction.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Change series type.
+        /// </summary>
+        internal static string ChangeSeriesType_Name {
+            get {
+                return ResourceManager.GetString("ChangeSeriesType.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Change workbook themes.
         /// </summary>
         internal static string ChangeWorkbookTheme_Name {
             get {
@@ -368,7 +461,65 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Specify chart just plot visible cells.
+        ///   Looks up a localized string similar to These examples in this folder demonstrate how to set charts 3D format.
+        /// </summary>
+        internal static string Chart3DFormat_Descrip {
+            get {
+                return ResourceManager.GetString("Chart3DFormat.Descrip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Chart 3D format.
+        /// </summary>
+        internal static string Chart3DFormat_Name {
+            get {
+                return ResourceManager.GetString("Chart3DFormat.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Chart area is the complete chart area, include plot area, chart title and legend.
+        ///
+        ///These examples demonstrate how to Configure chart area style and whole chart area font style..
+        /// </summary>
+        internal static string ChartArea_Descrip {
+            get {
+                return ResourceManager.GetString("ChartArea.Descrip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Chart area.
+        /// </summary>
+        internal static string ChartArea_Name {
+            get {
+                return ResourceManager.GetString("ChartArea.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to **Chart gallery** include all kinds of chart type.
+        ///
+        ///These examples in this folder demonstrate the all types of chart..
+        /// </summary>
+        internal static string ChartGallery_Descrip {
+            get {
+                return ResourceManager.GetString("ChartGallery.Descrip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Chart gallery.
+        /// </summary>
+        internal static string ChartGallery_Name {
+            get {
+                return ResourceManager.GetString("ChartGallery.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Plot only visible cells.
         /// </summary>
         internal static string ChartJustPlotVisibleCell_Name {
             get {
@@ -377,14 +528,41 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Chart lines include: **Trendline**, **Dropline** , **High-Low Line** and **Series Line**.
+        ///
+        ///- **Trendline** is for specific series.
+        ///- **Dropline** set for line chart or area chart.
+        ///- **High-Low line** set for line chart.
+        ///- **Series line** set for stackes column chart or bar chart, Pie of Pie chart or Bar of Pie chart also has connector lines between the two sections.
+        ///
+        ///These examples demonstrate how to add these lines and how to Configure lines style..
+        /// </summary>
+        internal static string ChartLines_Descrip {
+            get {
+                return ResourceManager.GetString("ChartLines.Descrip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Chart lines.
+        /// </summary>
+        internal static string ChartLines_Name {
+            get {
+                return ResourceManager.GetString("ChartLines.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to **Spread.Services** provides a comprehensive charting API:
         ///
-        ///- Add Charts to a **worksheet** using the **IWorksheet.AddChart** method, it returns an instance of **IShape** whose **Chart** property can be used to access the new added chart.
-        ///- Add data series with **IChart.SeriesCollection.Add** method
-        ///- Cutomize chart tile with **IChart.ChartTitle** property
-        ///- Cutomize chart legend with **IChart.Legend** property
-        ///- Access and customize each data series through **ISeries** interface
-        ///- Customize each dat [rest of string was truncated]&quot;;.
+        ///- Add charts to a worksheet using the **IWorksheet.AddChart** method
+        ///-- Returns an instance of **IShape** 
+        ///-- Use the **Chart** property to access the newly added chart
+        ///- Add data series with the **IChart.SeriesCollection.Add** method
+        ///- Cutomize chart titles with the **IChart.ChartTitle** property
+        ///- Cutomize chart legends with the **IChart.Legend** property
+        ///- Access and customize each data series through the **ISeries** interface
+        ///- Customi [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Charts_Descrip {
             get {
@@ -398,6 +576,48 @@ namespace GrapeCity.Documents.Spread.Examples {
         internal static string Charts_Name {
             get {
                 return ResourceManager.GetString("Charts.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to **Chart title** is the name of the chart.
+        ///
+        ///These examples demonstrate how to display chart name  and how to specify settings for chart title..
+        /// </summary>
+        internal static string ChartTitle_Descrip {
+            get {
+                return ResourceManager.GetString("ChartTitle.Descrip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Chart title.
+        /// </summary>
+        internal static string ChartTitle_Name {
+            get {
+                return ResourceManager.GetString("ChartTitle.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to **Chart walls** include **back wall** and **side wall**.
+        ///
+        ///These examaple demonstrete how to specity settings for chart walls, include:
+        ///- Configure walls style together
+        ///- Configure back wall and side wall separately.
+        /// </summary>
+        internal static string ChartWalls_Descrip {
+            get {
+                return ResourceManager.GetString("ChartWalls.Descrip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Chart walls.
+        /// </summary>
+        internal static string ChartWalls_Name {
+            get {
+                return ResourceManager.GetString("ChartWalls.Name", resourceCulture);
             }
         }
         
@@ -429,7 +649,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Clear sparkline group.
+        ///   Looks up a localized string similar to Clear the sparkline group.
         /// </summary>
         internal static string ClearSparklineGroup_Name {
             get {
@@ -456,11 +676,60 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Spread.Services enables users to annotate a worksheet by allowing them to write comments on cells in order to specify additional information about the data it contains.
+        ///   Looks up a localized string similar to Clustered Column chart.
+        /// </summary>
+        internal static string ColumnClusteredChart_Name {
+            get {
+                return ResourceManager.GetString("ColumnClusteredChart.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 100% Stacked Column chart.
+        /// </summary>
+        internal static string ColumnStacked100Chart_Name {
+            get {
+                return ResourceManager.GetString("ColumnStacked100Chart.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Stacked Column chart.
+        /// </summary>
+        internal static string ColumnStackedChart_Name {
+            get {
+                return ResourceManager.GetString("ColumnStackedChart.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Combination chart.
+        /// </summary>
+        internal static string CombinationChart1_Name {
+            get {
+                return ResourceManager.GetString("CombinationChart1.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Combination chart.
+        /// </summary>
+        internal static string CombinationChart2_Name {
+            get {
+                return ResourceManager.GetString("CombinationChart2.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Spread.Services enables users to annotate worksheets. They can write comments for cells to add information about the data it contains.
         ///
-        ///Add comment for **range** using range&apos;s **AddComment** method. it returns an instance of **IComment**, Show comment all the time with **Visible** property. Modify comment&apos;s layout with **Shape** property.
+        ///Add comments for a range using the **AddComment** method. It returns an instance of the **IComment** interface. 
         ///
-        ///Create rich text using **TextFrame** property of IShape, each runs can be different font styles..
+        ///Always show comments with the **Visible** property. 
+        ///
+        ///Modify comment layouts with the **Shape** property.
+        ///
+        ///Create rich text using the **TextFrame** property of the **IShape** interface. You can use different font styles for each run..
         /// </summary>
         internal static string Comments_Descrip {
             get {
@@ -478,9 +747,17 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to In order to enable you to highlight important information in rows or columns of a worksheet, Spread.Services allows users to create conditional formatting rules for individual cells or a range of cells based on cell values. If the format condition matches with the cell value, it is assumed as true and the cell is formatted as per the specified rule.
+        ///   Looks up a localized string similar to In order to enable you to highlight important information in rows or columns of a worksheet, Spread.Services allows users to create conditional formatting rules for individual cells or a range of cells based on cell values. If the format condition matches with the cell value, it is assumed as true and the cell is formatted as per the specified rule..
         ///
-        ///Spread.Services supports all type of condition format rules, such as **Cell Value** Rule, **Average** Rule, **Color Scale** Rule, **Data Bar** Rule, **Icon Set [rest of string was truncated]&quot;;.
+        ///Spread.Services supports all types of conditional formatting rules:
+        ///
+        ///- Cell Value
+        ///- Average
+        ///- Color Scale
+        ///- Data Bar
+        ///- Icon Sets
+        ///- Top Bottom 
+        ///- Uni [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string ConditionalFormatting_Descrip {
             get {
@@ -498,16 +775,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Config category and value axis style.
-        /// </summary>
-        internal static string ConfigAxesFormat_Name {
-            get {
-                return ResourceManager.GetString("ConfigAxesFormat.Name", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Config axis title&apos;s style.
+        ///   Looks up a localized string similar to Configure axis title style.
         /// </summary>
         internal static string ConfigAxisTitle_Name {
             get {
@@ -516,7 +784,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Config bubble chart&apos;s layout.
+        ///   Looks up a localized string similar to Configure bubble chart&apos;s layout.
         /// </summary>
         internal static string ConfigBubbleChartLayout_Name {
             get {
@@ -525,7 +793,16 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Set category axis&apos;s units.
+        ///   Looks up a localized string similar to Configure category axis style.
+        /// </summary>
+        internal static string ConfigCategoryAxesFormat_Name {
+            get {
+                return ResourceManager.GetString("ConfigCategoryAxesFormat.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Set data axis units.
         /// </summary>
         internal static string ConfigCategoryAxisUnits_Name {
             get {
@@ -534,7 +811,25 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Config chart area format.
+        ///   Looks up a localized string similar to Configure chart 3D format.
+        /// </summary>
+        internal static string ConfigChart3DFormat_Name {
+            get {
+                return ResourceManager.GetString("ConfigChart3DFormat.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Configure chart area&apos;s font.
+        /// </summary>
+        internal static string ConfigChartAreaFont_Name {
+            get {
+                return ResourceManager.GetString("ConfigChartAreaFont.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Configure chart area format.
         /// </summary>
         internal static string ConfigChartAreaFormat_Name {
             get {
@@ -543,7 +838,16 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Config chart floor style.
+        ///   Looks up a localized string similar to Configure chart back wall.
+        /// </summary>
+        internal static string ConfigChartBackWall_Name {
+            get {
+                return ResourceManager.GetString("ConfigChartBackWall.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Configure chart floor style.
         /// </summary>
         internal static string ConfigChartFloorStyle_Name {
             get {
@@ -552,7 +856,25 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Config chart title style.
+        ///   Looks up a localized string similar to Configure chart side wall.
+        /// </summary>
+        internal static string ConfigChartSideWall_Name {
+            get {
+                return ResourceManager.GetString("ConfigChartSideWall.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Configure chart title with rich text.
+        /// </summary>
+        internal static string ConfigChartTitleRichText_Name {
+            get {
+                return ResourceManager.GetString("ConfigChartTitleRichText.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Configure chart title style.
         /// </summary>
         internal static string ConfigChartTitleStyle_Name {
             get {
@@ -561,7 +883,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Config chart wall style.
+        ///   Looks up a localized string similar to Configure chart walls style.
         /// </summary>
         internal static string ConfigChartWallStyle_Name {
             get {
@@ -570,7 +892,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Config comment&apos;s layout.
+        ///   Looks up a localized string similar to Configure comment&apos;s layout.
         /// </summary>
         internal static string ConfigCommentLayout_Name {
             get {
@@ -579,16 +901,25 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Config data label&apos;s text and format.
+        ///   Looks up a localized string similar to Configure data label&apos;s format.
         /// </summary>
-        internal static string ConfigDataLabelTextAndFormat_Name {
+        internal static string ConfigDataLabelFormat_Name {
             get {
-                return ResourceManager.GetString("ConfigDataLabelTextAndFormat.Name", resourceCulture);
+                return ResourceManager.GetString("ConfigDataLabelFormat.Name", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Config data point&apos;s format.
+        ///   Looks up a localized string similar to Configure data label&apos;s text.
+        /// </summary>
+        internal static string ConfigDataLabelText_Name {
+            get {
+                return ResourceManager.GetString("ConfigDataLabelText.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Configure data point&apos;s format.
         /// </summary>
         internal static string ConfigDataPointFormat_Name {
             get {
@@ -597,7 +928,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Config display unit label&apos;s style.
+        ///   Looks up a localized string similar to Configure display unit label style.
         /// </summary>
         internal static string ConfigDisplayUnitLabel_Name {
             get {
@@ -606,7 +937,34 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Config gridline&apos;s style.
+        ///   Looks up a localized string similar to Configure even page header footer.
+        /// </summary>
+        internal static string ConfigEvenPageHeaderFooter_Name {
+            get {
+                return ResourceManager.GetString("ConfigEvenPageHeaderFooter.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Configure first page header footer.
+        /// </summary>
+        internal static string ConfigFirstPageHeaderFooter_Name {
+            get {
+                return ResourceManager.GetString("ConfigFirstPageHeaderFooter.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Configure first page number.
+        /// </summary>
+        internal static string ConfigFirstPageNumber_Name {
+            get {
+                return ResourceManager.GetString("ConfigFirstPageNumber.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Configure gridline style.
         /// </summary>
         internal static string ConfigGridlines_Name {
             get {
@@ -615,7 +973,16 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Config legend entry font style.
+        ///   Looks up a localized string similar to Configure page header footer.
+        /// </summary>
+        internal static string ConfigHeaderFooter_Name {
+            get {
+                return ResourceManager.GetString("ConfigHeaderFooter.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Configure legend entry font style.
         /// </summary>
         internal static string ConfigLegendEntryFontStyle_Name {
             get {
@@ -624,7 +991,16 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Config legend position and layout.
+        ///   Looks up a localized string similar to Configure legend format.
+        /// </summary>
+        internal static string ConfigLegendFormat_Name {
+            get {
+                return ResourceManager.GetString("ConfigLegendFormat.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Configure legend position and layout.
         /// </summary>
         internal static string ConfigLegendPositionAndLayout_Name {
             get {
@@ -633,11 +1009,137 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Config plot area format.
+        ///   Looks up a localized string similar to Configure markers format.
+        /// </summary>
+        internal static string ConfigMarkersFormat_Name {
+            get {
+                return ResourceManager.GetString("ConfigMarkersFormat.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Configure markers style.
+        /// </summary>
+        internal static string ConfigMarkerStyle_Name {
+            get {
+                return ResourceManager.GetString("ConfigMarkerStyle.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Configure negative point style.
+        /// </summary>
+        internal static string ConfigNegativePoint_Name {
+            get {
+                return ResourceManager.GetString("ConfigNegativePoint.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Configure page center.
+        /// </summary>
+        internal static string ConfigPageCenter_Name {
+            get {
+                return ResourceManager.GetString("ConfigPageCenter.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Configure page margins.
+        /// </summary>
+        internal static string ConfigPageMargins_Name {
+            get {
+                return ResourceManager.GetString("ConfigPageMargins.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Configure page order.
+        /// </summary>
+        internal static string ConfigPageOrder_Name {
+            get {
+                return ResourceManager.GetString("ConfigPageOrder.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Configure page orientation.
+        /// </summary>
+        internal static string ConfigPageOrientation_Name {
+            get {
+                return ResourceManager.GetString("ConfigPageOrientation.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Configure paper scaling.
+        /// </summary>
+        internal static string ConfigPaperScaling_Name {
+            get {
+                return ResourceManager.GetString("ConfigPaperScaling.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Configure paper size.
+        /// </summary>
+        internal static string ConfigPaperSize_Name {
+            get {
+                return ResourceManager.GetString("ConfigPaperSize.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Configure plot area format.
         /// </summary>
         internal static string ConfigPlotAreaFormat_Name {
             get {
                 return ResourceManager.GetString("ConfigPlotAreaFormat.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Configure print area.
+        /// </summary>
+        internal static string ConfigPrintArea_Name {
+            get {
+                return ResourceManager.GetString("ConfigPrintArea.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Configure columns to repeat at left.
+        /// </summary>
+        internal static string ConfigPrintTitleColumns_Name {
+            get {
+                return ResourceManager.GetString("ConfigPrintTitleColumns.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Configure rows to repeat at top.
+        /// </summary>
+        internal static string ConfigPrintTitleRows_Name {
+            get {
+                return ResourceManager.GetString("ConfigPrintTitleRows.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Configure secondary section for pie of pie chart.
+        /// </summary>
+        internal static string ConfigSecondarySection_Name {
+            get {
+                return ResourceManager.GetString("ConfigSecondarySection.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Configure series format.
+        /// </summary>
+        internal static string ConfigSeriesFormat_Name {
+            get {
+                return ResourceManager.GetString("ConfigSeriesFormat.Name", resourceCulture);
             }
         }
         
@@ -696,7 +1198,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Set shape with texture fill.
+        ///   Looks up a localized string similar to Set shape&apos;s texture fill.
         /// </summary>
         internal static string ConfigShapeWithTextureFill_Name {
             get {
@@ -705,7 +1207,16 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Config slicer&apos;s layout.
+        ///   Looks up a localized string similar to Configure sheet print setings.
+        /// </summary>
+        internal static string ConfigSheetPrintSetings_Name {
+            get {
+                return ResourceManager.GetString("ConfigSheetPrintSetings.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Configure slicer layout.
         /// </summary>
         internal static string ConfigSlicerLayout_Name {
             get {
@@ -714,7 +1225,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Config sparkline&apos;s setting.
+        ///   Looks up a localized string similar to Configure sparkline settings.
         /// </summary>
         internal static string ConfigSparklineSettings_Name {
             get {
@@ -723,7 +1234,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Set tick mark label&apos;s tyle.
+        ///   Looks up a localized string similar to Set tick mark label style.
         /// </summary>
         internal static string ConfigTickMarkLabel_Name {
             get {
@@ -732,7 +1243,16 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Config value axis&apos;s units.
+        ///   Looks up a localized string similar to Configure value axis style.
+        /// </summary>
+        internal static string ConfigValueAxesFormat_Name {
+            get {
+                return ResourceManager.GetString("ConfigValueAxesFormat.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Set value axis units.
         /// </summary>
         internal static string ConfigValueAxisUnits_Name {
             get {
@@ -750,7 +1270,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Config worksheet properties.
+        ///   Looks up a localized string similar to Configure worksheet properties.
         /// </summary>
         internal static string ConfigWorksheet_Name {
             get {
@@ -759,7 +1279,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Connect shape by connector shape.
+        ///   Looks up a localized string similar to Connect shapes with connector shape.
         /// </summary>
         internal static string ConnectShapesByConnector_Name {
             get {
@@ -768,7 +1288,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cost analysis with pareto chart.
+        ///   Looks up a localized string similar to Cost analysis with Pareto chart.
         /// </summary>
         internal static string CostAnalysisWithParetoChart_Name {
             get {
@@ -921,7 +1441,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Create multi rules for a range.
+        ///   Looks up a localized string similar to Create multiple rules for a range.
         /// </summary>
         internal static string CreateMultiRuleForRange_Name {
             get {
@@ -930,7 +1450,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Create new work book.
+        ///   Looks up a localized string similar to Create new workbook.
         /// </summary>
         internal static string CreateNewWorkbook_Name {
             get {
@@ -948,7 +1468,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Create pivot table.
+        ///   Looks up a localized string similar to Create pivot tables.
         /// </summary>
         internal static string CreatePivotTable_Name {
             get {
@@ -962,6 +1482,15 @@ namespace GrapeCity.Documents.Spread.Examples {
         internal static string CreateRangeGroup_Name {
             get {
                 return ResourceManager.GetString("CreateRangeGroup.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Create secondary axis.
+        /// </summary>
+        internal static string CreateSecondaryAxis_Name {
+            get {
+                return ResourceManager.GetString("CreateSecondaryAxis.Name", resourceCulture);
             }
         }
         
@@ -1056,15 +1585,6 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to This example demonstrates how to show up down bars, specify up down bars&apos;s tyle..
-        /// </summary>
-        internal static string CreateUpDownBars_Descrip {
-            get {
-                return ResourceManager.GetString("CreateUpDownBars.Descrip", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Create up down bars for line chart.
         /// </summary>
         internal static string CreateUpDownBars_Name {
@@ -1101,7 +1621,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Sort by custom list.
+        ///   Looks up a localized string similar to Sort list by custom parameter.
         /// </summary>
         internal static string CustomSort_Name {
             get {
@@ -1110,7 +1630,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cut copy range.
+        ///   Looks up a localized string similar to Cut or copy ranges.
         /// </summary>
         internal static string CutCopyRange_Name {
             get {
@@ -1119,11 +1639,58 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Spread.Services provides users with the ability to validate data by restricting the type of information format and the values that can be entered in cells of a worksheet. You can create distinct validation scenarios for individual cells or a range of cells as per your requirements.
+        ///   Looks up a localized string similar to **Datalabel** can display specified series information. With interface **ShowLwgendKey**, **ShowPercentage** , **ShowValue** , **ShowSeriesName** .etc to Configure datalabel layout.
         ///
-        ///Spread.Services supports all type of validations, such as **Whole Number** validation, **Decimal** validation, **List** validation, **Date** validation, **Time** validation, **Text length** validation, **Custom** validation.
+        ///These examples demonstrate how to display datalabels and how to specified settings for datalabel..
+        /// </summary>
+        internal static string DataLabel_Descrip {
+            get {
+                return ResourceManager.GetString("DataLabel.Descrip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Data label.
+        /// </summary>
+        internal static string DataLabel_Name {
+            get {
+                return ResourceManager.GetString("DataLabel.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to **Datapoints** is a collectiong of all points in specific series.
         ///
-        ///Ad [rest of string was truncated]&quot;;.
+        ///These examples demontrate how to specified settings for datapoint.
+        /// </summary>
+        internal static string DataPoint_Descrip {
+            get {
+                return ResourceManager.GetString("DataPoint.Descrip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Data point.
+        /// </summary>
+        internal static string DataPoint_Name {
+            get {
+                return ResourceManager.GetString("DataPoint.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Spread.Services lets you validate data by restricting the information format and the values that can be entered in cells of a worksheet. You can create distinct validation scenarios for individual cells or for a range of cells.
+        ///
+        ///Spread.Services supports all types of validations, including:
+        ///- Whole Number
+        ///- Decimal
+        ///- List
+        ///- Date
+        ///- Time
+        ///- Text length
+        ///- Custom
+        ///
+        ///Add validation for a range using the **Add** method of  **IRange.Validation** property. The method returns an instance of the **IValidation* [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string DataValidation_Descrip {
             get {
@@ -1132,7 +1699,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to DataValidation.
+        ///   Looks up a localized string similar to Data Validation.
         /// </summary>
         internal static string DataValidation_Name {
             get {
@@ -1150,7 +1717,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Filter date dynamicly.
+        ///   Looks up a localized string similar to Filter date dynamically.
         /// </summary>
         internal static string DateDynamicFilter_Name {
             get {
@@ -1168,7 +1735,9 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The examples in this folder demonstrate how to use AutoFilter method do Date filter, such as filter **dates between two days**, **all dates in February**..
+        ///   Looks up a localized string similar to The examples in this folder demonstrate how to use the AutoFilter method to filter by date. They show how you can filter:
+        ///- between two dates
+        ///- all dates in February.
         /// </summary>
         internal static string DateFiltering_Descrip {
             get {
@@ -1177,7 +1746,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to DateFilter.
+        ///   Looks up a localized string similar to Date Filter.
         /// </summary>
         internal static string DateFiltering_Name {
             get {
@@ -1222,6 +1791,15 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Delete series.
+        /// </summary>
+        internal static string DeleteSeries_Name {
+            get {
+                return ResourceManager.GetString("DeleteSeries.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Delete validation.
         /// </summary>
         internal static string DeleteValidation_Name {
@@ -1240,7 +1818,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Dirty and calculate.
+        ///   Looks up a localized string similar to Dirty and Calculate methods.
         /// </summary>
         internal static string DirtyAndCalculation_Name {
             get {
@@ -1249,7 +1827,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Do table filter.
+        ///   Looks up a localized string similar to Auto-filter table with slicer.
         /// </summary>
         internal static string DoTableFilter_Name {
             get {
@@ -1267,12 +1845,23 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to In **Excel Reporting**, you will explore some complete demo codes deonstrating how to generate an excel file or reporting at server side, after you click the **&quot;Run&quot;** button, something at server will happen as following:
+        ///   Looks up a localized string similar to Event planning tracker.
+        /// </summary>
+        internal static string EventPlanningTracker_Name {
+            get {
+                return ResourceManager.GetString("EventPlanningTracker.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to In this folder, you can explore complete code demonstrating how to generate an Excel file or report at server side. 
+        ///
+        ///Click the **&quot;Run&quot;** button to perform the following actions on the server:
         ///- Create an empty workbook
-        ///- Execute all the codes in the code window
+        ///- Execute all of code in the code window
         ///- Save to an excel file
         ///
-        ///Then you can view the result by downloading the excel file..
+        ///Then you can view the results by downloading the excel file..
         /// </summary>
         internal static string ExcelReporting_Descrip {
             get {
@@ -1290,9 +1879,9 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to In some typical scenarios, you may have your own excel templates, you just want to open and update some of its contents at server side, such as changing values, cusomizing formattings, for such scenario, you can open an existing excel file with **Spread.Services** and manipulate it through plent of *Spread.Services APIs*, in this part:
-        ///- You can download and view the original excel template by clicking the **&quot;Template&quot;** button
-        ///- You can run all the codes and get changed excel file by clicking the **&quot;Run&quot; [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to In some scenarios, you may have your own Excel templates and just want to open and update some of the contents at server side. You can use the extensive Spread.Services API to open an existing Excel file and then change some of its values, customize its formatting, and whatever else you need to do.
+        ///- Click the **Template** button to download and view the original Excel template
+        ///- Click the **Run** button to run the code and get the changed Excel file.
         /// </summary>
         internal static string ExcelTemplates_Descrip {
             get {
@@ -1319,9 +1908,29 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to **Spread.Services** provides some remarkable features that empowers users to include spreadsheets with high-performance attributes, customizable themes, configurable components, summarized data, application of custom styles, embedded drawing objects, integrated calculation engine, and so much more.
+        ///   Looks up a localized string similar to Family budget.
+        /// </summary>
+        internal static string FamilyBudget_Name {
+            get {
+                return ResourceManager.GetString("FamilyBudget.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Spread.Services provides some remarkable features that empower developers to create spreadsheets with:
+        ///- High-performance attributes
+        ///- Custom themes
+        ///- Configurable components
+        ///- Summarized data
+        ///- Custom styles
+        ///- Embedded drawing objects
+        ///- Integrated calculation engine
+        ///- And much more...
         ///
-        ///You will explore a lot of example codes in this part about how to use each feature of Spread.Services..
+        ///You can explore a lot of example code in the Features section that shows you how to use each feature in Spread.Services.
+        ///
+        ///Click the **&quot;Run&quot;** button to perform the following actions on the server:
+        ///- Create an em [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Features_Descrip {
             get {
@@ -1339,11 +1948,11 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The examples in **Fill** demonstrate how to set different kinds of fill to range.
+        ///   Looks up a localized string similar to The examples in this folder demonstrate how to apply several kinds of fill to a range.
         ///- Solid fill
         ///- Pattern fill
-        ///- Linnear gradient fill
-        ///- Rectgangular gradient fill.
+        ///- Linear gradient fill
+        ///- Rectangular gradient fill.
         /// </summary>
         internal static string Fill_Descrip {
             get {
@@ -1415,9 +2024,16 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Spread.Services support all type of filters, such as **Number Filter**, **Text Filter**, **Date Filter**, **Color Filter** and **Icon Filter**.
+        ///   Looks up a localized string similar to Spread.Services supports all types of filters, including: 
+        ///- Number Filter
+        ///- Text Filter
+        ///- Date Filter
+        ///- Color Filter
+        ///- Icon Filter
         ///
-        ///Filter range using range&apos;s **AutoFilter** method, apply **multi column filter** need invoke AutoFilter method more than once. if want to **re-apply filter** conditions when filter performed range&apos;s value changed, using **ApplyFilter** method of worksheet&apos;s **AutoFilter** instance..
+        ///Filter a range using the range&apos;s **AutoFilter** method. If you want to apply the filter to multiple columns, you can invoke the AutoFilter method several times.
+        ///
+        ///To re-apply filter conditions when the range&apos;s value changes, use the **ApplyFilter** method of the worksheet&apos;s **AutoFilter** instance..
         /// </summary>
         internal static string Filtering_Descrip {
             get {
@@ -1435,7 +2051,11 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The examples in this folder demonstrate how to use AutoFilter method to do color filter, such as filter by **font color**, filter by **interior**, filter by **automatic font color**, filter by **no fill**..
+        ///   Looks up a localized string similar to The examples in this folder demonstrate how to use the AutoFilter method to create a color filter. You can filter by:
+        ///- font color
+        ///- interior color
+        ///- automatic font color
+        ///- no fill.
         /// </summary>
         internal static string FilteringByColor_Descrip {
             get {
@@ -1453,7 +2073,12 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The examples in this folder demonstrate how to use AutoFilter method to do icon filter, filter by **specify icon** or filter by **no icon**, Range must **apply icon set conditional format rule** firstly before do icon filter..
+        ///   Looks up a localized string similar to The examples in this folder demonstrate how to use the AutoFilter method to filter by icon.  You can set the **AutoFilterOperator** parameter to: 
+        ///
+        ///- **Icon** and filter by the specified icon
+        ///- **NoIcon** and filter by rows with no icon
+        ///
+        ///Before you can apply an icon filter, you must first create an **IIconSetCondition** instance and an **IFormatCondition** instance for the Range..
         /// </summary>
         internal static string FilteringByIcon_Descrip {
             get {
@@ -1471,7 +2096,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Filter items in pivot table.
+        ///   Looks up a localized string similar to Filter items in pivot tables.
         /// </summary>
         internal static string FilterItemsInPivotTable_Name {
             get {
@@ -1507,7 +2132,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The examples in **Font** demonstrate how to specify font settings to range:
+        ///   Looks up a localized string similar to The examples in this folder demonstrate how to apply font settings to a range:
         ///- Font color
         ///- Font size
         ///- Font name
@@ -1558,14 +2183,16 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to **Spread.Services** provides a lot of APIs to customize appearances for range:
+        ///   Looks up a localized string similar to Spread.Services provides a lot of properties to customize the appearance of a range:
         ///
-        ///- Set **number format** for range with **IRange.NumberFormat** property.
-        ///- Set **alignment** for range with **IRange.HorizontalAlignment**,  **IRange.VerticalAlignment**, **IRange.IndentLevel** and so on.
-        ///- Set **font** for range with **IRange.Font** property.
-        ///- Set **border** for range with **IRange.Borders** property.
-        ///- Specify **solid fill, pattern fill and gradient fill** for range with **IRange.Interior** property.
-        ///- [rest of string was truncated]&quot;;.
+        ///- **IRange.NumberFormat** sets the number format
+        ///- **IRange.HorizontalAlignment**,  **IRange.VerticalAlignment**, **IRange.IndentLevel**, etc. set the alignment
+        ///- **IRange.Font** sets the font
+        ///- **IRange.Borders** sets the border
+        ///- **IRange.Interior** sets solid fill, pattern fill, and gradient fill
+        ///- **IRange.Locked** and **IRange.FormulaHidden** sets up protection
+        ///
+        ///You can also create custom styles or use the bu [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Formatting_Descrip {
             get {
@@ -1583,12 +2210,12 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Spread.Services provides you with the ability to create and use formulas - expressions to calculate the value of a cell quickly and accurately in the spreadsheets. You can also use some built-in functions and operators to generate formulas and calculate values in cells.
+        ///   Looks up a localized string similar to Spread.Services lets you create and use formulas. These are expressions that let you calculate the value of a cell quickly and accurately. You can also use built-in functions and operators to generate formulas and calculate values in cells.
         ///
-        ///Calc engine has follow capacities:
-        ///- Hundreds of excel built-in functions
-        ///- Array formula
-        ///- Dirty and Calculation
+        ///The calc engine handles many calculations, for example:
+        ///- Hundreds of built-in Excel functions
+        ///- Array formulas
+        ///- Dirty and Calculate methods
         ///- Table formula.
         /// </summary>
         internal static string Formulas_Descrip {
@@ -1616,7 +2243,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Get feature related used range.
+        ///   Looks up a localized string similar to Get used range features.
         /// </summary>
         internal static string GetFeatureRelatedUsedRange_Name {
             get {
@@ -1625,7 +2252,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Get row count and column count.
+        ///   Looks up a localized string similar to Get row and column count.
         /// </summary>
         internal static string GetRangeRowCountColumnCount_Name {
             get {
@@ -1652,11 +2279,9 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Spreadsheets with tons of data can often become a hassle to read, consuming a lot of time in visualizing, managing and analyzing the information which is relevant for you.
+        ///   Looks up a localized string similar to Spreadsheets with tons of data can be a headache to read. You can spend a lot of time and effort trying to visualize, manage, and analyze the information that is relevant to you.
         ///
-        ///Spread.Services provides you with the ability to summarize large amounts of information in groups so that complex spreadsheets are easier to navigate. After rows of data in a spreadsheet are grouped, users can expand and collapse details with the click of a square button placed in the group header row.
-        ///
-        ///**Increase** specific rows **outli [rest of string was truncated]&quot;;.
+        ///Spread.Services lets you summarize large amounts of information in groups so that complex spreadsheets are easier to navigate. After rows of data in a spreadsheet are grouped, users can expand and collapse details with the click of a button in the group header row. You can use the following methods and properties to customize yo [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Grouping_Descrip {
             get {
@@ -1694,18 +2319,18 @@ namespace GrapeCity.Documents.Spread.Examples {
         /// <summary>
         ///   Looks up a localized string similar to Home inventory.
         /// </summary>
-        internal static string HomeInventoryForJS_Name {
+        internal static string HomeInventory_Name {
             get {
-                return ResourceManager.GetString("HomeInventoryForJS.Name", resourceCulture);
+                return ResourceManager.GetString("HomeInventory.Name", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Create hyperlink for **range** with **Add** method of **worksheet&apos;s Hyperlinks** instance or **range&apos;s Hyperlinks** instance. Spread.Services support follow type hyperlinks:
-        ///- Link to web page
-        ///- Link to specific range in this document
-        ///- Link to external file
-        ///- Link to email address.
+        ///   Looks up a localized string similar to Apply hyperlinks to a range using the **Add** method of a worksheet or range&apos;s **Hyperlinks** instance. Spread.Services supports the following types of hyperlink:
+        ///- Link to a web page
+        ///- Link to a specific range in the current document
+        ///- Link to an external file
+        ///- Link to an email address.
         /// </summary>
         internal static string Hyperlinks_Descrip {
             get {
@@ -1723,7 +2348,16 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Import excel file.
+        ///   Looks up a localized string similar to Only import data from Excel.
+        /// </summary>
+        internal static string ImportExcelFileDataOnly_Name {
+            get {
+                return ResourceManager.GetString("ImportExcelFileDataOnly.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Import Excel file.
         /// </summary>
         internal static string ImportExcelFileToWorkbook_Name {
             get {
@@ -1732,7 +2366,16 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Import excel file with password.
+        ///   Looks up a localized string similar to Do not recalucate after opening Excel.
+        /// </summary>
+        internal static string ImportExcelFileWithoutCalculation_Name {
+            get {
+                return ResourceManager.GetString("ImportExcelFileWithoutCalculation.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Import Excel file with password.
         /// </summary>
         internal static string ImportExcelFileWithPassword_Name {
             get {
@@ -1768,11 +2411,101 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to These examples demontrate how to Configure legend&apos;s style and position..
+        /// </summary>
+        internal static string Legend_Descrip {
+            get {
+                return ResourceManager.GetString("Legend.Descrip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Legend.
+        /// </summary>
+        internal static string Legend_Name {
+            get {
+                return ResourceManager.GetString("Legend.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Set linear gradient fill.
         /// </summary>
         internal static string LinearGradientFill_Name {
             get {
                 return ResourceManager.GetString("LinearGradientFill.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Line chart.
+        /// </summary>
+        internal static string LineChart_Name {
+            get {
+                return ResourceManager.GetString("LineChart.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Line Markers chart.
+        /// </summary>
+        internal static string LineMarkersChart_Name {
+            get {
+                return ResourceManager.GetString("LineMarkersChart.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 100% Stacked line with markers chart.
+        /// </summary>
+        internal static string LineMarkerStacked100Chart_Name {
+            get {
+                return ResourceManager.GetString("LineMarkerStacked100Chart.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Stack line with markers chart.
+        /// </summary>
+        internal static string LineMarkerStackedChart_Name {
+            get {
+                return ResourceManager.GetString("LineMarkerStackedChart.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 100% Stacked Line chart.
+        /// </summary>
+        internal static string LineStacked100Chart_Name {
+            get {
+                return ResourceManager.GetString("LineStacked100Chart.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Stacked Line chart.
+        /// </summary>
+        internal static string LineStackedChart_Name {
+            get {
+                return ResourceManager.GetString("LineStackedChart.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to These examples in this folder demonstrate how to set **Markers** sytle and format.
+        /// </summary>
+        internal static string Markers_Descrip {
+            get {
+                return ResourceManager.GetString("Markers.Descrip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Markers.
+        /// </summary>
+        internal static string Markers_Name {
+            get {
+                return ResourceManager.GetString("Markers.Name", resourceCulture);
             }
         }
         
@@ -1786,7 +2519,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Modify subtotals for pivot field.
+        ///   Looks up a localized string similar to Modify pivot field subtotal type.
         /// </summary>
         internal static string ModifySubtotalsForPivotField_Name {
             get {
@@ -1822,7 +2555,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Multi check filter.
+        ///   Looks up a localized string similar to Apply multiple value filter.
         /// </summary>
         internal static string MultiSelectFilter_Name {
             get {
@@ -1840,7 +2573,16 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to NumberFilter.
+        ///   Looks up a localized string similar to The examples in this folder demonstrates how to use number filtering for range..
+        /// </summary>
+        internal static string NumberFiltering_Descrip {
+            get {
+                return ResourceManager.GetString("NumberFiltering.Descrip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Number Filter.
         /// </summary>
         internal static string NumberFiltering_Name {
             get {
@@ -1849,7 +2591,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The example in **NumberFormat** demonstrates how to set number format to range, *Spread.Services* use excel like number formatter..
+        ///   Looks up a localized string similar to The Number Format examples demonstrate how to apply a number format to a range. Spread.Services uses Excel-style number formats..
         /// </summary>
         internal static string NumberFormat_Descrip {
             get {
@@ -1858,7 +2600,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to NumberFormat.
+        ///   Looks up a localized string similar to Number Format.
         /// </summary>
         internal static string NumberFormat_Name {
             get {
@@ -1876,6 +2618,24 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Spread.Services supports page setup. The **PageSetup** object contains all page setup attributes (left margin, bottom margin, paper size, and so on) as properties..
+        /// </summary>
+        internal static string PageSetup_Descrip {
+            get {
+                return ResourceManager.GetString("PageSetup.Descrip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Page Setup.
+        /// </summary>
+        internal static string PageSetup_Name {
+            get {
+                return ResourceManager.GetString("PageSetup.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Set pattern fill.
         /// </summary>
         internal static string PatternFill_Name {
@@ -1885,7 +2645,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Perform calculations in table.
+        ///   Looks up a localized string similar to Perform calculations in the table.
         /// </summary>
         internal static string PerformCalculationsInTable_Name {
             get {
@@ -1912,9 +2672,9 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Spread.Services allows inserting picture for worksheet.
+        ///   Looks up a localized string similar to Spread.Services allows you to add a picture to a worksheet.
         ///
-        ///Add picture for **worksheet** use **AddPicture** method of worksheet&apos;s **shapes** colletion..
+        ///To add a picture to a worksheet, use the **AddPicture** method of the worksheet&apos;s **Shapes** collection..
         /// </summary>
         internal static string Picture_Descrip {
             get {
@@ -1932,11 +2692,29 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to **Pivot table** is a **data summarization tool**. it can automatically count, total or average the data stored in spread sheet, displaying the results **in a second table showing the summarized data**.
+        ///   Looks up a localized string similar to Doughnut chart.
+        /// </summary>
+        internal static string Pie_DoughnutChart_Name {
+            get {
+                return ResourceManager.GetString("Pie_DoughnutChart.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pie chart.
+        /// </summary>
+        internal static string PieChart_Name {
+            get {
+                return ResourceManager.GetString("PieChart.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to A pivot table is a data summarization tool. It can automatically count, total, or average the data stored in a spreadsheet, and display the resulting summarized data in a second table.
         ///
-        ///Create pivot cache with **Create** method of workbook&apos;s **PivotCaches** collection. it returns an instance of **IPivotCache**, Create pivot table with **CreatePivotTable** method of pivot cache instance. another way is using **Add** method of worksheet&apos;s **PivotTables** collection.
+        ///Create a pivot cache using the **Create** method of the workbook&apos;s **PivotCaches** collection. It returns an instance of the **IPivotCache** interface. 
         ///
-        ///Specify pivot table&apos;s **r [rest of string was truncated]&quot;;.
+        ///Create a pivot table using the **CreatePivotTable** method of the pivot cache instance. Or you can opt to use the **Add** method of the worksheet&apos;s **PivotTables** coll [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string PivotTable_Descrip {
             get {
@@ -1945,7 +2723,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to PivotTable.
+        ///   Looks up a localized string similar to Pivot Table.
         /// </summary>
         internal static string PivotTable_Name {
             get {
@@ -1954,18 +2732,36 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Project cost tracker.
+        ///   Looks up a localized string similar to These examples demonstrate how to specified setting for plot area..
         /// </summary>
-        internal static string ProjectCostTrackerForJS_Name {
+        internal static string PlotArea_Descrip {
             get {
-                return ResourceManager.GetString("ProjectCostTrackerForJS.Name", resourceCulture);
+                return ResourceManager.GetString("PlotArea.Descrip", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The examples in **Protection** demonstrate how to specify range&apos;s protection settings, as follows:
-        ///- Formula Hidden
-        ///- Locked.
+        ///   Looks up a localized string similar to Plot area.
+        /// </summary>
+        internal static string PlotArea_Name {
+            get {
+                return ResourceManager.GetString("PlotArea.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Project cost tracker.
+        /// </summary>
+        internal static string ProjectCostTracker_Name {
+            get {
+                return ResourceManager.GetString("ProjectCostTracker.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The Protection examples demonstrate how to apply security settings to a range, for example:
+        ///- The **FormulaHidden** property keeps formulas in a range from appearing in exported .xlsx files.
+        ///- The **Locked** property protects cells in a range from being modified.
         /// </summary>
         internal static string Protection_Descrip {
             get {
@@ -1992,20 +2788,20 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Range is the most important concept in Spread.Services. it is the entrance for most of features.
+        ///   Looks up a localized string similar to Range is the most important concept in Spread.Services. It is the entrance to most of the features.
         ///
-        ///Examples in **RangeOperations** demonstrates how to:
-        ///- Access cells, rows and columns
-        ///- Access each area of range
-        ///- Access range in various of ways
-        ///- Cut, Copy, Paste range
-        ///- Work with Used range
-        ///- Get row count and column count
-        ///- Hide row or column
+        ///Examples in this folder demonstrate how to:
+        ///- Access cells, rows, and columns
+        ///- Access each area of a range
+        ///- Access ranges in various ways
+        ///- Cut, Copy, and Paste a range
+        ///- Work with a used range of cells
+        ///- Get a row count or column count
+        ///- Hide a row or column
         ///- Insert or delete cells
         ///- Insert or delete rows and columns
         ///- Merge cells
-        ///- Set values to range
+        ///- Set values to a range
         ///- Set row height and column width.
         /// </summary>
         internal static string RangeOperations_Descrip {
@@ -2096,7 +2892,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Save to excel file.
+        ///   Looks up a localized string similar to Save to Excel file.
         /// </summary>
         internal static string SaveWorkbookToExcelFile_Name {
             get {
@@ -2105,7 +2901,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Save to excel file with password.
+        ///   Looks up a localized string similar to Save to Excel file with password.
         /// </summary>
         internal static string SaveWorkbookWithPassword_Name {
             get {
@@ -2114,9 +2910,15 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to **Series** is the most frequently used feature in chart, each chart contains one or serveral data series, and each series consists of a group of **data points**. 
+        ///   Looks up a localized string similar to **Series** is the most frequently used feature in charts. Each chart contains one or more data series, and each series consists of a group of data points. 
         ///
-        ///These examples demonstrate how to **add series** for chart, and how to specify series relative settings, such as bubble chart&apos;s **bubble scale** and what **size represents**, **data label**&apos;s text and style, specific **data point**&apos;s style, show pie of pie chart&apos;s **connector line**, show **drop line**, **high-low line**, **up-down bar**, and s [rest of string was truncated]&quot;;.
+        ///These examples demonstrate how to add a series to a chart, and how to specify settings for each series, such as:
+        ///
+        ///- **BubbleScale** and **SizeRepresents** for bubble charts
+        ///- Configure **Series** format
+        ///- Chage **Series Tyepe**
+        ///- Add **Secondary Axis**
+        ///- **VaryByCategories** colors for single-series column charts.
         /// </summary>
         internal static string Series_Descrip {
             get {
@@ -2134,7 +2936,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Set value axis&apos;s scale type.
+        ///   Looks up a localized string similar to Set value axis scale type.
         /// </summary>
         internal static string SetAxisScaleType_Name {
             get {
@@ -2143,7 +2945,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Config axis tick mark layout.
+        ///   Looks up a localized string similar to Configure axis tick mark layout.
         /// </summary>
         internal static string SetAxisTickMark_Name {
             get {
@@ -2152,7 +2954,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Config formula hidden.
+        ///   Looks up a localized string similar to Hide Configure formula.
         /// </summary>
         internal static string SetRangeFormulaHidden_Name {
             get {
@@ -2161,7 +2963,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Config range locked.
+        ///   Looks up a localized string similar to Lock Configure range.
         /// </summary>
         internal static string SetRangeLocked_Name {
             get {
@@ -2170,7 +2972,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Set values to range.
+        ///   Looks up a localized string similar to Set values to a range.
         /// </summary>
         internal static string SetRangeValue_Name {
             get {
@@ -2206,7 +3008,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Set vary color for column chart.
+        ///   Looks up a localized string similar to Set column chart colors to vary.
         /// </summary>
         internal static string SetVaryColorForColumnChart_Name {
             get {
@@ -2215,9 +3017,13 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Spread.Services provides you the ability to embed drawing objects like shapes and pictures in cells of a worksheet. You can insert arrows, lines, chart, slicer, pictures and general shape.
+        ///   Looks up a localized string similar to Spread.Services lets you embed drawing objects like shapes and pictures in the cells of a worksheet. You can insert arrows, lines, charts, slicers, pictures, and general shapes.
         ///
-        ///Create shape for worksheet use **AddShape** method of worksheet&apos;s **shapes** collection. Use **Fill** property of shape instance to config shape&apos;s fill style, **Line** property to config shape&apos;s line style, **ThreeD** property to config shape&apos;s 3D format, **TextFrame** property to config shape&apos;s rich text..
+        ///To create a shape for a worksheet, use the **AddShape** method of the worksheet&apos;s Shapes collection. Then you can configure the Shape instance using properties like these:
+        ///
+        ///- Configure a shape&apos;s fill style using the **Fill** property 
+        ///- Configure a shape&apos;s line style using the **Line** property
+        ///- Configure a shape&apos;s 3D format [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Shape_Descrip {
             get {
@@ -2273,18 +3079,20 @@ namespace GrapeCity.Documents.Spread.Examples {
         /// <summary>
         ///   Looks up a localized string similar to Simple personal budget.
         /// </summary>
-        internal static string SimplePersonalBudgetForJS_Name {
+        internal static string SimplePersonalBudget_Name {
             get {
-                return ResourceManager.GetString("SimplePersonalBudgetForJS.Name", resourceCulture);
+                return ResourceManager.GetString("SimplePersonalBudget.Name", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Slicers are **visual filters**. Can filter table or pivot table by slicers.
+        ///   Looks up a localized string similar to Slicers are visual filters that you can use to filter a table or pivot table.
         ///
-        ///Create **slicer cache** with **Add** method of workbook&apos;s **SlicerCaches** collection, it returns an instance of slicer cache. create **slice**r with **Add** method of slicer cache&apos;s **slicers** collection.
+        ///Use the **Add** method of a workbook&apos;s **SlicerCaches** collection to create a slicer cache. It returns an instance of a slicer cache. 
         ///
-        ///Support either **built-in** slicer style or **custom slier** style..
+        ///Use the **Add** method of the slicer cashe&apos;s **Slicers** collection to create a slicer.
+        ///
+        ///It supports both built-in and custom slicer styles..
         /// </summary>
         internal static string Slicer_Descrip {
             get {
@@ -2311,7 +3119,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Spread.Services support all type of sorting, as follows:
+        ///   Looks up a localized string similar to Spread.Services supports all types of sorting, including:
         ///- Sort by value
         ///- Sort by font color
         ///- Sort by interior
@@ -2352,7 +3160,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Sort by interior.
+        ///   Looks up a localized string similar to Sort range by content.
         /// </summary>
         internal static string SortRangeByInterior_Name {
             get {
@@ -2370,14 +3178,12 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Spread.Services allows you to highlight specific information and see how it varies over time using Sparklines. Sparklines can be understood as small, lightweight charts that are drawn inside cells to quickly visualize data for improved analysis.
+        ///   Looks up a localized string similar to Spread.Services allows you to highlight specific information and see how it varies over time using Sparklines. Sparklines are small, lightweight charts that are drawn inside cells to quickly visualize data for improved analysis.
         ///
-        ///Create **a group of new sparklines** with **Add** method of range&apos;s **SparklineGroups** collection, sparkline rely on sparkline group, no way to create sparkline alone without sparkline group.
+        ///Use the **Add** method of a range&apos;s **SparklineGroups** collection to create a group of new sparklines. Sparklines only exist inside of a sparkline group. There is no way to create a sparkline outside of a sparkline group.
         ///
-        ///Support follow type of sparklines:
-        ///- Line
-        ///- Column
-        ///- Win/Loss.
+        ///We support the following types of sparklines:
+        ///- Line        /// [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Sparklines_Descrip {
             get {
@@ -2395,11 +3201,12 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Examples in **Spread.Sheets Viewer** demonstrate how to use **Spread.Services** and **Spread.Sheets** together, **Spread.Services** works at the server side to import/export excel template files, **Spread.Sheets** works at browser side as a viwer or editor, to learn more about **Spread.Sheets**, visit [Spread.Sheets Home Page](http://spread.grapecity.com/spreadjs/sheets//).
+        ///   Looks up a localized string similar to Examples in this folder demonstrate how to use **Spread.Services** and **Spread.Sheets**, another Spread product that is included in SpreadJS. Spread.Services works on the server side to import and export Excel template files. Spread.Sheets works in the browser (client side) as a viewer or editor.
         ///
-        ///All examples in this part will work as following steps:
-        ///- **Spread.Services** **Open** an existing excel file at server side
-        ///- **S [rest of string was truncated]&quot;;.
+        ///To learn more about **Spread.Sheets**, visit the [Spread.Sheets Home Page](http://spread.grapecity.com/spreadjs/sheets//).
+        ///
+        ///All examples in this folder work as below steps:
+        ///- Open an Excel file with **Spread [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string SpreadSheetsViewer_Descrip {
             get {
@@ -2417,11 +3224,47 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to High-Low-Close stock chart.
+        /// </summary>
+        internal static string Stock_HighLowCloseStockChart_Name {
+            get {
+                return ResourceManager.GetString("Stock_HighLowCloseStockChart.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open-High-Low-Close stock chart.
+        /// </summary>
+        internal static string Stock_OpenHighLowCloseStock_Name {
+            get {
+                return ResourceManager.GetString("Stock_OpenHighLowCloseStock.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Volume-High-Low-Close stock chart.
+        /// </summary>
+        internal static string Stock_VolumeHighLowCloseStock_Name {
+            get {
+                return ResourceManager.GetString("Stock_VolumeHighLowCloseStock.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Volume-Open-High-Low-Close chart.
+        /// </summary>
+        internal static string Stock_VolumeOpenHighLowClose_Name {
+            get {
+                return ResourceManager.GetString("Stock_VolumeOpenHighLowClose.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Student calendar.
         /// </summary>
-        internal static string StudentCalendarForJS_Name {
+        internal static string StudentCalendar_Name {
             get {
-                return ResourceManager.GetString("StudentCalendarForJS.Name", resourceCulture);
+                return ResourceManager.GetString("StudentCalendar.Name", resourceCulture);
             }
         }
         
@@ -2435,15 +3278,15 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to To manage and analyse related data easier and faster, you can create tables using a range of cells in your spreadsheet. A table consists of rows and columns that can be formatted and managed independently in a worksheet. You will learn how to:
+        ///   Looks up a localized string similar to To more easily manage and analyze data in spreadsheet, you can create table for a range. A table consists of rows and columns that you can format and manage independently in a worksheet. You will learn how to:
         ///
-        ///- Add or remove a table in worksheet
-        ///- Apply **filter** for a column of table
-        ///- Apply **sort** for a column of table
-        ///- Apply either **built-in** or **custom** table style
-        ///- Access each part of table conviniently
-        ///- Add or remove a column in table
-        ///- Performn ca [rest of string was truncated]&quot;;.
+        ///- Add or remove a table in a worksheet
+        ///- Apply filtering to a table column
+        ///- Apply sorting to a table column
+        ///- Apply either built-in or custom table styles
+        ///- Access each range of a table
+        ///- Add or remove a table column
+        ///- Perform calculations for a specific table range.
         /// </summary>
         internal static string Tables_Descrip {
             get {
@@ -2470,15 +3313,6 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Create text filter.
-        /// </summary>
-        internal static string TextFilter_Descrip {
-            get {
-                return ResourceManager.GetString("TextFilter.Descrip", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Apply text filter.
         /// </summary>
         internal static string TextFilter_Name {
@@ -2488,7 +3322,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The example in this folder demonstrates how to use AutoFilter method to do **text filter**, such as filter in rows **contains &quot;e&quot;**..
+        ///   Looks up a localized string similar to The example in this folder demonstrates how to use the AutoFilter method to create a text filter. For example, you can filter by rows that contain the letter &quot;e&quot;..
         /// </summary>
         internal static string TextFiltering_Descrip {
             get {
@@ -2497,7 +3331,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to TextFilter.
+        ///   Looks up a localized string similar to Text Filter.
         /// </summary>
         internal static string TextFiltering_Name {
             get {
@@ -2515,9 +3349,12 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Spread.Services provides users with a set of built-in themes so as to enable them to change the overall appearance of workbook. Besides, it also allows users to create custom theme and apply it in order to set up a workbook as per their own preferences and requirements.
+        ///   Looks up a localized string similar to Spread.Services provides you with a set of built-in themes so you can quickly change the overall appearance of a workbook. It also lets you create custom themes and apply them to workbooks.
         ///
-        ///Change workbook&apos;s theme with **Theme** property of **workbook** instance, Add custom theme with **Add** method of **Themes** class instance, get built-in theme instance with built-in properties of **Themes** class, get custom theme instance [rest of string was truncated]&quot;;.
+        ///- Use the **Theme** property of a workbook instance to change the workbook&apos;s theme. 
+        ///- Use the **Add** method of a themes class instance to add a custom theme. 
+        ///- Use the built-in properties of the **Themes** class to get a built-in theme instance.
+        ///- Use the **Themes** indexer to get a custom theme instance..
         /// </summary>
         internal static string Theme_Descrip {
             get {
@@ -2555,9 +3392,9 @@ namespace GrapeCity.Documents.Spread.Examples {
         /// <summary>
         ///   Looks up a localized string similar to Travel expense report.
         /// </summary>
-        internal static string TravelExpenseReportForJS_Name {
+        internal static string TravelExpenseReport_Name {
             get {
-                return ResourceManager.GetString("TravelExpenseReportForJS.Name", resourceCulture);
+                return ResourceManager.GetString("TravelExpenseReport.Name", resourceCulture);
             }
         }
         
@@ -2580,7 +3417,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Unprotect a worksheet.
+        ///   Looks up a localized string similar to Unprotect worksheet.
         /// </summary>
         internal static string UnprotectWorksheet_Name {
             get {
@@ -2589,7 +3426,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Use array formula.
+        ///   Looks up a localized string similar to Use array formulas.
         /// </summary>
         internal static string UseArrayFormula_Name {
             get {
@@ -2598,9 +3435,9 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Another two of Spread.Services useage scenario are as follows:
-        ///- Use Spread.Services API programming, then export to an excel file -**Programming** Part.
-        ///- Import excel template to Spread.Services data model, then use Spread.Services API programming, make contents more abundantly, then export to an excel file - **Templates** Part..
+        ///   Looks up a localized string similar to Two more Spread.Services usage scenarios are as follows:
+        ///- **Code** Use Spread.Services API code, then export to an Excel file.
+        ///- **Templates** Import an Excel template to the Spread.Services data model, then use Spread.Services API code to add content, then export it to an Excel file..
         /// </summary>
         internal static string UseCases_Descrip {
             get {
@@ -2618,7 +3455,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Use Date axis.
+        ///   Looks up a localized string similar to Use date axis.
         /// </summary>
         internal static string UseDateAxis_Name {
             get {
@@ -2627,7 +3464,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Use slicer do filter operation.
+        ///   Looks up a localized string similar to Use slicer to filter table.
         /// </summary>
         internal static string UseSlicerDoFilter_Name {
             get {
@@ -2636,7 +3473,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Use slicer to clear filter.
+        ///   Looks up a localized string similar to Use a slicer to clear a filter.
         /// </summary>
         internal static string UseSlicerToClearFilter_Name {
             get {
@@ -2645,7 +3482,7 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Use table formula.
+        ///   Looks up a localized string similar to Use table formulas.
         /// </summary>
         internal static string UseTableFormula_Name {
             get {
@@ -2672,15 +3509,15 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to A workbook is a spreadsheet document that comprises of one or more worksheets that are stored within the Worksheets collection.
+        ///   Looks up a localized string similar to A workbook is a spreadsheet document that contains one or more worksheets that are stored within the Worksheets collection.
         ///
-        ///The examples in this folder demonstrate follow cases:
-        ///- Create new workbook
-        ///- Import excel file to workbook
-        ///- Import excel file with password to workbook
-        ///- Export workbook to an excel file
-        ///- Export workbook to an excel file with password
-        ///- ToJson, FromJson.
+        ///The examples in this folder demonstrate the following cases:
+        ///- Create  a new workbook
+        ///- Import an Excel file into a workbook
+        ///- Import an Excel file with a password to a workbook
+        ///- Export a workbook to an Excel file
+        ///- Export a workbook to an Excel file with a password
+        ///- Import or export a workbook using ToJson and FromJson.
         /// </summary>
         internal static string Workbook_Descrip {
             get {
@@ -2698,13 +3535,13 @@ namespace GrapeCity.Documents.Spread.Examples {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The examples in this folder demonstrate follow cases:
-        ///- Add worksheet
-        ///- delete worksheet
-        ///- Protect worksheet
-        ///- Unprotect worksheet
-        ///- Active worksheet
-        ///- worksheet settings.
+        ///   Looks up a localized string similar to The examples in this folder demonstrate the following cases:
+        ///- Add a worksheet
+        ///- Delete a worksheet
+        ///- Protect a worksheet
+        ///- Unprotect a worksheet
+        ///- Activate a worksheet
+        ///- Apply settings to a worksheet.
         /// </summary>
         internal static string Worksheets_Descrip {
             get {
@@ -2727,6 +3564,42 @@ namespace GrapeCity.Documents.Spread.Examples {
         internal static string WrapText_Name {
             get {
                 return ResourceManager.GetString("WrapText.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Scatter chart.
+        /// </summary>
+        internal static string XYScatterChart_Name {
+            get {
+                return ResourceManager.GetString("XYScatterChart.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Scatter with straight lines and markers.
+        /// </summary>
+        internal static string XYScatterLinesChart_Name {
+            get {
+                return ResourceManager.GetString("XYScatterLinesChart.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Scatter with smooth Lines.
+        /// </summary>
+        internal static string XYScatterSmooth_Name {
+            get {
+                return ResourceManager.GetString("XYScatterSmooth.Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Scatter with smooth lines and markers.
+        /// </summary>
+        internal static string XYScatterSmoothWithMarkers_Name {
+            get {
+                return ResourceManager.GetString("XYScatterSmoothWithMarkers.Name", resourceCulture);
             }
         }
     }

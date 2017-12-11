@@ -320,8 +320,8 @@ namespace GrapeCity.Documents.Spread.Examples.ExcelReporting
             theme.ThemeColorScheme[ThemeColor.Accent6].RGB = Color.FromRGB(165, 115, 137);
             theme.ThemeColorScheme[ThemeColor.Hyperlink].RGB = Color.FromRGB(102, 173, 166);
             theme.ThemeColorScheme[ThemeColor.FollowedHyperlink].RGB = Color.FromRGB(165, 115, 137);
-            theme.ThemeFontScheme.Major[FontLanguageIndex.Latin].Name = "Sylfaen";
-            theme.ThemeFontScheme.Minor[FontLanguageIndex.Latin].Name = "Sylfaen";
+            theme.ThemeFontScheme.Major[FontLanguageIndex.Latin].Name = "Marion";
+            theme.ThemeFontScheme.Minor[FontLanguageIndex.Latin].Name = "Marion";
 
             //Apply the above custom theme.
             workbook.Theme = theme;
