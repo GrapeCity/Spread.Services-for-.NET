@@ -1,7 +1,7 @@
 import * as React from 'react';
 import 'isomorphic-fetch';
 import { Utility } from '../utility';
-import Select = require("react-select");
+import Select from 'react-select';
 import 'react-select/dist/react-select.css';
 
 interface ProgrammingDemoState {
